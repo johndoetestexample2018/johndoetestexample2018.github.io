@@ -1,0 +1,121 @@
+{
+  "uid" : "53ea6f0a68c87b38",
+  "name" : "homeTest with data set #3",
+  "fullName" : "elc (headless).homeTest with data set #3",
+  "historyId" : "82286463671676339ff16322e81c813a",
+  "time" : {
+    "start" : 1540910973658,
+    "stop" : 1540910975933,
+    "duration" : 2275
+  },
+  "description" : "Проверка текста на главной странице ELC",
+  "descriptionHtml" : "<p>Проверка текста на главной странице ELC</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540910973878,
+        "stop" : 1540910973878,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540910973878,
+        "stop" : 1540910975379,
+        "duration" : 1501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540910975379,
+        "stop" : 1540910975581,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Хиты продаж\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' retailrocket-container ')]/header/span)[position()=1]\"",
+      "time" : {
+        "start" : 1540910975582,
+        "stop" : 1540910975881,
+        "duration" : 299
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #3"
+  }, {
+    "name" : "package",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Хиты продаж\""
+  }, {
+    "name" : "1",
+    "value" : "\".retailrocket-container > header > span   \""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53ea6f0a68c87b38.json",
+  "parameterValues" : [ "\"Хиты продаж\"", "\".retailrocket-container > header > span   \"" ]
+}

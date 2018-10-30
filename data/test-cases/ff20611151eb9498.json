@@ -1,0 +1,121 @@
+{
+  "uid" : "ff20611151eb9498",
+  "name" : "homeTest with data set #7",
+  "fullName" : "elc (headless).homeTest with data set #7",
+  "historyId" : "6ce62e7d902c9acccff38cfa1b52da3a",
+  "time" : {
+    "start" : 1540910982032,
+    "stop" : 1540910983770,
+    "duration" : 1738
+  },
+  "description" : "Проверка текста на главной странице ELC",
+  "descriptionHtml" : "<p>Проверка текста на главной странице ELC</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540910982260,
+        "stop" : 1540910982260,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540910982260,
+        "stop" : 1540910983484,
+        "duration" : 1224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540910983484,
+        "stop" : 1540910983688,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Интернет-магазин\",15,\"((//*[contains(@class,'page-title-footer')])[1])[position()=1]\"",
+      "time" : {
+        "start" : 1540910983689,
+        "stop" : 1540910983716,
+        "duration" : 27
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #7"
+  }, {
+    "name" : "package",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Интернет-магазин\""
+  }, {
+    "name" : "1",
+    "value" : "\"(//*[contains(@class,'page-title-footer')])[1]\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff20611151eb9498.json",
+  "parameterValues" : [ "\"Интернет-магазин\"", "\"(//*[contains(@class,'page-title-footer')])[1]\"" ]
+}

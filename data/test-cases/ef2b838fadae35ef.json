@@ -1,0 +1,1503 @@
+{
+  "uid" : "ef2b838fadae35ef",
+  "name" : "footerLinks",
+  "fullName" : "elc (headless).footerLinks",
+  "historyId" : "31138c52a557b8ccdf7b96e198010989",
+  "time" : {
+    "start" : 1540911221852,
+    "stop" : 1540911262178,
+    "duration" : 40326
+  },
+  "description" : "Проверка ссылок хедера и футера ",
+  "descriptionHtml" : "<p>Проверка ссылок хедера и футера</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = 'https://elcrussia.freshdesk.com/support/tickets/new'])[position()=1]' was not found.",
+  "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): Codeception\\PHPUnit\\Constraint\\WebDriver->fail(Array, '(descendant-or-...')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(Array, '(descendant-or-...')\n#2 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(311): PHPUnit\\Framework\\Assert::assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(2875): Codeception\\Module->assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(902): Codeception\\Module\\WebDriver->assertNodesContain('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', Array, '(descendant-or-...')\n#5 [internal function]: Codeception\\Module\\WebDriver->see('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '(descendant-or-...')\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(360): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Assertion))\n#9 /root/test/tests/_support/Page/Main.php(19): AcceptanceTester->see('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '(descendant-or-...')\n#10 /root/test/tests/_support/Page/Main.php(28): Page\\Main->checklink('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '#footer a[href=...', '\\xD0\\x9E\\xD1\\x82\\xD0\\xBF\\xD1\\x80\\xD0\\xB0\\xD0\\xB2\\xD0\\xB8\\xD1...', 'h3')\n#11 /root/test/tests/_support/BaseTest/MainCest.php(30): Page\\Main->checkLinks(Array)\n#12 [internal function]: BaseTest\\MainCest->footerLinks(Object(AcceptanceTester))\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(MainCest), Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(MainCest), 'footerLinks', Array)\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\\Test\\Cest->invoke('footerLinks', Array)\n#16 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#17 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#18 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#19 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#20 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'elc (headless)', NULL)\n#23 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('elc')\n#24 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#25 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#29 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#30 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#31 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#32 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#33 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = 'https://elcrussia.freshdesk.com/support/tickets/new'])[position()=1]' was not found.",
+    "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): Codeception\\PHPUnit\\Constraint\\WebDriver->fail(Array, '(descendant-or-...')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(Array, '(descendant-or-...')\n#2 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(311): PHPUnit\\Framework\\Assert::assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(2875): Codeception\\Module->assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(902): Codeception\\Module\\WebDriver->assertNodesContain('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', Array, '(descendant-or-...')\n#5 [internal function]: Codeception\\Module\\WebDriver->see('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '(descendant-or-...')\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(360): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Assertion))\n#9 /root/test/tests/_support/Page/Main.php(19): AcceptanceTester->see('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '(descendant-or-...')\n#10 /root/test/tests/_support/Page/Main.php(28): Page\\Main->checklink('\\xD0\\x9E\\xD0\\xB1\\xD1\\x80\\xD0\\xB0\\xD1\\x82\\xD0\\xBD\\xD0\\xB0\\xD1...', '#footer a[href=...', '\\xD0\\x9E\\xD1\\x82\\xD0\\xBF\\xD1\\x80\\xD0\\xB0\\xD0\\xB2\\xD0\\xB8\\xD1...', 'h3')\n#11 /root/test/tests/_support/BaseTest/MainCest.php(30): Page\\Main->checkLinks(Array)\n#12 [internal function]: BaseTest\\MainCest->footerLinks(Object(AcceptanceTester))\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(MainCest), Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(MainCest), 'footerLinks', Array)\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\\Test\\Cest->invoke('footerLinks', Array)\n#16 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#17 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#18 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#19 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#20 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'elc (headless)', NULL)\n#23 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('elc')\n#24 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#25 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#29 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#30 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#31 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#32 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#33 {main}",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540911222075,
+        "stop" : 1540911222075,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911222075,
+        "stop" : 1540911223615,
+        "duration" : 1540
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911223616,
+        "stop" : 1540911223818,
+        "duration" : 202
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911223818,
+        "stop" : 1540911223818,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911223818,
+        "stop" : 1540911224712,
+        "duration" : 894
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911224713,
+        "stop" : 1540911224814,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Доставка и оплата\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/delivery'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911224815,
+        "stop" : 1540911224862,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911224862,
+        "stop" : 1540911226863,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/delivery']\",\"target\"",
+      "time" : {
+        "start" : 1540911226864,
+        "stop" : 1540911226881,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/delivery']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911226881,
+        "stop" : 1540911226891,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/delivery']\",10",
+      "time" : {
+        "start" : 1540911226892,
+        "stop" : 1540911226908,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/delivery']\"",
+      "time" : {
+        "start" : 1540911226908,
+        "stop" : 1540911227604,
+        "duration" : 696
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911227604,
+        "stop" : 1540911227705,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Доставка и оплата\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911227705,
+        "stop" : 1540911227730,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911227730,
+        "stop" : 1540911227730,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911227730,
+        "stop" : 1540911228639,
+        "duration" : 909
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911228639,
+        "stop" : 1540911228741,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Возврат и обмен\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/returns'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911228742,
+        "stop" : 1540911228786,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911228786,
+        "stop" : 1540911230787,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/returns']\",\"target\"",
+      "time" : {
+        "start" : 1540911230788,
+        "stop" : 1540911230805,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/returns']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911230805,
+        "stop" : 1540911230815,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/returns']\",10",
+      "time" : {
+        "start" : 1540911230816,
+        "stop" : 1540911230832,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/returns']\"",
+      "time" : {
+        "start" : 1540911230833,
+        "stop" : 1540911231963,
+        "duration" : 1130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911231963,
+        "stop" : 1540911232065,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Возврат товара в интернет-магазин Elc-russia•ru\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911232065,
+        "stop" : 1540911232091,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911232091,
+        "stop" : 1540911232091,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911232092,
+        "stop" : 1540911232936,
+        "duration" : 844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911232936,
+        "stop" : 1540911233040,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Правила продажи\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/terms'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911233041,
+        "stop" : 1540911233086,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911233086,
+        "stop" : 1540911235087,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/terms']\",\"target\"",
+      "time" : {
+        "start" : 1540911235088,
+        "stop" : 1540911235104,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/terms']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911235105,
+        "stop" : 1540911235115,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/terms']\",10",
+      "time" : {
+        "start" : 1540911235115,
+        "stop" : 1540911235131,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/terms']\"",
+      "time" : {
+        "start" : 1540911235131,
+        "stop" : 1540911235805,
+        "duration" : 674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911235805,
+        "stop" : 1540911235907,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Публичная оферта\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911235907,
+        "stop" : 1540911235930,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911235931,
+        "stop" : 1540911235931,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911235931,
+        "stop" : 1540911236812,
+        "duration" : 881
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911236812,
+        "stop" : 1540911236914,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Вопросы и ответы\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = 'https://elcrussia•freshdesk•com/support/solutions'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911236915,
+        "stop" : 1540911236961,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911236961,
+        "stop" : 1540911238963,
+        "duration" : 2002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='https://elcrussia•freshdesk•com/support/solutions']\",\"target\"",
+      "time" : {
+        "start" : 1540911238963,
+        "stop" : 1540911238980,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='https://elcrussia•freshdesk•com/support/solutions']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911238980,
+        "stop" : 1540911238989,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='https://elcrussia•freshdesk•com/support/solutions']\",10",
+      "time" : {
+        "start" : 1540911238989,
+        "stop" : 1540911239006,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='https://elcrussia•freshdesk•com/support/solutions']\"",
+      "time" : {
+        "start" : 1540911239006,
+        "stop" : 1540911239165,
+        "duration" : 159
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "switch to window ",
+      "time" : {
+        "start" : 1540911239165,
+        "stop" : 1540911239209,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911239210,
+        "stop" : 1540911239314,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Чем мы можем вам сегодня помочь?\",30,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' hc-search-c ')]/h2)[position()=1]\"",
+      "time" : {
+        "start" : 1540911239315,
+        "stop" : 1540911240352,
+        "duration" : 1037
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911240352,
+        "stop" : 1540911240352,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911240352,
+        "stop" : 1540911241520,
+        "duration" : 1168
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911241520,
+        "stop" : 1540911241623,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Карта сайта\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/catalog/seo_sitemap/category/'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911241623,
+        "stop" : 1540911241706,
+        "duration" : 83
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911241706,
+        "stop" : 1540911243706,
+        "duration" : 2000
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/catalog/seo_sitemap/category/']\",\"target\"",
+      "time" : {
+        "start" : 1540911243707,
+        "stop" : 1540911243725,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/catalog/seo_sitemap/category/']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911243725,
+        "stop" : 1540911243736,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/catalog/seo_sitemap/category/']\",10",
+      "time" : {
+        "start" : 1540911243736,
+        "stop" : 1540911243753,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/catalog/seo_sitemap/category/']\"",
+      "time" : {
+        "start" : 1540911243753,
+        "stop" : 1540911245427,
+        "duration" : 1674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911245427,
+        "stop" : 1540911245529,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Карта сайта\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911245529,
+        "stop" : 1540911245557,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911245557,
+        "stop" : 1540911245557,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911245558,
+        "stop" : 1540911246605,
+        "duration" : 1047
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911246605,
+        "stop" : 1540911246726,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Регистрация\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/customer/account/login/'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911246726,
+        "stop" : 1540911246790,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911246790,
+        "stop" : 1540911248791,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/customer/account/login/']\",\"target\"",
+      "time" : {
+        "start" : 1540911248792,
+        "stop" : 1540911248811,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/customer/account/login/']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911248811,
+        "stop" : 1540911248821,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/customer/account/login/']\",10",
+      "time" : {
+        "start" : 1540911248821,
+        "stop" : 1540911248837,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/customer/account/login/']\"",
+      "time" : {
+        "start" : 1540911248838,
+        "stop" : 1540911250047,
+        "duration" : 1209
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911250047,
+        "stop" : 1540911250149,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Зайти через учетную запись OpenID\",30,\"(descendant-or-self::div[((@class and contains(concat(' ', normalize-space(@class), ' '), ' span-10 ')) and (@class and contains(concat(' ', normalize-space•••\"",
+      "time" : {
+        "start" : 1540911250149,
+        "stop" : 1540911250212,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911250212,
+        "stop" : 1540911250212,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911250212,
+        "stop" : 1540911251131,
+        "duration" : 919
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911251131,
+        "stop" : 1540911251233,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Конфиденциальность\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/privacy-policy'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911251234,
+        "stop" : 1540911251280,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911251280,
+        "stop" : 1540911253281,
+        "duration" : 2001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/privacy-policy']\",\"target\"",
+      "time" : {
+        "start" : 1540911253282,
+        "stop" : 1540911253298,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/privacy-policy']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911253298,
+        "stop" : 1540911253308,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/privacy-policy']\",10",
+      "time" : {
+        "start" : 1540911253308,
+        "stop" : 1540911253324,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/privacy-policy']\"",
+      "time" : {
+        "start" : 1540911253324,
+        "stop" : 1540911254529,
+        "duration" : 1205
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911254529,
+        "stop" : 1540911254632,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Обработка персональных данных\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911254633,
+        "stop" : 1540911254659,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911254659,
+        "stop" : 1540911254659,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911254660,
+        "stop" : 1540911255582,
+        "duration" : 922
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911255582,
+        "stop" : 1540911255684,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Дисклеймер\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = '/disclamer'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911255685,
+        "stop" : 1540911255732,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 2",
+      "time" : {
+        "start" : 1540911255732,
+        "stop" : 1540911257734,
+        "duration" : 2002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/disclamer']\",\"target\"",
+      "time" : {
+        "start" : 1540911257734,
+        "stop" : 1540911257751,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#footer a[href='/disclamer']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911257751,
+        "stop" : 1540911257761,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#footer a[href='/disclamer']\",10",
+      "time" : {
+        "start" : 1540911257761,
+        "stop" : 1540911257778,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#footer a[href='/disclamer']\"",
+      "time" : {
+        "start" : 1540911257778,
+        "stop" : 1540911258978,
+        "duration" : 1200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911258978,
+        "stop" : 1540911259080,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Официальное уведомление\",30,\"(descendant-or-self::h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540911259081,
+        "stop" : 1540911259109,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "        ================         ",
+      "time" : {
+        "start" : 1540911259109,
+        "stop" : 1540911259109,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911259110,
+        "stop" : 1540911260054,
+        "duration" : 944
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911260055,
+        "stop" : 1540911260156,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Обратная связь\",\"(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = 'https://elcrussia•freshdesk•com/support/tickets/new'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911260156,
+        "stop" : 1540911260171,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 96,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "footerLinks"
+  }, {
+    "name" : "package",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ef2b838fadae35ef.json",
+  "parameterValues" : [ ]
+}

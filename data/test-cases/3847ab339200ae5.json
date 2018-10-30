@@ -1,0 +1,318 @@
+{
+  "uid" : "3847ab339200ae5",
+  "name" : "emptyPassConfirmTest",
+  "fullName" : "elc (headless).emptyPassConfirmTest",
+  "historyId" : "a838c76559e690691ec008ae9f923ad0",
+  "time" : {
+    "start" : 1540911278938,
+    "stop" : 1540911284204,
+    "duration" : 5266
+  },
+  "description" : "Негативные тесты для регистрации",
+  "descriptionHtml" : "<p>Негативные тесты для регистрации</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-confirmation'])[position()=1]' was not found.",
+  "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): Codeception\\PHPUnit\\Constraint\\WebDriver->fail(Array, '(descendant-or-...')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(Array, '(descendant-or-...')\n#2 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(311): PHPUnit\\Framework\\Assert::assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(2875): Codeception\\Module->assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(902): Codeception\\Module\\WebDriver->assertNodesContain('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', Array, '(descendant-or-...')\n#5 [internal function]: Codeception\\Module\\WebDriver->see('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', '(descendant-or-...')\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(360): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Assertion))\n#9 /root/test/tests/_support/BaseTest/RegNCest.php(43): AcceptanceTester->see('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', '(descendant-or-...')\n#10 [internal function]: BaseTest\\RegNCest->emptyPassConfirmTest(Object(AcceptanceTester))\n#11 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(RegNCest), Array)\n#12 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(RegNCest), 'emptyPassConfir...', Array)\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\\Test\\Cest->invoke('emptyPassConfir...', Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#16 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#17 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#18 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#19 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#20 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'elc (headless)', NULL)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('elc')\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#23 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#24 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#29 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#30 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#31 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-confirmation'])[position()=1]' was not found.",
+    "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): Codeception\\PHPUnit\\Constraint\\WebDriver->fail(Array, '(descendant-or-...')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(Array, '(descendant-or-...')\n#2 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(311): PHPUnit\\Framework\\Assert::assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(2875): Codeception\\Module->assertThat(Array, Object(Codeception\\PHPUnit\\Constraint\\WebDriver), '(descendant-or-...')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/WebDriver.php(902): Codeception\\Module\\WebDriver->assertNodesContain('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', Array, '(descendant-or-...')\n#5 [internal function]: Codeception\\Module\\WebDriver->see('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', '(descendant-or-...')\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(360): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Assertion))\n#9 /root/test/tests/_support/BaseTest/RegNCest.php(43): AcceptanceTester->see('\\xD0\\xAD\\xD1\\x82\\xD0\\xBE \\xD0\\xBF\\xD0\\xBE\\xD0\\xBB\\xD0\\xB5...', '(descendant-or-...')\n#10 [internal function]: BaseTest\\RegNCest->emptyPassConfirmTest(Object(AcceptanceTester))\n#11 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(RegNCest), Array)\n#12 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(RegNCest), 'emptyPassConfir...', Array)\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(150): Codeception\\Test\\Cest->invoke('emptyPassConfir...', Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#16 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#17 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#18 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#19 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#20 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'elc (headless)', NULL)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('elc')\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#23 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#24 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#29 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#30 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#31 {main}",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540911279165,
+        "stop" : 1540911279166,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540911279166,
+        "stop" : 1540911280603,
+        "duration" : 1437
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911280603,
+        "stop" : 1540911280806,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"регистрация\",\"(descendant-or-self::*[@id = 'top-menu']/descendant-or-self::*/a[@href = 'https://www•elc-russia•ru/customer/account/login/'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911280807,
+        "stop" : 1540911280857,
+        "duration" : 50
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"target\"",
+      "time" : {
+        "start" : 1540911280858,
+        "stop" : 1540911280911,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"onclick\"",
+      "time" : {
+        "start" : 1540911280911,
+        "stop" : 1540911280967,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",10",
+      "time" : {
+        "start" : 1540911280967,
+        "stop" : 1540911280983,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\"",
+      "time" : {
+        "start" : 1540911280983,
+        "stop" : 1540911282145,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540911282145,
+        "stop" : 1540911282247,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Зайти через учетную запись OpenID\"",
+      "time" : {
+        "start" : 1540911282248,
+        "stop" : 1540911282389,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#lastname\",\"Doe\"",
+      "time" : {
+        "start" : 1540911282389,
+        "stop" : 1540911282505,
+        "duration" : 116
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#firstname\",\"John\"",
+      "time" : {
+        "start" : 1540911282505,
+        "stop" : 1540911282592,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#email_address\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1540911282593,
+        "stop" : 1540911282769,
+        "duration" : 176
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#password\",\"Test2018\"",
+      "time" : {
+        "start" : 1540911282769,
+        "stop" : 1540911282866,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#confirmation\",\"\"",
+      "time" : {
+        "start" : 1540911282867,
+        "stop" : 1540911282970,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"input#agreement\"",
+      "time" : {
+        "start" : 1540911282970,
+        "stop" : 1540911283067,
+        "duration" : 97
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Это поле обязательно для заполнения•\",\"(descendant-or-self::*[@id = 'advice-required-entry-confirmation'])[position()=1]\"",
+      "time" : {
+        "start" : 1540911283068,
+        "stop" : 1540911283087,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyPassConfirmTest"
+  }, {
+    "name" : "package",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3847ab339200ae5.json",
+  "parameterValues" : [ ]
+}

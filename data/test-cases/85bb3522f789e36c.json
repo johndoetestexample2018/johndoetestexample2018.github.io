@@ -1,0 +1,121 @@
+{
+  "uid" : "85bb3522f789e36c",
+  "name" : "homeTest with data set #1",
+  "fullName" : "elc (headless).homeTest with data set #1",
+  "historyId" : "ec8c4c08271131fbb508d284975938f8",
+  "time" : {
+    "start" : 1540910969556,
+    "stop" : 1540910971637,
+    "duration" : 2081
+  },
+  "description" : "Проверка текста на главной странице ELC",
+  "descriptionHtml" : "<p>Проверка текста на главной странице ELC</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540910969776,
+        "stop" : 1540910969776,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540910969776,
+        "stop" : 1540910971346,
+        "duration" : 1570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540910971347,
+        "stop" : 1540910971550,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"В ВАШЕЙ КОРЗИНЕ:\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' minicartactions ')]/descendant-or-self::*/a)[position()=1]\"",
+      "time" : {
+        "start" : 1540910971551,
+        "stop" : 1540910971581,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #1"
+  }, {
+    "name" : "package",
+    "value" : "elc (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"В ВАШЕЙ КОРЗИНЕ:\""
+  }, {
+    "name" : "1",
+    "value" : "\".minicartactions a\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85bb3522f789e36c.json",
+  "parameterValues" : [ "\"В ВАШЕЙ КОРЗИНЕ:\"", "\".minicartactions a\"" ]
+}
