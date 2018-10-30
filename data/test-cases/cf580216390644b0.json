@@ -1,12 +1,12 @@
 {
-  "uid" : "2ff13d1bc36940a",
-  "name" : "emptypassTest",
-  "fullName" : "mid.emptypassTest",
-  "historyId" : "4a34e82d921c99daf4e5d0f8f51e50a0",
+  "uid" : "cf580216390644b0",
+  "name" : "emptymailTest",
+  "fullName" : "mid.emptymailTest",
+  "historyId" : "bbb6982020c7f74f329df50fec762d68",
   "time" : {
-    "start" : 1540907225061,
-    "stop" : 1540907225097,
-    "duration" : 36
+    "start" : 1540907225100,
+    "stop" : 1540907225102,
+    "duration" : 2
   },
   "description" : "Негативные тесты валидации логина",
   "descriptionHtml" : "<p>Негативные тесты валидации логина</p>\n",
@@ -24,7 +24,7 @@
     "value" : "mid"
   }, {
     "name" : "testMethod",
-    "value" : "emptypassTest"
+    "value" : "emptymailTest"
   }, {
     "name" : "package",
     "value" : "mid"
@@ -46,6 +46,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "2ff13d1bc36940a.json",
+  "source" : "cf580216390644b0.json",
   "parameterValues" : [ ]
 }

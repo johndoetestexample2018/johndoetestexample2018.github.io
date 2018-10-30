@@ -1,5 +1,5 @@
 [ {
-  "uid" : "5bfc85dee0521b76",
+  "uid" : "f950c7fabb6ad591",
   "name" : "emptymailTest",
   "time" : {
     "start" : 1540907255798,
@@ -9,17 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f7f62b925914f698",
-  "name" : "wrongpassTest",
-  "time" : {
-    "start" : 1540907225098,
-    "stop" : 1540907225100,
-    "duration" : 2
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "4da424ff6a3ac118",
+  "uid" : "3df254694c5a7693",
   "name" : "wrongpassTest",
   "time" : {
     "start" : 1540907246230,
@@ -29,7 +19,17 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "36efdd79510043ad",
+  "uid" : "ad05e28f13eeb876",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1540909393387,
+    "stop" : 1540909416014,
+    "duration" : 22627
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "cf580216390644b0",
   "name" : "emptymailTest",
   "time" : {
     "start" : 1540907225100,
@@ -39,7 +39,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "a2a7adff5073d293",
+  "uid" : "553f320005c11142",
   "name" : "emptypassTest",
   "time" : {
     "start" : 1540907238480,
@@ -49,12 +49,32 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "2ff13d1bc36940a",
+  "uid" : "135b503d39cd7ba6",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1540909354378,
+    "stop" : 1540909354419,
+    "duration" : 41
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "17d7fafaeef2408f",
   "name" : "emptypassTest",
   "time" : {
     "start" : 1540907225061,
     "stop" : 1540907225097,
     "duration" : 36
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "2239859d3b64316e",
+  "name" : "wrongpassTest",
+  "time" : {
+    "start" : 1540907225098,
+    "stop" : 1540907225100,
+    "duration" : 2
   },
   "status" : "broken",
   "severity" : "normal"

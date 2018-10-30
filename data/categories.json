@@ -6,7 +6,7 @@
       "name" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "children" : [ {
         "name" : "emptypassTest",
-        "uid" : "2ff13d1bc36940a",
+        "uid" : "17d7fafaeef2408f",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -18,7 +18,7 @@
         "parameters" : [ ]
       }, {
         "name" : "wrongpassTest",
-        "uid" : "f7f62b925914f698",
+        "uid" : "2239859d3b64316e",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -30,7 +30,7 @@
         "parameters" : [ ]
       }, {
         "name" : "emptymailTest",
-        "uid" : "36efdd79510043ad",
+        "uid" : "cf580216390644b0",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -40,8 +40,36 @@
         },
         "flaky" : false,
         "parameters" : [ ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "135b503d39cd7ba6",
+        "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1540909354378,
+          "stop" : 1540909354419,
+          "duration" : 41
+        },
+        "flaky" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "453dfff22606c60fca9a29b964fd56b6"
+    }, {
+      "name" : "Waited for 15 secs but text 'Мой аккаунт' still not found",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "ad05e28f13eeb876",
+        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1540909393387,
+          "stop" : 1540909416014,
+          "duration" : 22627
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7108dfbf0f2b08d32ac2bfba93e4549f"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],

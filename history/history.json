@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4da424ff6a3ac118",
+      "uid" : "3df254694c5a7693",
       "status" : "passed",
       "time" : {
         "start" : 1540907246230,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "36efdd79510043ad",
+      "uid" : "cf580216390644b0",
       "status" : "broken",
       "statusDetails" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5bfc85dee0521b76",
+      "uid" : "f950c7fabb6ad591",
       "status" : "passed",
       "time" : {
         "start" : 1540907255798,
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7f62b925914f698",
+      "uid" : "2239859d3b64316e",
       "status" : "broken",
       "statusDetails" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -87,12 +87,52 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a2a7adff5073d293",
+      "uid" : "553f320005c11142",
       "status" : "passed",
       "time" : {
         "start" : 1540907238480,
         "stop" : 1540907246230,
         "duration" : 7750
+      }
+    } ]
+  },
+  "32ace927e4275628d0450f7a16c7c79d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad05e28f13eeb876",
+      "status" : "broken",
+      "statusDetails" : "Waited for 15 secs but text 'Мой аккаунт' still not found",
+      "time" : {
+        "start" : 1540909393387,
+        "stop" : 1540909416014,
+        "duration" : 22627
+      }
+    } ]
+  },
+  "652adecfdeffaefe6ff9018193371064" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "135b503d39cd7ba6",
+      "status" : "broken",
+      "statusDetails" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1540909354378,
+        "stop" : 1540909354419,
+        "duration" : 41
       }
     } ]
   },
@@ -106,7 +146,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ff13d1bc36940a",
+      "uid" : "17d7fafaeef2408f",
       "status" : "broken",
       "statusDetails" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
