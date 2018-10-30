@@ -1,11 +1,10 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "nn",
     "children" : [ {
       "name" : "addToCartTest with data set #0",
-      "uid" : "3a28f3ad8b046496",
+      "uid" : "3106b02a54bc507d",
       "parentUid" : "b616778b99afb1a71373edb618dd41fb",
       "status" : "broken",
       "time" : {
@@ -17,7 +16,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
     }, {
       "name" : "addToCartOnItemCardTest with data set #0",
-      "uid" : "4e8bf8cc78ea990d",
+      "uid" : "2227f08a3198a0c4",
       "parentUid" : "b616778b99afb1a71373edb618dd41fb",
       "status" : "broken",
       "time" : {
@@ -29,7 +28,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
     }, {
       "name" : "deleteTest with data set #0",
-      "uid" : "c64d9fbc206ce136",
+      "uid" : "c116ca29ab7ab864",
       "parentUid" : "b616778b99afb1a71373edb618dd41fb",
       "status" : "broken",
       "time" : {
@@ -45,7 +44,7 @@
     "name" : "nn (headless)",
     "children" : [ {
       "name" : "addToCartTest with data set #0",
-      "uid" : "2e87001cbec58440",
+      "uid" : "1827dc1e266b7920",
       "parentUid" : "39e81d6458babb8b4f1143a6b4efaadd",
       "status" : "passed",
       "time" : {
@@ -57,7 +56,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
     }, {
       "name" : "addToCartOnItemCardTest with data set #0",
-      "uid" : "c5cfdccc56959071",
+      "uid" : "e18ecce86b6b5b80",
       "parentUid" : "39e81d6458babb8b4f1143a6b4efaadd",
       "status" : "passed",
       "time" : {
@@ -69,7 +68,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
     }, {
       "name" : "deleteTest with data set #0",
-      "uid" : "640f5323143ee537",
+      "uid" : "f5db6b3fc4914805",
       "parentUid" : "39e81d6458babb8b4f1143a6b4efaadd",
       "status" : "passed",
       "time" : {
@@ -85,7 +84,7 @@
     "name" : "mid",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "bc17afe041830ea2",
+      "uid" : "84a99067ae9f198e",
       "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
       "status" : "broken",
       "time" : {
@@ -101,7 +100,7 @@
     "name" : "mid (headless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "c817da39b44873a1",
+      "uid" : "27de4c29e248ec4d",
       "parentUid" : "95050f8576f532d4ef5a1c9befe60324",
       "status" : "passed",
       "time" : {
@@ -113,5 +112,38 @@
       "parameters" : [ ]
     } ],
     "uid" : "95050f8576f532d4ef5a1c9befe60324"
-  } ]
+  }, {
+    "name" : "elc",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "e9b23fcf5c15334e",
+      "parentUid" : "5c0d5966eaf62fe716ecb955a4232c3a",
+      "status" : "broken",
+      "time" : {
+        "start" : 1540906597418,
+        "stop" : 1540906597453,
+        "duration" : 35
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5c0d5966eaf62fe716ecb955a4232c3a"
+  }, {
+    "name" : "elc (headless)",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "5ba7b93305d1885b",
+      "parentUid" : "171670bc37865d11d55d6df2b675ff1e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1540906686489,
+        "stop" : 1540906693035,
+        "duration" : 6546
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "171670bc37865d11d55d6df2b675ff1e"
+  } ],
+  "name" : "suites"
 }

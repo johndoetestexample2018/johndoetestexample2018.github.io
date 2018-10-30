@@ -1,12 +1,12 @@
 {
-  "uid" : "c64d9fbc206ce136",
-  "name" : "deleteTest with data set #0",
-  "fullName" : "nn.deleteTest with data set #0",
-  "historyId" : "299fb4c29d323a6be1917a109b065db7",
+  "uid" : "2227f08a3198a0c4",
+  "name" : "addToCartOnItemCardTest with data set #0",
+  "fullName" : "nn.addToCartOnItemCardTest with data set #0",
+  "historyId" : "e6c79aafdc8b91b936b20ce19ec62353",
   "time" : {
-    "start" : 1540819725326,
-    "stop" : 1540819725328,
-    "duration" : 2
+    "start" : 1540819725323,
+    "stop" : 1540819725326,
+    "duration" : 3
   },
   "description" : "null",
   "descriptionHtml" : "<p>null</p>\n",
@@ -24,7 +24,7 @@
     "value" : "nn"
   }, {
     "name" : "testMethod",
-    "value" : "deleteTest with data set #0"
+    "value" : "addToCartOnItemCardTest with data set #0"
   }, {
     "name" : "package",
     "value" : "nn"
@@ -37,7 +37,7 @@
     "value" : "\"Кофе-капсулы\""
   }, {
     "name" : "1",
-    "value" : "\"Эспрессо\""
+    "value" : "\"Ристретто\""
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -52,6 +52,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "c64d9fbc206ce136.json",
-  "parameterValues" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+  "source" : "2227f08a3198a0c4.json",
+  "parameterValues" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
 }

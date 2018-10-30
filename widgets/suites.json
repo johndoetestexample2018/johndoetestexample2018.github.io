@@ -1,5 +1,5 @@
 {
-  "total" : 4,
+  "total" : 6,
   "items" : [ {
     "uid" : "b616778b99afb1a71373edb618dd41fb",
     "name" : "nn",
@@ -23,6 +23,17 @@
       "total" : 1
     }
   }, {
+    "uid" : "5c0d5966eaf62fe716ecb955a4232c3a",
+    "name" : "elc",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
     "uid" : "39e81d6458babb8b4f1143a6b4efaadd",
     "name" : "nn (headless)",
     "statistic" : {
@@ -36,6 +47,17 @@
   }, {
     "uid" : "95050f8576f532d4ef5a1c9befe60324",
     "name" : "mid (headless)",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    }
+  }, {
+    "uid" : "171670bc37865d11d55d6df2b675ff1e",
+    "name" : "elc (headless)",
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
