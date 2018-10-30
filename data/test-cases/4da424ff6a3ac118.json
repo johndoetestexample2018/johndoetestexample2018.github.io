@@ -1,12 +1,12 @@
 {
-  "uid" : "ca18c50601dd07d2",
-  "name" : "emptypassTest",
-  "fullName" : "mid (headless).emptypassTest",
-  "historyId" : "40a503a513a8c14c4219a9c4fc0194fd",
+  "uid" : "4da424ff6a3ac118",
+  "name" : "wrongpassTest",
+  "fullName" : "mid (headless).wrongpassTest",
+  "historyId" : "71fd616f380727fa26cedde9d16d1924",
   "time" : {
-    "start" : 1540907238480,
-    "stop" : 1540907246230,
-    "duration" : 7750
+    "start" : 1540907246230,
+    "stop" : 1540907255798,
+    "duration" : 9568
   },
   "description" : "Негативные тесты валидации логина",
   "descriptionHtml" : "<p>Негативные тесты валидации логина</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1540907238629,
-        "stop" : 1540907238631,
-        "duration" : 2
+        "start" : 1540907246352,
+        "stop" : 1540907246352,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540907238640,
-        "stop" : 1540907241635,
-        "duration" : 2995
+        "start" : 1540907246352,
+        "stop" : 1540907249036,
+        "duration" : 2684
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540907241635,
-        "stop" : 1540907241745,
-        "duration" : 110
+        "start" : 1540907249036,
+        "stop" : 1540907249144,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1540907241837,
-        "stop" : 1540907242357,
-        "duration" : 520
+        "start" : 1540907249144,
+        "stop" : 1540907249735,
+        "duration" : 591
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1540907242357,
-        "stop" : 1540907242417,
-        "duration" : 60
+        "start" : 1540907249735,
+        "stop" : 1540907249802,
+        "duration" : 67
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1540907242417,
-        "stop" : 1540907242715,
-        "duration" : 298
+        "start" : 1540907249802,
+        "stop" : 1540907249893,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1540907242716,
-        "stop" : 1540907242901,
-        "duration" : 185
+        "start" : 1540907249893,
+        "stop" : 1540907250350,
+        "duration" : 457
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1540907242901,
-        "stop" : 1540907245300,
-        "duration" : 2399
+        "start" : 1540907250350,
+        "stop" : 1540907252628,
+        "duration" : 2278
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540907245301,
-        "stop" : 1540907245409,
-        "duration" : 108
+        "start" : 1540907252628,
+        "stop" : 1540907252730,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1540907245409,
-        "stop" : 1540907245574,
-        "duration" : 165
+        "start" : 1540907252730,
+        "stop" : 1540907252870,
+        "duration" : 140
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1540907245574,
-        "stop" : 1540907245901,
-        "duration" : 327
+        "start" : 1540907252870,
+        "stop" : 1540907253059,
+        "duration" : 189
       },
       "status" : "passed",
       "steps" : [ ],
@@ -181,11 +181,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "fill field \"input[name='login[password]']\",\"\"",
+      "name" : "fill field \"input[name='login[password]']\",\"wrongpass2018\"",
       "time" : {
-        "start" : 1540907245901,
-        "stop" : 1540907246021,
-        "duration" : 120
+        "start" : 1540907253059,
+        "stop" : 1540907253168,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"•fieldset  button[type='submit']\"",
       "time" : {
-        "start" : 1540907246021,
-        "stop" : 1540907246141,
-        "duration" : 120
+        "start" : 1540907253168,
+        "stop" : 1540907255702,
+        "duration" : 2534
       },
       "status" : "passed",
       "steps" : [ ],
@@ -211,11 +211,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Это поле обязательно для заполнения•\",30,\"(descendant-or-self::*[@id = 'pass-error'])[position()=1]\"",
+      "name" : "wait for text \"неправильный адрес электронной почты (email) или пароль•\",30,\"(descendant-or-self::div[(@class and contains(concat(' ', normalize-space(@class), ' '), ' page ')) and (@class and contains(concat('•••\"",
       "time" : {
-        "start" : 1540907246147,
-        "stop" : 1540907246172,
-        "duration" : 25
+        "start" : 1540907255702,
+        "stop" : 1540907255745,
+        "duration" : 43
       },
       "status" : "passed",
       "steps" : [ ],
@@ -242,7 +242,7 @@
     "value" : "mid (headless)"
   }, {
     "name" : "testMethod",
-    "value" : "emptypassTest"
+    "value" : "wrongpassTest"
   }, {
     "name" : "package",
     "value" : "mid (headless)"
@@ -260,6 +260,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ca18c50601dd07d2.json",
+  "source" : "4da424ff6a3ac118.json",
   "parameterValues" : [ ]
 }

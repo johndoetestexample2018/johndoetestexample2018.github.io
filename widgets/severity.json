@@ -1,15 +1,5 @@
 [ {
-  "uid" : "26d4e748f04cf421",
-  "name" : "emptymailTest",
-  "time" : {
-    "start" : 1540907255798,
-    "stop" : 1540907263106,
-    "duration" : 7308
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ca18c50601dd07d2",
+  "uid" : "a2a7adff5073d293",
   "name" : "emptypassTest",
   "time" : {
     "start" : 1540907238480,
@@ -19,27 +9,7 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "db581a8497b56811",
-  "name" : "wrongpassTest",
-  "time" : {
-    "start" : 1540907225098,
-    "stop" : 1540907225100,
-    "duration" : 2
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "6c634ca20cb3b4e9",
-  "name" : "wrongpassTest",
-  "time" : {
-    "start" : 1540907246230,
-    "stop" : 1540907255798,
-    "duration" : 9568
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "99cf1a09c27797b6",
+  "uid" : "2ff13d1bc36940a",
   "name" : "emptypassTest",
   "time" : {
     "start" : 1540907225061,
@@ -49,7 +19,7 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "6687518586f1acf5",
+  "uid" : "36efdd79510043ad",
   "name" : "emptymailTest",
   "time" : {
     "start" : 1540907225100,
@@ -57,5 +27,35 @@
     "duration" : 2
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "4da424ff6a3ac118",
+  "name" : "wrongpassTest",
+  "time" : {
+    "start" : 1540907246230,
+    "stop" : 1540907255798,
+    "duration" : 9568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7f62b925914f698",
+  "name" : "wrongpassTest",
+  "time" : {
+    "start" : 1540907225098,
+    "stop" : 1540907225100,
+    "duration" : 2
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "5bfc85dee0521b76",
+  "name" : "emptymailTest",
+  "time" : {
+    "start" : 1540907255798,
+    "stop" : 1540907263106,
+    "duration" : 7308
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
