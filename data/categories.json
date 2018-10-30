@@ -1,12 +1,13 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "children" : [ {
         "name" : "addToCartTest with data set #0",
-        "uid" : "b30f39206c5def00",
+        "uid" : "3a28f3ad8b046496",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -18,7 +19,7 @@
         "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
       }, {
         "name" : "addToCartOnItemCardTest with data set #0",
-        "uid" : "9b268adb228623c5",
+        "uid" : "4e8bf8cc78ea990d",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -30,7 +31,7 @@
         "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
       }, {
         "name" : "deleteTest with data set #0",
-        "uid" : "ed0a335f29acbc5f",
+        "uid" : "c64d9fbc206ce136",
         "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
         "status" : "broken",
         "time" : {
@@ -40,10 +41,21 @@
         },
         "flaky" : false,
         "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+      }, {
+        "name" : "loginTest",
+        "uid" : "bc17afe041830ea2",
+        "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1540895503504,
+          "stop" : 1540895503541,
+          "duration" : 37
+        },
+        "flaky" : false,
+        "parameters" : [ ]
       } ],
       "uid" : "453dfff22606c60fca9a29b964fd56b6"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
-  "name" : "categories"
+  } ]
 }

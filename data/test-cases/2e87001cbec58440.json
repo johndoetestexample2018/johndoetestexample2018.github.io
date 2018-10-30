@@ -1,12 +1,12 @@
 {
-  "uid" : "2b0850e65fc4a92f",
-  "name" : "addToCartOnItemCardTest with data set #0",
-  "fullName" : "nn (headless).addToCartOnItemCardTest with data set #0",
-  "historyId" : "755105ab2e0c1e5f2479edc6050d6482",
+  "uid" : "2e87001cbec58440",
+  "name" : "addToCartTest with data set #0",
+  "fullName" : "nn (headless).addToCartTest with data set #0",
+  "historyId" : "7f5220e8d3a474a38af5a1dbd12f3254",
   "time" : {
-    "start" : 1540819842833,
-    "stop" : 1540819915201,
-    "duration" : 72368
+    "start" : 1540819802765,
+    "stop" : 1540819842832,
+    "duration" : 40067
   },
   "description" : "null",
   "descriptionHtml" : "<p>null</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540819843002,
-        "stop" : 1540819847407,
-        "duration" : 4405
+        "start" : 1540819803412,
+        "stop" : 1540819808729,
+        "duration" : 5317
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540819847407,
-        "stop" : 1540819847509,
-        "duration" : 102
+        "start" : 1540819808731,
+        "stop" : 1540819808845,
+        "duration" : 114
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "click \"[data-target-element='#header-account'] em•fa•caret\"",
       "time" : {
-        "start" : 1540819847510,
-        "stop" : 1540819847782,
-        "duration" : 272
+        "start" : 1540819808850,
+        "stop" : 1540819809232,
+        "duration" : 382
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•nespresso•com/ru/ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1540819847782,
-        "stop" : 1540819848092,
-        "duration" : 310
+        "start" : 1540819809232,
+        "stop" : 1540819809539,
+        "duration" : 307
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"a[href='https://www•nespresso•com/ru/ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1540819848092,
-        "stop" : 1540819848105,
-        "duration" : 13
+        "start" : 1540819809539,
+        "stop" : 1540819809551,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,8 +93,8 @@
     }, {
       "name" : "grab attribute from \"a[href='https://www•nespresso•com/ru/ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1540819848105,
-        "stop" : 1540819848113,
+        "start" : 1540819809551,
+        "stop" : 1540819809559,
         "duration" : 8
       },
       "status" : "passed",
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"a[href='https://www•nespresso•com/ru/ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1540819848113,
-        "stop" : 1540819848133,
-        "duration" : 20
+        "start" : 1540819809559,
+        "stop" : 1540819809578,
+        "duration" : 19
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"a[href='https://www•nespresso•com/ru/ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1540819848133,
-        "stop" : 1540819848218,
-        "duration" : 85
+        "start" : 1540819809579,
+        "stop" : 1540819809687,
+        "duration" : 108
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,8 +138,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540819848218,
-        "stop" : 1540819848320,
+        "start" : 1540819809687,
+        "stop" : 1540819809789,
         "duration" : 102
       },
       "status" : "passed",
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Уже зарегистрированы?\",15",
       "time" : {
-        "start" : 1540819848321,
-        "stop" : 1540819851514,
-        "duration" : 3193
+        "start" : 1540819809790,
+        "stop" : 1540819813170,
+        "duration" : 3380
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1540819851514,
-        "stop" : 1540819851780,
-        "duration" : 266
+        "start" : 1540819813170,
+        "stop" : 1540819813367,
+        "duration" : 197
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
       "time" : {
-        "start" : 1540819851781,
-        "stop" : 1540819851892,
-        "duration" : 111
+        "start" : 1540819813367,
+        "stop" : 1540819813477,
+        "duration" : 110
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"button[name='send']\"",
       "time" : {
-        "start" : 1540819851893,
-        "stop" : 1540819888339,
-        "duration" : 36446
+        "start" : 1540819813477,
+        "stop" : 1540819819300,
+        "duration" : 5823
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540819888339,
-        "stop" : 1540819892954,
-        "duration" : 4615
+        "start" : 1540819819300,
+        "stop" : 1540819822752,
+        "duration" : 3452
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,9 +228,9 @@
     }, {
       "name" : "wait for element visible \"//li[contains(@class,'level0')]/a[•='Кофе-капсулы']\",10",
       "time" : {
-        "start" : 1540819892955,
-        "stop" : 1540819893029,
-        "duration" : 74
+        "start" : 1540819822752,
+        "stop" : 1540819822773,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -243,9 +243,9 @@
     }, {
       "name" : "move mouse over \"//li[contains(@class,'level0')]/a[•='Кофе-капсулы']\"",
       "time" : {
-        "start" : 1540819893029,
-        "stop" : 1540819893077,
-        "duration" : 48
+        "start" : 1540819822773,
+        "stop" : 1540819822814,
+        "duration" : 41
       },
       "status" : "passed",
       "steps" : [ ],
@@ -256,11 +256,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"//div[contains(@class,'megamenu')]//a[ contains(•,'Ристретто')]\",10",
+      "name" : "wait for element visible \"//div[contains(@class,'megamenu')]//a[ contains(•,'Эспрессо')]\",10",
       "time" : {
-        "start" : 1540819893077,
-        "stop" : 1540819893097,
-        "duration" : 20
+        "start" : 1540819822814,
+        "stop" : 1540819822846,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -271,11 +271,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"//div[contains(@class,'megamenu')]//a[ contains(•,'Ристретто')]\"",
+      "name" : "click \"//div[contains(@class,'megamenu')]//a[ contains(•,'Эспрессо')]\"",
       "time" : {
-        "start" : 1540819893097,
-        "stop" : 1540819893267,
-        "duration" : 170
+        "start" : 1540819822846,
+        "stop" : 1540819822996,
+        "duration" : 150
       },
       "status" : "passed",
       "steps" : [ ],
@@ -286,26 +286,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"h2•product-name a \",15",
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-shop ')]/descendant-or-self::*/span[@class and contains(concat(' ', normalize-space(@class), ' '), •••\"",
       "time" : {
-        "start" : 1540819893268,
-        "stop" : 1540819898995,
-        "duration" : 5727
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "grab text from \"h2•product-name a \"",
-      "time" : {
-        "start" : 1540819898995,
-        "stop" : 1540819899017,
-        "duration" : 22
+        "start" : 1540819822996,
+        "stop" : 1540819829854,
+        "duration" : 6858
       },
       "status" : "passed",
       "steps" : [ ],
@@ -318,9 +303,9 @@
     }, {
       "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-shop ')]/descendant-or-self::*/span[@class and contains(concat(' ', normalize-space(@class), ' '), •••\"",
       "time" : {
-        "start" : 1540819899017,
-        "stop" : 1540819899275,
-        "duration" : 258
+        "start" : 1540819829855,
+        "stop" : 1540819830287,
+        "duration" : 432
       },
       "status" : "passed",
       "steps" : [ ],
@@ -331,11 +316,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"h2•product-name a \"",
+      "name" : "grab text from \"(descendant-or-self::h2[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-name ')]/descendant-or-self::*/a)[position()=1]\"",
       "time" : {
-        "start" : 1540819899275,
-        "stop" : 1540819899375,
-        "duration" : 100
+        "start" : 1540819830287,
+        "stop" : 1540819830321,
+        "duration" : 34
       },
       "status" : "passed",
       "steps" : [ ],
@@ -346,26 +331,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-sections ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\",15",
+      "name" : "click \"(descendant-or-self::button[@title = 'Добавить в корзину'])[position()=1]\"",
       "time" : {
-        "start" : 1540819899375,
-        "stop" : 1540819906648,
-        "duration" : 7273
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-sections ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\"",
-      "time" : {
-        "start" : 1540819906648,
-        "stop" : 1540819906839,
-        "duration" : 191
+        "start" : 1540819830321,
+        "stop" : 1540819830412,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -378,9 +348,9 @@
     }, {
       "name" : "wait for element visible \"(descendant-or-self::input[@name = 'qty'])[position()=1]\",15",
       "time" : {
-        "start" : 1540819906840,
-        "stop" : 1540819907156,
-        "duration" : 316
+        "start" : 1540819830412,
+        "stop" : 1540819830705,
+        "duration" : 293
       },
       "status" : "passed",
       "steps" : [ ],
@@ -393,9 +363,9 @@
     }, {
       "name" : "fill field \"input[name='qty']\",30",
       "time" : {
-        "start" : 1540819907157,
-        "stop" : 1540819907237,
-        "duration" : 80
+        "start" : 1540819830705,
+        "stop" : 1540819830816,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -408,9 +378,9 @@
     }, {
       "name" : "wait for element visible \"(descendant-or-self::button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-cart ')])[position()=1]\",15",
       "time" : {
-        "start" : 1540819907237,
-        "stop" : 1540819907259,
-        "duration" : 22
+        "start" : 1540819830816,
+        "stop" : 1540819830839,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -423,9 +393,9 @@
     }, {
       "name" : "click \"(descendant-or-self::button[@class and contains(concat(' ', normalize-space(@class), ' '), ' btn-cart ')])[position()=1]\"",
       "time" : {
-        "start" : 1540819907259,
-        "stop" : 1540819907367,
-        "duration" : 108
+        "start" : 1540819830839,
+        "stop" : 1540819830925,
+        "duration" : 86
       },
       "status" : "passed",
       "steps" : [ ],
@@ -438,9 +408,9 @@
     }, {
       "name" : "wait for element visible \"[data-target-element='#header-cart']  em•fa•caret\",15",
       "time" : {
-        "start" : 1540819907367,
-        "stop" : 1540819907391,
-        "duration" : 24
+        "start" : 1540819830925,
+        "stop" : 1540819830957,
+        "duration" : 32
       },
       "status" : "passed",
       "steps" : [ ],
@@ -453,9 +423,9 @@
     }, {
       "name" : "click \"[data-target-element='#header-cart']  em•fa•caret\"",
       "time" : {
-        "start" : 1540819907391,
-        "stop" : 1540819907495,
-        "duration" : 104
+        "start" : 1540819830957,
+        "stop" : 1540819831063,
+        "duration" : 106
       },
       "status" : "passed",
       "steps" : [ ],
@@ -468,9 +438,9 @@
     }, {
       "name" : "wait for element visible \"a•checkout-button\",15",
       "time" : {
-        "start" : 1540819907495,
-        "stop" : 1540819907788,
-        "duration" : 293
+        "start" : 1540819831063,
+        "stop" : 1540819835599,
+        "duration" : 4536
       },
       "status" : "passed",
       "steps" : [ ],
@@ -483,9 +453,9 @@
     }, {
       "name" : "grab attribute from \"a•checkout-button\",\"target\"",
       "time" : {
-        "start" : 1540819907789,
-        "stop" : 1540819907802,
-        "duration" : 13
+        "start" : 1540819835599,
+        "stop" : 1540819835613,
+        "duration" : 14
       },
       "status" : "passed",
       "steps" : [ ],
@@ -498,9 +468,9 @@
     }, {
       "name" : "grab attribute from \"a•checkout-button\",\"onclick\"",
       "time" : {
-        "start" : 1540819907802,
-        "stop" : 1540819907812,
-        "duration" : 10
+        "start" : 1540819835613,
+        "stop" : 1540819835624,
+        "duration" : 11
       },
       "status" : "passed",
       "steps" : [ ],
@@ -513,9 +483,9 @@
     }, {
       "name" : "wait for element visible \"a•checkout-button\",10",
       "time" : {
-        "start" : 1540819907812,
-        "stop" : 1540819907823,
-        "duration" : 11
+        "start" : 1540819835624,
+        "stop" : 1540819835637,
+        "duration" : 13
       },
       "status" : "passed",
       "steps" : [ ],
@@ -528,9 +498,9 @@
     }, {
       "name" : "click \"a•checkout-button\"",
       "time" : {
-        "start" : 1540819907823,
-        "stop" : 1540819907896,
-        "duration" : 73
+        "start" : 1540819835637,
+        "stop" : 1540819835724,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
@@ -543,9 +513,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540819907896,
-        "stop" : 1540819907997,
-        "duration" : 101
+        "start" : 1540819835724,
+        "stop" : 1540819835826,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -558,9 +528,9 @@
     }, {
       "name" : "wait 1",
       "time" : {
-        "start" : 1540819907998,
-        "stop" : 1540819908999,
-        "duration" : 1001
+        "start" : 1540819835827,
+        "stop" : 1540819836827,
+        "duration" : 1000
       },
       "status" : "passed",
       "steps" : [ ],
@@ -573,9 +543,9 @@
     }, {
       "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-cart-info ')]/descendant-or-self::*/*[@class and contains(concat(' ', normalize-space(@class), '•••\",15",
       "time" : {
-        "start" : 1540819909000,
-        "stop" : 1540819915109,
-        "duration" : 6109
+        "start" : 1540819836829,
+        "stop" : 1540819842734,
+        "duration" : 5905
       },
       "status" : "passed",
       "steps" : [ ],
@@ -588,9 +558,9 @@
     }, {
       "name" : "grab multiple \"•product-cart-info •product-name a\"",
       "time" : {
-        "start" : 1540819915110,
-        "stop" : 1540819915148,
-        "duration" : 38
+        "start" : 1540819842735,
+        "stop" : 1540819842770,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -603,9 +573,9 @@
     }, {
       "name" : "assert greater than 0,1",
       "time" : {
-        "start" : 1540819915149,
-        "stop" : 1540819915149,
-        "duration" : 0
+        "start" : 1540819842771,
+        "stop" : 1540819842777,
+        "duration" : 6
       },
       "status" : "passed",
       "steps" : [ ],
@@ -618,7 +588,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 40,
+    "stepsCount" : 38,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -632,7 +602,7 @@
     "value" : "nn (headless)"
   }, {
     "name" : "testMethod",
-    "value" : "addToCartOnItemCardTest with data set #0"
+    "value" : "addToCartTest with data set #0"
   }, {
     "name" : "package",
     "value" : "nn (headless)"
@@ -645,7 +615,7 @@
     "value" : "\"Кофе-капсулы\""
   }, {
     "name" : "1",
-    "value" : "\"Ристретто\""
+    "value" : "\"Эспрессо\""
   } ],
   "links" : [ ],
   "hidden" : false,
@@ -656,6 +626,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "2b0850e65fc4a92f.json",
-  "parameterValues" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
+  "source" : "2e87001cbec58440.json",
+  "parameterValues" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
 }

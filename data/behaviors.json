@@ -1,8 +1,9 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "addToCartTest with data set #0",
-    "uid" : "b30f39206c5def00",
+    "uid" : "3a28f3ad8b046496",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -14,7 +15,7 @@
     "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
   }, {
     "name" : "addToCartOnItemCardTest with data set #0",
-    "uid" : "9b268adb228623c5",
+    "uid" : "4e8bf8cc78ea990d",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -26,7 +27,7 @@
     "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
   }, {
     "name" : "deleteTest with data set #0",
-    "uid" : "ed0a335f29acbc5f",
+    "uid" : "c64d9fbc206ce136",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
@@ -38,7 +39,7 @@
     "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
   }, {
     "name" : "addToCartTest with data set #0",
-    "uid" : "82a5395722af601e",
+    "uid" : "2e87001cbec58440",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -50,7 +51,7 @@
     "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
   }, {
     "name" : "addToCartOnItemCardTest with data set #0",
-    "uid" : "2b0850e65fc4a92f",
+    "uid" : "c5cfdccc56959071",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -62,7 +63,7 @@
     "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
   }, {
     "name" : "deleteTest with data set #0",
-    "uid" : "c3889afad9889e1",
+    "uid" : "640f5323143ee537",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -72,6 +73,29 @@
     },
     "flaky" : false,
     "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
-  } ],
-  "name" : "behaviors"
+  }, {
+    "name" : "loginTest",
+    "uid" : "bc17afe041830ea2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1540895503504,
+      "stop" : 1540895503541,
+      "duration" : 37
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginTest",
+    "uid" : "c817da39b44873a1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1540895650825,
+      "stop" : 1540895666498,
+      "duration" : 15673
+    },
+    "flaky" : true,
+    "parameters" : [ ]
+  } ]
 }

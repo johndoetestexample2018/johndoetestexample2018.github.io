@@ -1,10 +1,11 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
   "children" : [ {
     "name" : "nn",
     "children" : [ {
       "name" : "addToCartTest with data set #0",
-      "uid" : "b30f39206c5def00",
+      "uid" : "3a28f3ad8b046496",
       "parentUid" : "e7140d389930398f41c8bb9fdc066cd5",
       "status" : "broken",
       "time" : {
@@ -16,7 +17,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
     }, {
       "name" : "addToCartOnItemCardTest with data set #0",
-      "uid" : "9b268adb228623c5",
+      "uid" : "4e8bf8cc78ea990d",
       "parentUid" : "e7140d389930398f41c8bb9fdc066cd5",
       "status" : "broken",
       "time" : {
@@ -28,7 +29,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
     }, {
       "name" : "deleteTest with data set #0",
-      "uid" : "ed0a335f29acbc5f",
+      "uid" : "c64d9fbc206ce136",
       "parentUid" : "e7140d389930398f41c8bb9fdc066cd5",
       "status" : "broken",
       "time" : {
@@ -44,7 +45,7 @@
     "name" : "nn (headless)",
     "children" : [ {
       "name" : "addToCartTest with data set #0",
-      "uid" : "82a5395722af601e",
+      "uid" : "2e87001cbec58440",
       "parentUid" : "5e735cf735345ff523f285669ee51f3e",
       "status" : "passed",
       "time" : {
@@ -56,7 +57,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
     }, {
       "name" : "addToCartOnItemCardTest with data set #0",
-      "uid" : "2b0850e65fc4a92f",
+      "uid" : "c5cfdccc56959071",
       "parentUid" : "5e735cf735345ff523f285669ee51f3e",
       "status" : "passed",
       "time" : {
@@ -68,7 +69,7 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
     }, {
       "name" : "deleteTest with data set #0",
-      "uid" : "c3889afad9889e1",
+      "uid" : "640f5323143ee537",
       "parentUid" : "5e735cf735345ff523f285669ee51f3e",
       "status" : "passed",
       "time" : {
@@ -80,6 +81,37 @@
       "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
     } ],
     "uid" : "5e735cf735345ff523f285669ee51f3e"
-  } ],
-  "name" : "packages"
+  }, {
+    "name" : "mid",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "bc17afe041830ea2",
+      "parentUid" : "4b66b91053708ef147cad99c2ed93cde",
+      "status" : "broken",
+      "time" : {
+        "start" : 1540895503504,
+        "stop" : 1540895503541,
+        "duration" : 37
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "4b66b91053708ef147cad99c2ed93cde"
+  }, {
+    "name" : "mid (headless)",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "c817da39b44873a1",
+      "parentUid" : "b8270c268dab331d07e282a12cdbbc91",
+      "status" : "passed",
+      "time" : {
+        "start" : 1540895650825,
+        "stop" : 1540895666498,
+        "duration" : 15673
+      },
+      "flaky" : true,
+      "parameters" : [ ]
+    } ],
+    "uid" : "b8270c268dab331d07e282a12cdbbc91"
+  } ]
 }

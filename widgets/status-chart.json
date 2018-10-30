@@ -1,45 +1,5 @@
 [ {
-  "uid" : "b30f39206c5def00",
-  "name" : "addToCartTest with data set #0",
-  "time" : {
-    "start" : 1540819725273,
-    "stop" : 1540819725322,
-    "duration" : 49
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "82a5395722af601e",
-  "name" : "addToCartTest with data set #0",
-  "time" : {
-    "start" : 1540819802765,
-    "stop" : 1540819842832,
-    "duration" : 40067
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2b0850e65fc4a92f",
-  "name" : "addToCartOnItemCardTest with data set #0",
-  "time" : {
-    "start" : 1540819842833,
-    "stop" : 1540819915201,
-    "duration" : 72368
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c3889afad9889e1",
-  "name" : "deleteTest with data set #0",
-  "time" : {
-    "start" : 1540819915202,
-    "stop" : 1540819992673,
-    "duration" : 77471
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ed0a335f29acbc5f",
+  "uid" : "c64d9fbc206ce136",
   "name" : "deleteTest with data set #0",
   "time" : {
     "start" : 1540819725326,
@@ -49,7 +9,27 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "9b268adb228623c5",
+  "uid" : "c817da39b44873a1",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1540895650825,
+    "stop" : 1540895666498,
+    "duration" : 15673
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e87001cbec58440",
+  "name" : "addToCartTest with data set #0",
+  "time" : {
+    "start" : 1540819802765,
+    "stop" : 1540819842832,
+    "duration" : 40067
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e8bf8cc78ea990d",
   "name" : "addToCartOnItemCardTest with data set #0",
   "time" : {
     "start" : 1540819725323,
@@ -57,5 +37,45 @@
     "duration" : 3
   },
   "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bc17afe041830ea2",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1540895503504,
+    "stop" : 1540895503541,
+    "duration" : 37
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "c5cfdccc56959071",
+  "name" : "addToCartOnItemCardTest with data set #0",
+  "time" : {
+    "start" : 1540819842833,
+    "stop" : 1540819915201,
+    "duration" : 72368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a28f3ad8b046496",
+  "name" : "addToCartTest with data set #0",
+  "time" : {
+    "start" : 1540819725273,
+    "stop" : 1540819725322,
+    "duration" : 49
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "640f5323143ee537",
+  "name" : "deleteTest with data set #0",
+  "time" : {
+    "start" : 1540819915202,
+    "stop" : 1540819992673,
+    "duration" : 77471
+  },
+  "status" : "passed",
   "severity" : "normal"
 } ]
