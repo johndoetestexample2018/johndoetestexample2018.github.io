@@ -1,0 +1,714 @@
+{
+  "uid" : "3d1c4d8587142052",
+  "name" : "addToWishlistTest with data set #0",
+  "fullName" : "mid (headless).addToWishlistTest with data set #0",
+  "historyId" : "cdaead6491526d8b46cd6e6795b56def",
+  "time" : {
+    "start" : 1540912968046,
+    "stop" : 1540913000843,
+    "duration" : 32797
+  },
+  "description" : "Добавить в wishlist через quickview в каталоге предварительно залогинившись",
+  "descriptionHtml" : "<p>Добавить в wishlist через quickview в каталоге предварительно залогинившись</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Failed asserting that 0 is greater than 0.",
+  "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): PHPUnit\\Framework\\Constraint\\Constraint->fail(0, '')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(0, '')\n#2 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(687): PHPUnit\\Framework\\Assert::assertThat(0, Object(PHPUnit\\Framework\\Constraint\\GreaterThan), '')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(86): PHPUnit\\Framework\\Assert::assertGreaterThan(0, 0, '')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/Asserts.php(99): Codeception\\Module->assertGreaterThan(0, 0, '')\n#5 [internal function]: Codeception\\Module\\Asserts->assertGreaterThan(0, 0)\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(3189): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Action))\n#9 /root/test/tests/_support/Page/MID/Wishlist.php(85): AcceptanceTester->assertGreaterThan(0, 0)\n#10 /root/test/tests/mid/WishlistCest.php(36): Page\\MID\\Wishlist->CheckInSidebar('\\xD0\\x9C\\xD0\\xB8\\xD0\\xBA\\xD1\\x80\\xD0\\xBE\\xD0\\xB2\\xD0\\xBE\\xD0...')\n#11 [internal function]: WishlistCest->addToWishlistTest(Object(AcceptanceTester), Object(Codeception\\Example))\n#12 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(WishlistCest), Array)\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(WishlistCest), 'addToWishlistTe...', Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(147): Codeception\\Test\\Cest->invoke('addToWishlistTe...', Array)\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#16 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#17 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#18 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#19 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#20 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'mid (headless)', NULL)\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('mid')\n#23 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#24 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#29 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#30 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#31 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#32 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed asserting that 0 is greater than 0.",
+    "statusTrace" : "#0 /root/test/vendor/phpunit/phpunit/src/Framework/Constraint/Constraint.php(62): PHPUnit\\Framework\\Constraint\\Constraint->fail(0, '')\n#1 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(2116): PHPUnit\\Framework\\Constraint\\Constraint->evaluate(0, '')\n#2 /root/test/vendor/phpunit/phpunit/src/Framework/Assert.php(687): PHPUnit\\Framework\\Assert::assertThat(0, Object(PHPUnit\\Framework\\Constraint\\GreaterThan), '')\n#3 /root/test/vendor/codeception/codeception/src/Codeception/Util/Shared/Asserts.php(86): PHPUnit\\Framework\\Assert::assertGreaterThan(0, 0, '')\n#4 /root/test/vendor/codeception/codeception/src/Codeception/Module/Asserts.php(99): Codeception\\Module->assertGreaterThan(0, 0, '')\n#5 [internal function]: Codeception\\Module\\Asserts->assertGreaterThan(0, 0)\n#6 /root/test/vendor/codeception/codeception/src/Codeception/Step.php(264): call_user_func_array(Array, Array)\n#7 /root/test/vendor/codeception/codeception/src/Codeception/Scenario.php(72): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#8 /root/test/tests/_support/_generated/AcceptanceTesterActions.php(3189): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Action))\n#9 /root/test/tests/_support/Page/MID/Wishlist.php(85): AcceptanceTester->assertGreaterThan(0, 0)\n#10 /root/test/tests/mid/WishlistCest.php(36): Page\\MID\\Wishlist->CheckInSidebar('\\xD0\\x9C\\xD0\\xB8\\xD0\\xBA\\xD1\\x80\\xD0\\xBE\\xD0\\xB2\\xD0\\xBE\\xD0...')\n#11 [internal function]: WishlistCest->addToWishlistTest(Object(AcceptanceTester), Object(Codeception\\Example))\n#12 /root/test/vendor/codeception/codeception/src/Codeception/Lib/Di.php(127): ReflectionMethod->invokeArgs(Object(WishlistCest), Array)\n#13 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(WishlistCest), 'addToWishlistTe...', Array)\n#14 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(147): Codeception\\Test\\Cest->invoke('addToWishlistTe...', Array)\n#15 /root/test/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(AcceptanceTester))\n#16 /root/test/vendor/codeception/codeception/src/Codeception/Test/Test.php(89): Codeception\\Test\\Cest->test()\n#17 /root/test/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#18 /root/test/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#19 /root/test/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#20 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#21 /root/test/vendor/codeception/codeception/src/Codeception/Codecept.php(180): Codeception\\Codecept->runSuite(Array, 'mid (headless)', NULL)\n#22 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('mid')\n#23 /root/test/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#24 /root/test/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /root/test/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /root/test/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /root/test/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#28 /root/test/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#29 /root/test/vendor/codeception/codeception/package/bin(37): Codeception\\Application->run()\n#30 phar:///usr/local/bin/codecept/autoload.php(12): require('/root/test/vend...')\n#31 /usr/local/bin/codecept(5): require_once('phar:///usr/loc...')\n#32 {main}",
+    "steps" : [ {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540912968172,
+        "stop" : 1540912970898,
+        "duration" : 2726
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540912970898,
+        "stop" : 1540912971000,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
+      "time" : {
+        "start" : 1540912971001,
+        "stop" : 1540912971564,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
+      "time" : {
+        "start" : 1540912971564,
+        "stop" : 1540912971765,
+        "duration" : 201
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
+      "time" : {
+        "start" : 1540912971766,
+        "stop" : 1540912971819,
+        "duration" : 53
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
+      "time" : {
+        "start" : 1540912971819,
+        "stop" : 1540912972378,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
+      "time" : {
+        "start" : 1540912972378,
+        "stop" : 1540912974565,
+        "duration" : 2187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540912974565,
+        "stop" : 1540912974667,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Вход в систему\",15",
+      "time" : {
+        "start" : 1540912974667,
+        "stop" : 1540912974806,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1540912974806,
+        "stop" : 1540912975147,
+        "duration" : 341
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1540912975147,
+        "stop" : 1540912975233,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•fieldset  button[type='submit']\"",
+      "time" : {
+        "start" : 1540912975233,
+        "stop" : 1540912977673,
+        "duration" : 2440
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540912977673,
+        "stop" : 1540912980516,
+        "duration" : 2843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1540912980516,
+        "stop" : 1540912980761,
+        "duration" : 245
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1540912980761,
+        "stop" : 1540912981170,
+        "duration" : 409
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
+      "time" : {
+        "start" : 1540912981170,
+        "stop" : 1540912981488,
+        "duration" : 318
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "move mouse over \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
+      "time" : {
+        "start" : 1540912981488,
+        "stop" : 1540912981528,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\",10",
+      "time" : {
+        "start" : 1540912981528,
+        "stop" : 1540912981743,
+        "duration" : 215
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\"",
+      "time" : {
+        "start" : 1540912981743,
+        "stop" : 1540912985747,
+        "duration" : 4004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
+      "time" : {
+        "start" : 1540912985748,
+        "stop" : 1540912985811,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scroll to \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
+      "time" : {
+        "start" : 1540912985811,
+        "stop" : 1540912985876,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
+      "time" : {
+        "start" : 1540912985876,
+        "stop" : 1540912986074,
+        "duration" : 198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab text from \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' images-container ')]/descendant-or-self::*/a[@class and contains(concat(' ', normalize-space(@class), ' '),•••\"",
+      "time" : {
+        "start" : 1540912986074,
+        "stop" : 1540912986342,
+        "duration" : 268
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::a[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' towishlist '))])[position•••\"",
+      "time" : {
+        "start" : 1540912986342,
+        "stop" : 1540912989793,
+        "duration" : 3451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•wishlist\",\"target\"",
+      "time" : {
+        "start" : 1540912989793,
+        "stop" : 1540912989849,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•wishlist\",\"onclick\"",
+      "time" : {
+        "start" : 1540912989849,
+        "stop" : 1540912989893,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•wishlist\",10",
+      "time" : {
+        "start" : 1540912989893,
+        "stop" : 1540912989912,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•wishlist\"",
+      "time" : {
+        "start" : 1540912989913,
+        "stop" : 1540912990011,
+        "duration" : 98
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "switch to window ",
+      "time" : {
+        "start" : 1540912990011,
+        "stop" : 1540912990162,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540912990163,
+        "stop" : 1540912990266,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1]\",10",
+      "time" : {
+        "start" : 1540912990267,
+        "stop" : 1540912991808,
+        "duration" : 1541
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab multiple \"•product-item-name a \"",
+      "time" : {
+        "start" : 1540912991808,
+        "stop" : 1540912992048,
+        "duration" : 240
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert greater than 0,1",
+      "time" : {
+        "start" : 1540912992049,
+        "stop" : 1540912992049,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540912992049,
+        "stop" : 1540912994988,
+        "duration" : 2939
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1540912994989,
+        "stop" : 1540912995099,
+        "duration" : 110
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1540912995100,
+        "stop" : 1540912995416,
+        "duration" : 316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
+      "time" : {
+        "start" : 1540912995416,
+        "stop" : 1540912995800,
+        "duration" : 384
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "move mouse over \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
+      "time" : {
+        "start" : 1540912995800,
+        "stop" : 1540912995844,
+        "duration" : 44
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\",10",
+      "time" : {
+        "start" : 1540912995845,
+        "stop" : 1540912995882,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\"",
+      "time" : {
+        "start" : 1540912995882,
+        "stop" : 1540912999176,
+        "duration" : 3294
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Мой лист пожеланий\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' block-wishlist ')])[position()=1]\"",
+      "time" : {
+        "start" : 1540912999177,
+        "stop" : 1540912999232,
+        "duration" : 55
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab multiple \"•sidebar •product-item-name a\"",
+      "time" : {
+        "start" : 1540912999232,
+        "stop" : 1540912999253,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert greater than 0,0",
+      "time" : {
+        "start" : 1540912999254,
+        "stop" : 1540912999265,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 43,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToWishlistTest with data set #0"
+  }, {
+    "name" : "package",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Мелкая бытовая техника\""
+  }, {
+    "name" : "1",
+    "value" : "\"Микроволновки Мидеа\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "3d1c4d8587142052.json",
+  "parameterValues" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+}

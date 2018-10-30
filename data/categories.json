@@ -3,213 +3,53 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "Waited for 15 secs but text '0 товар(ов)' still not found",
+      "name" : "Waited for 15 secs but text 'Акции' still not found",
       "children" : [ {
-        "name" : "deleteTest with data set #0",
-        "uid" : "6a0b55a13a36a62c",
-        "parentUid" : "684dd5032c3837b9cda36505affeeb68",
+        "name" : "homeTest with data set #9",
+        "uid" : "3941a50997568e39",
+        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
         "status" : "broken",
         "time" : {
-          "start" : 1540910927203,
-          "stop" : 1540910967479,
-          "duration" : 40276
+          "start" : 1540912428637,
+          "stop" : 1540912448518,
+          "duration" : 19881
         },
         "flaky" : false,
-        "parameters" : [ "\"Игрушки для мальчиков\"", "\"Поезда и железные дороги\"" ]
+        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
+      }, {
+        "name" : "homeWithLoginTest with data set #9",
+        "uid" : "95759bf7d7250482",
+        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1540912606445,
+          "stop" : 1540912636346,
+          "duration" : 29901
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
       } ],
-      "uid" : "684dd5032c3837b9cda36505affeeb68"
-    }, {
-      "name" : "Waited for 15 secs but text 'Мой аккаунт' still not found",
-      "children" : [ {
-        "name" : "homeWithLoginTest with data set #2",
-        "uid" : "f50a726346d34201",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911002677,
-          "stop" : 1540911024501,
-          "duration" : 21824
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Выбрать по возрасту\"", "\"(//h3)[1]\"" ]
-      }, {
-        "name" : "homeWithLoginTest with data set #4",
-        "uid" : "fba502ff8da061d5",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911031516,
-          "stop" : 1540911052929,
-          "duration" : 21413
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Товары из тв-рекламы\"", "\"(//h3)[2]\"" ]
-      }, {
-        "name" : "homeWithLoginTest with data set #6",
-        "uid" : "72dc06b81cb4f0b5",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911058960,
-          "stop" : 1540911080575,
-          "duration" : 21615
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Бренды\"", "\".attribute-slider-title\"" ]
-      }, {
-        "name" : "homeWithLoginTest with data set #7",
-        "uid" : "9e5a9db3fbdb836c",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911080576,
-          "stop" : 1540911102022,
-          "duration" : 21446
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Интернет-магазин\"", "\"(//*[contains(@class,'page-title-footer')])[1]\"" ]
-      }, {
-        "name" : "loginTest",
-        "uid" : "3d309069581d16b5",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911120645,
-          "stop" : 1540911142581,
-          "duration" : 21936
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      }, {
-        "name" : "addToWishlistTest with data set #0",
-        "uid" : "22a2b070bec8142b",
-        "parentUid" : "7108dfbf0f2b08d32ac2bfba93e4549f",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911361400,
-          "stop" : 1540911383042,
-          "duration" : 21642
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Игрушки для мальчиков\"", "\"Поезда и железные дороги\"" ]
-      } ],
-      "uid" : "7108dfbf0f2b08d32ac2bfba93e4549f"
-    }, {
-      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' error-msg ')])[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "children" : [ {
-        "name" : "sameUserTest",
-        "uid" : "8d5562d7ac3f49f2",
-        "parentUid" : "79471b0b8fff222f1d434c1fe9d93da5",
-        "status" : "broken",
-        "time" : {
-          "start" : 1540911302925,
-          "stop" : 1540911338519,
-          "duration" : 35594
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "79471b0b8fff222f1d434c1fe9d93da5"
+      "uid" : "6aec7c3bb58d37289cb2d0ea2d6e589b"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   }, {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::a[@href = 'https://www.elc-russia.ru/sport-i-aktivnost.html'])[position()=1]' was not found.",
+      "name" : "Failed asserting that 0 is greater than 0.",
       "children" : [ {
-        "name" : "headerLinks",
-        "uid" : "423f62d29ae2cfe4",
-        "parentUid" : "6fb19a7aae608c0f86cb5170a08742eb",
+        "name" : "addToWishlistTest with data set #0",
+        "uid" : "3d1c4d8587142052",
+        "parentUid" : "7de518fc4a826479272f761225b39aca",
         "status" : "failed",
         "time" : {
-          "start" : 1540911155744,
-          "stop" : 1540911221851,
-          "duration" : 66107
+          "start" : 1540912968046,
+          "stop" : 1540913000843,
+          "duration" : 32797
         },
         "flaky" : false,
-        "parameters" : [ ]
+        "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
       } ],
-      "uid" : "6fb19a7aae608c0f86cb5170a08742eb"
-    }, {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'footer']/descendant-or-self::*/a[@href = 'https://elcrussia.freshdesk.com/support/tickets/new'])[position()=1]' was not found.",
-      "children" : [ {
-        "name" : "footerLinks",
-        "uid" : "ef2b838fadae35ef",
-        "parentUid" : "770dfb4a9f8d10eb05674123b77e2adf",
-        "status" : "failed",
-        "time" : {
-          "start" : 1540911221852,
-          "stop" : 1540911262178,
-          "duration" : 40326
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "770dfb4a9f8d10eb05674123b77e2adf"
-    }, {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-firstname'])[position()=1]' was not found.",
-      "children" : [ {
-        "name" : "emptyNamesTest",
-        "uid" : "ddbcbdfc050b6598",
-        "parentUid" : "a9578b8c60aee08f74cc9dab63caba77",
-        "status" : "failed",
-        "time" : {
-          "start" : 1540911262184,
-          "stop" : 1540911268189,
-          "duration" : 6005
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "a9578b8c60aee08f74cc9dab63caba77"
-    }, {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-email_address'])[position()=1]' was not found.",
-      "children" : [ {
-        "name" : "emptyEmailTest",
-        "uid" : "6c3e842e8b99f7d3",
-        "parentUid" : "ff064bae6f5dd3af94b8152ba42b7b43",
-        "status" : "failed",
-        "time" : {
-          "start" : 1540911268190,
-          "stop" : 1540911273534,
-          "duration" : 5344
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ff064bae6f5dd3af94b8152ba42b7b43"
-    }, {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-password'])[position()=1]' was not found.",
-      "children" : [ {
-        "name" : "emptyPassTest",
-        "uid" : "656962943e03a3ec",
-        "parentUid" : "9aadc40da5b49ebe43162dd9adcb80ca",
-        "status" : "failed",
-        "time" : {
-          "start" : 1540911273535,
-          "stop" : 1540911278937,
-          "duration" : 5402
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "9aadc40da5b49ebe43162dd9adcb80ca"
-    }, {
-      "name" : "Element located either by name, CSS or XPath element with '(descendant-or-self::*[@id = 'advice-required-entry-confirmation'])[position()=1]' was not found.",
-      "children" : [ {
-        "name" : "emptyPassConfirmTest",
-        "uid" : "3847ab339200ae5",
-        "parentUid" : "ed746957eff7196d24f461b9f94253a5",
-        "status" : "failed",
-        "time" : {
-          "start" : 1540911278938,
-          "stop" : 1540911284204,
-          "duration" : 5266
-        },
-        "flaky" : false,
-        "parameters" : [ ]
-      } ],
-      "uid" : "ed746957eff7196d24f461b9f94253a5"
+      "uid" : "7de518fc4a826479272f761225b39aca"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],
