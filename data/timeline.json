@@ -1,125 +1,77 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "loginTest",
-    "uid" : "27de4c29e248ec4d",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1540895650825,
-      "stop" : 1540895666498,
-      "duration" : 15673
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "addToCartTest with data set #0",
-    "uid" : "3106b02a54bc507d",
+    "name" : "emptypassTest",
+    "uid" : "99cf1a09c27797b6",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
-      "start" : 1540819725273,
-      "stop" : 1540819725322,
-      "duration" : 49
-    },
-    "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
-  }, {
-    "name" : "deleteTest with data set #0",
-    "uid" : "f5db6b3fc4914805",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1540819915202,
-      "stop" : 1540819992673,
-      "duration" : 77471
-    },
-    "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
-  }, {
-    "name" : "loginTest",
-    "uid" : "5ba7b93305d1885b",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1540906686489,
-      "stop" : 1540906693035,
-      "duration" : 6546
-    },
-    "flaky" : true,
-    "parameters" : [ ]
-  }, {
-    "name" : "loginTest",
-    "uid" : "e9b23fcf5c15334e",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1540906597418,
-      "stop" : 1540906597453,
-      "duration" : 35
+      "start" : 1540907225061,
+      "stop" : 1540907225097,
+      "duration" : 36
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "loginTest",
-    "uid" : "84a99067ae9f198e",
+    "name" : "wrongpassTest",
+    "uid" : "6c634ca20cb3b4e9",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
+    "status" : "passed",
     "time" : {
-      "start" : 1540895503504,
-      "stop" : 1540895503541,
-      "duration" : 37
+      "start" : 1540907246230,
+      "stop" : 1540907255798,
+      "duration" : 9568
     },
     "flaky" : false,
     "parameters" : [ ]
   }, {
-    "name" : "addToCartOnItemCardTest with data set #0",
-    "uid" : "2227f08a3198a0c4",
+    "name" : "emptymailTest",
+    "uid" : "6687518586f1acf5",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "broken",
     "time" : {
-      "start" : 1540819725323,
-      "stop" : 1540819725326,
-      "duration" : 3
-    },
-    "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
-  }, {
-    "name" : "addToCartTest with data set #0",
-    "uid" : "1827dc1e266b7920",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1540819802765,
-      "stop" : 1540819842832,
-      "duration" : 40067
-    },
-    "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
-  }, {
-    "name" : "addToCartOnItemCardTest with data set #0",
-    "uid" : "e18ecce86b6b5b80",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "passed",
-    "time" : {
-      "start" : 1540819842833,
-      "stop" : 1540819915201,
-      "duration" : 72368
-    },
-    "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
-  }, {
-    "name" : "deleteTest with data set #0",
-    "uid" : "c116ca29ab7ab864",
-    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-    "status" : "broken",
-    "time" : {
-      "start" : 1540819725326,
-      "stop" : 1540819725328,
+      "start" : 1540907225100,
+      "stop" : 1540907225102,
       "duration" : 2
     },
     "flaky" : false,
-    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+    "parameters" : [ ]
+  }, {
+    "name" : "emptypassTest",
+    "uid" : "ca18c50601dd07d2",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1540907238480,
+      "stop" : 1540907246230,
+      "duration" : 7750
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongpassTest",
+    "uid" : "db581a8497b56811",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1540907225098,
+      "stop" : 1540907225100,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "emptymailTest",
+    "uid" : "26d4e748f04cf421",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1540907255798,
+      "stop" : 1540907263106,
+      "duration" : 7308
+    },
+    "flaky" : false,
+    "parameters" : [ ]
   } ],
   "name" : "timeline"
 }

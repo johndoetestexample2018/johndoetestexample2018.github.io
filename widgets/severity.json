@@ -1,101 +1,61 @@
 [ {
-  "uid" : "2227f08a3198a0c4",
-  "name" : "addToCartOnItemCardTest with data set #0",
+  "uid" : "26d4e748f04cf421",
+  "name" : "emptymailTest",
   "time" : {
-    "start" : 1540819725323,
-    "stop" : 1540819725326,
-    "duration" : 3
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "e18ecce86b6b5b80",
-  "name" : "addToCartOnItemCardTest with data set #0",
-  "time" : {
-    "start" : 1540819842833,
-    "stop" : 1540819915201,
-    "duration" : 72368
+    "start" : 1540907255798,
+    "stop" : 1540907263106,
+    "duration" : 7308
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f5db6b3fc4914805",
-  "name" : "deleteTest with data set #0",
+  "uid" : "ca18c50601dd07d2",
+  "name" : "emptypassTest",
   "time" : {
-    "start" : 1540819915202,
-    "stop" : 1540819992673,
-    "duration" : 77471
+    "start" : 1540907238480,
+    "stop" : 1540907246230,
+    "duration" : 7750
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e9b23fcf5c15334e",
-  "name" : "loginTest",
+  "uid" : "db581a8497b56811",
+  "name" : "wrongpassTest",
   "time" : {
-    "start" : 1540906597418,
-    "stop" : 1540906597453,
-    "duration" : 35
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "1827dc1e266b7920",
-  "name" : "addToCartTest with data set #0",
-  "time" : {
-    "start" : 1540819802765,
-    "stop" : 1540819842832,
-    "duration" : 40067
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c116ca29ab7ab864",
-  "name" : "deleteTest with data set #0",
-  "time" : {
-    "start" : 1540819725326,
-    "stop" : 1540819725328,
+    "start" : 1540907225098,
+    "stop" : 1540907225100,
     "duration" : 2
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "5ba7b93305d1885b",
-  "name" : "loginTest",
+  "uid" : "6c634ca20cb3b4e9",
+  "name" : "wrongpassTest",
   "time" : {
-    "start" : 1540906686489,
-    "stop" : 1540906693035,
-    "duration" : 6546
+    "start" : 1540907246230,
+    "stop" : 1540907255798,
+    "duration" : 9568
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3106b02a54bc507d",
-  "name" : "addToCartTest with data set #0",
+  "uid" : "99cf1a09c27797b6",
+  "name" : "emptypassTest",
   "time" : {
-    "start" : 1540819725273,
-    "stop" : 1540819725322,
-    "duration" : 49
+    "start" : 1540907225061,
+    "stop" : 1540907225097,
+    "duration" : 36
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "84a99067ae9f198e",
-  "name" : "loginTest",
+  "uid" : "6687518586f1acf5",
+  "name" : "emptymailTest",
   "time" : {
-    "start" : 1540895503504,
-    "stop" : 1540895503541,
-    "duration" : 37
+    "start" : 1540907225100,
+    "stop" : 1540907225102,
+    "duration" : 2
   },
   "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "27de4c29e248ec4d",
-  "name" : "loginTest",
-  "time" : {
-    "start" : 1540895650825,
-    "stop" : 1540895666498,
-    "duration" : 15673
-  },
-  "status" : "passed",
   "severity" : "normal"
 } ]
