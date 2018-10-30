@@ -1,17 +1,77 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "loginTest",
-    "uid" : "e37e45975286776d",
+    "name" : "addToCartTest with data set #0",
+    "uid" : "b30f39206c5def00",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1540819725273,
+      "stop" : 1540819725322,
+      "duration" : 49
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+  }, {
+    "name" : "addToCartTest with data set #0",
+    "uid" : "82a5395722af601e",
     "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
     "status" : "passed",
     "time" : {
-      "start" : 1539699317670,
-      "stop" : 1539699328328,
-      "duration" : 10658
+      "start" : 1540819802765,
+      "stop" : 1540819842832,
+      "duration" : 40067
     },
     "flaky" : false,
-    "parameters" : [ ]
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+  }, {
+    "name" : "addToCartOnItemCardTest with data set #0",
+    "uid" : "2b0850e65fc4a92f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1540819842833,
+      "stop" : 1540819915201,
+      "duration" : 72368
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
+  }, {
+    "name" : "deleteTest with data set #0",
+    "uid" : "c3889afad9889e1",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "passed",
+    "time" : {
+      "start" : 1540819915202,
+      "stop" : 1540819992673,
+      "duration" : 77471
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+  }, {
+    "name" : "deleteTest with data set #0",
+    "uid" : "ed0a335f29acbc5f",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1540819725326,
+      "stop" : 1540819725328,
+      "duration" : 2
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Эспрессо\"" ]
+  }, {
+    "name" : "addToCartOnItemCardTest with data set #0",
+    "uid" : "9b268adb228623c5",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "broken",
+    "time" : {
+      "start" : 1540819725323,
+      "stop" : 1540819725326,
+      "duration" : 3
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Кофе-капсулы\"", "\"Ристретто\"" ]
   } ],
   "name" : "timeline"
 }

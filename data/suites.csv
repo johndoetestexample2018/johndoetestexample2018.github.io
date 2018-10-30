@@ -1,2 +1,7 @@
 "Status","Name","Duration in ms","Description"
-"passed","mid (headless).loginTest","10658","Тест логина"
+"broken","nn.addToCartTest with data set #0","49","null"
+"passed","nn (headless).addToCartTest with data set #0","40067","null"
+"passed","nn (headless).addToCartOnItemCardTest with data set #0","72368","null"
+"passed","nn (headless).deleteTest with data set #0","77471","null"
+"broken","nn.deleteTest with data set #0","2","null"
+"broken","nn.addToCartOnItemCardTest with data set #0","3","null"
