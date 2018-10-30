@@ -1,15 +1,15 @@
 {
-  "uid" : "f950c7fabb6ad591",
-  "name" : "emptymailTest",
-  "fullName" : "mid (headless).emptymailTest",
-  "historyId" : "e8006ed2477996dc3c72559babc56bc8",
+  "uid" : "6cceb661638b869e",
+  "name" : "loginTest",
+  "fullName" : "elc (headless).loginTest",
+  "historyId" : "32ace927e4275628d0450f7a16c7c79d",
   "time" : {
-    "start" : 1540907255798,
-    "stop" : 1540907263106,
-    "duration" : 7308
+    "start" : 1540910157106,
+    "stop" : 1540910164672,
+    "duration" : 7566
   },
-  "description" : "Негативные тесты валидации логина",
-  "descriptionHtml" : "<p>Негативные тесты валидации логина</p>\n",
+  "description" : "Тест логина",
+  "descriptionHtml" : "<p>Тест логина</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1540907255916,
-        "stop" : 1540907255916,
-        "duration" : 0
+        "start" : 1540910157382,
+        "stop" : 1540910157384,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540907255916,
-        "stop" : 1540907258861,
-        "duration" : 2945
+        "start" : 1540910157387,
+        "stop" : 1540910159012,
+        "duration" : 1625
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540907258862,
-        "stop" : 1540907258966,
-        "duration" : 104
+        "start" : 1540910159013,
+        "stop" : 1540910159216,
+        "duration" : 203
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,11 +61,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
+      "name" : "wait for text \"регистрация\",15,\"(descendant-or-self::*[@id = 'top-menu']/descendant-or-self::*/a[@href = 'https://www•elc-russia•ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1540907258966,
-        "stop" : 1540907259386,
-        "duration" : 420
+        "start" : 1540910159313,
+        "stop" : 1540910159386,
+        "duration" : 73
       },
       "status" : "passed",
       "steps" : [ ],
@@ -76,11 +76,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
+      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1540907259386,
-        "stop" : 1540907259581,
-        "duration" : 195
+        "start" : 1540910159387,
+        "stop" : 1540910159423,
+        "duration" : 36
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,11 +91,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
+      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1540907259582,
-        "stop" : 1540907259622,
-        "duration" : 40
+        "start" : 1540910159424,
+        "stop" : 1540910159436,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -106,11 +106,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
+      "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1540907259622,
-        "stop" : 1540907260026,
-        "duration" : 404
+        "start" : 1540910159436,
+        "stop" : 1540910159457,
+        "duration" : 21
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,11 +121,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
+      "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1540907260026,
-        "stop" : 1540907262324,
-        "duration" : 2298
+        "start" : 1540910159457,
+        "stop" : 1540910160959,
+        "duration" : 1502
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,8 +138,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540907262324,
-        "stop" : 1540907262426,
+        "start" : 1540910160959,
+        "stop" : 1540910161061,
         "duration" : 102
       },
       "status" : "passed",
@@ -151,11 +151,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Вход в систему\",15",
+      "name" : "wait for text \"Зайти через учетную запись OpenID\",15",
       "time" : {
-        "start" : 1540907262426,
-        "stop" : 1540907262566,
-        "duration" : 140
+        "start" : 1540910161061,
+        "stop" : 1540910161215,
+        "duration" : 154
       },
       "status" : "passed",
       "steps" : [ ],
@@ -166,11 +166,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "fill field \"input[name='login[username]']\",\"\"",
+      "name" : "fill field \"input[id='email']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1540907262566,
-        "stop" : 1540907262715,
-        "duration" : 149
+        "start" : 1540910161215,
+        "stop" : 1540910161400,
+        "duration" : 185
       },
       "status" : "passed",
       "steps" : [ ],
@@ -181,11 +181,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "name" : "fill field \"input[id='pass']\",\"Test2018\"",
       "time" : {
-        "start" : 1540907262715,
-        "stop" : 1540907262807,
-        "duration" : 92
+        "start" : 1540910161400,
+        "stop" : 1540910161502,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -196,11 +196,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"•fieldset  button[type='submit']\"",
+      "name" : "click \"#login-form button[type='submit']\"",
       "time" : {
-        "start" : 1540907262807,
-        "stop" : 1540907263024,
-        "duration" : 217
+        "start" : 1540910161502,
+        "stop" : 1540910163387,
+        "duration" : 1885
       },
       "status" : "passed",
       "steps" : [ ],
@@ -211,11 +211,56 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Это поле обязательно для заполнения•\",30,\"(descendant-or-self::*[@id = 'email-error'])[position()=1]\"",
+      "name" : "wait for text \"Мой аккаунт\",15,\"(descendant-or-self::h1)[position()=1]\"",
       "time" : {
-        "start" : 1540907263024,
-        "stop" : 1540907263053,
-        "duration" : 29
+        "start" : 1540910163387,
+        "stop" : 1540910163417,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1540910163417,
+        "stop" : 1540910163438,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1540910163438,
+        "stop" : 1540910164525,
+        "duration" : 1087
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Подождите\"",
+      "time" : {
+        "start" : 1540910164525,
+        "stop" : 1540910164616,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,7 +273,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 14,
+    "stepsCount" : 17,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -236,16 +281,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "mid (headless)"
+    "value" : "elc (headless)"
   }, {
     "name" : "testClass",
-    "value" : "mid (headless)"
+    "value" : "elc (headless)"
   }, {
     "name" : "testMethod",
-    "value" : "emptymailTest"
+    "value" : "loginTest"
   }, {
     "name" : "package",
-    "value" : "mid (headless)"
+    "value" : "elc (headless)"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -260,6 +305,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "f950c7fabb6ad591.json",
+  "source" : "6cceb661638b869e.json",
   "parameterValues" : [ ]
 }
