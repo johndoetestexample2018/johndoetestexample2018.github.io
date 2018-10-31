@@ -4,7 +4,7 @@
     "name" : "wf (headless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "1eabe29b1efc2b2f",
+      "uid" : "58aa578b66f618c2",
       "parentUid" : "d67b504f115686cf0cfd866950d304ab",
       "status" : "broken",
       "time" : {
@@ -16,6 +16,22 @@
       "parameters" : [ ]
     } ],
     "uid" : "d67b504f115686cf0cfd866950d304ab"
+  }, {
+    "name" : "mid (headless)",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "9f06fa74e8467794",
+      "parentUid" : "95050f8576f532d4ef5a1c9befe60324",
+      "status" : "passed",
+      "time" : {
+        "start" : 1540996880571,
+        "stop" : 1540996895270,
+        "duration" : 14699
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "95050f8576f532d4ef5a1c9befe60324"
   } ],
   "name" : "suites"
 }
