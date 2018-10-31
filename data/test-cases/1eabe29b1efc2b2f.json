@@ -1,12 +1,12 @@
 {
-  "uid" : "d3a55bf64b8c7ba4",
+  "uid" : "1eabe29b1efc2b2f",
   "name" : "loginTest",
   "fullName" : "wf (headless).loginTest",
   "historyId" : "ef51e72b0bcb28552ced7516d531bf3c",
   "time" : {
-    "start" : 1540995233461,
-    "stop" : 1540995250536,
-    "duration" : 17075
+    "start" : 1540996154892,
+    "stop" : 1540996171968,
+    "duration" : 17076
   },
   "description" : "Тест логина",
   "descriptionHtml" : "<p>Тест логина</p>\n",
@@ -22,9 +22,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1540995233734,
-        "stop" : 1540995233735,
-        "duration" : 1
+        "start" : 1540996155161,
+        "stop" : 1540996155163,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -37,9 +37,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540995233738,
-        "stop" : 1540995233923,
-        "duration" : 185
+        "start" : 1540996155166,
+        "stop" : 1540996155345,
+        "duration" : 179
       },
       "status" : "passed",
       "steps" : [ ],
@@ -52,9 +52,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540995233924,
-        "stop" : 1540995234128,
-        "duration" : 204
+        "start" : 1540996155345,
+        "stop" : 1540996155551,
+        "duration" : 206
       },
       "status" : "passed",
       "steps" : [ ],
@@ -67,9 +67,9 @@
     }, {
       "name" : "wait for text \"МОЙ КАБИНЕТ\",15,\"(descendant-or-self::a[@href = '/store/customer/account/?___store=ru'])[position()=1]\"",
       "time" : {
-        "start" : 1540995234206,
-        "stop" : 1540995249452,
-        "duration" : 15246
+        "start" : 1540996155634,
+        "stop" : 1540996170870,
+        "duration" : 15236
       },
       "status" : "passed",
       "steps" : [ ],
@@ -118,6 +118,6 @@
     } ],
     "tags" : [ ]
   },
-  "source" : "d3a55bf64b8c7ba4.json",
+  "source" : "1eabe29b1efc2b2f.json",
   "parameterValues" : [ ]
 }
