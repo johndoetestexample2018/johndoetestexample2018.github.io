@@ -1,0 +1,308 @@
+{
+  "uid" : "368998c08f6b6f39",
+  "name" : "loginTest",
+  "fullName" : "mid (headless).loginTest",
+  "historyId" : "8eccb0a03d47ceede244fe7de4826713",
+  "time" : {
+    "start" : 1540990400528,
+    "stop" : 1540990414237,
+    "duration" : 13709
+  },
+  "description" : "Тест логина",
+  "descriptionHtml" : "<p>Тест логина</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540990400684,
+        "stop" : 1540990400685,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540990400688,
+        "stop" : 1540990403603,
+        "duration" : 2915
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540990403603,
+        "stop" : 1540990403717,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
+      "time" : {
+        "start" : 1540990403802,
+        "stop" : 1540990404267,
+        "duration" : 465
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
+      "time" : {
+        "start" : 1540990404267,
+        "stop" : 1540990404710,
+        "duration" : 443
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
+      "time" : {
+        "start" : 1540990404710,
+        "stop" : 1540990404829,
+        "duration" : 119
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
+      "time" : {
+        "start" : 1540990404829,
+        "stop" : 1540990404883,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
+      "time" : {
+        "start" : 1540990404883,
+        "stop" : 1540990407161,
+        "duration" : 2278
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540990407161,
+        "stop" : 1540990407263,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Вход в систему\",15",
+      "time" : {
+        "start" : 1540990407263,
+        "stop" : 1540990407404,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1540990407404,
+        "stop" : 1540990407746,
+        "duration" : 342
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1540990407746,
+        "stop" : 1540990407831,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•fieldset  button[type='submit']\"",
+      "time" : {
+        "start" : 1540990407831,
+        "stop" : 1540990410258,
+        "duration" : 2427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Моя панель управления\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
+      "time" : {
+        "start" : 1540990410259,
+        "stop" : 1540990410408,
+        "duration" : 149
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"•top-links a[href='https://www•mideastore•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1540990410408,
+        "stop" : 1540990410480,
+        "duration" : 72
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•top-links a[href='https://www•mideastore•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1540990410481,
+        "stop" : 1540990414051,
+        "duration" : 3570
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"You are signed out\"",
+      "time" : {
+        "start" : 1540990414051,
+        "stop" : 1540990414178,
+        "duration" : 127
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 17,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "loginTest"
+  }, {
+    "name" : "package",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "368998c08f6b6f39.json",
+  "parameterValues" : [ ]
+}

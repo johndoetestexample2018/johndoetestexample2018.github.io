@@ -1,0 +1,121 @@
+{
+  "uid" : "cf2cfbe452e8a8b7",
+  "name" : "homeTest with data set #3",
+  "fullName" : "mid (headless).homeTest with data set #3",
+  "historyId" : "454bd795300f1aacbbbbe45e4ad6d065",
+  "time" : {
+    "start" : 1540912406344,
+    "stop" : 1540912409839,
+    "duration" : 3495
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540912406460,
+        "stop" : 1540912406460,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540912406461,
+        "stop" : 1540912409266,
+        "duration" : 2805
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540912409266,
+        "stop" : 1540912409369,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"100% Гарантия\\nвозврата за 14 дней\",15,\"((//div[contains(@class, 'service-content')])[3])[position()=1]\"",
+      "time" : {
+        "start" : 1540912409369,
+        "stop" : 1540912409786,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #3"
+  }, {
+    "name" : "package",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"100% Гарантия\\nвозврата за 14 дней\""
+  }, {
+    "name" : "1",
+    "value" : "\"(//div[contains(@class, 'service-content')])[3]\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cf2cfbe452e8a8b7.json",
+  "parameterValues" : [ "\"100% Гарантия\\nвозврата за 14 дней\"", "\"(//div[contains(@class, 'service-content')])[3]\"" ]
+}

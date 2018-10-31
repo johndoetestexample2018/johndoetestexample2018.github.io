@@ -6,7 +6,7 @@
       "name" : "Waited for 15 secs but text 'Акции' still not found",
       "children" : [ {
         "name" : "homeTest with data set #9",
-        "uid" : "3941a50997568e39",
+        "uid" : "da38c2b594922e66",
         "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
         "status" : "broken",
         "time" : {
@@ -18,7 +18,7 @@
         "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
       }, {
         "name" : "homeWithLoginTest with data set #9",
-        "uid" : "95759bf7d7250482",
+        "uid" : "2c2f1de1a9e3d38e",
         "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
         "status" : "broken",
         "time" : {
@@ -30,28 +30,40 @@
         "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
       } ],
       "uid" : "6aec7c3bb58d37289cb2d0ea2d6e589b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  }, {
-    "name" : "Product defects",
-    "children" : [ {
-      "name" : "Failed asserting that 0 is greater than 0.",
+    }, {
+      "name" : "unknown error: no chrome binary at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "children" : [ {
-        "name" : "addToWishlistTest with data set #0",
-        "uid" : "3d1c4d8587142052",
-        "parentUid" : "7de518fc4a826479272f761225b39aca",
-        "status" : "failed",
+        "name" : "loginTest",
+        "uid" : "871b722289a2a714",
+        "parentUid" : "453dfff22606c60fca9a29b964fd56b6",
+        "status" : "broken",
         "time" : {
-          "start" : 1540912968046,
-          "stop" : 1540913000843,
-          "duration" : 32797
+          "start" : 1540990375668,
+          "stop" : 1540990375709,
+          "duration" : 41
+        },
+        "flaky" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "453dfff22606c60fca9a29b964fd56b6"
+    }, {
+      "name" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::a[@href = '/store/customer/account/?___store=ru'])[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "children" : [ {
+        "name" : "loginTest",
+        "uid" : "d3a55bf64b8c7ba4",
+        "parentUid" : "a494caf4cbb9bc03a4ee8287636d2cb9",
+        "status" : "broken",
+        "time" : {
+          "start" : 1540995233461,
+          "stop" : 1540995250536,
+          "duration" : 17075
         },
         "flaky" : false,
-        "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+        "parameters" : [ ]
       } ],
-      "uid" : "7de518fc4a826479272f761225b39aca"
+      "uid" : "a494caf4cbb9bc03a4ee8287636d2cb9"
     } ],
-    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ],
   "name" : "categories"
 }

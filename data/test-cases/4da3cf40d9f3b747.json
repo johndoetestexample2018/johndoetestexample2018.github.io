@@ -1,0 +1,121 @@
+{
+  "uid" : "4da3cf40d9f3b747",
+  "name" : "homeTest with data set #12",
+  "fullName" : "mid (headless).homeTest with data set #12",
+  "historyId" : "2242b19d03747d0ceeb2ed309e345fff",
+  "time" : {
+    "start" : 1540912457063,
+    "stop" : 1540912460851,
+    "duration" : 3788
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1540912457181,
+        "stop" : 1540912457181,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1540912457182,
+        "stop" : 1540912460107,
+        "duration" : 2925
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1540912460107,
+        "stop" : 1540912460209,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Подпишитесь на новости\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block-title ')]/h3)[position()=1]\"",
+      "time" : {
+        "start" : 1540912460209,
+        "stop" : 1540912460799,
+        "duration" : 590
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #12"
+  }, {
+    "name" : "package",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Подпишитесь на новости\""
+  }, {
+    "name" : "1",
+    "value" : "\".block-title > h3\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4da3cf40d9f3b747.json",
+  "parameterValues" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
+}
