@@ -1,2 +1,7 @@
 "Status","Name","Duration in ms","Description"
-"passed","mid (headless).compareDeleteWithLoginTest with data set #0","32218","Удаление товара в листе сравнений  без логина"
+"passed","mid (headless).compareTest with data set #0","15573","Добавить в лист сравнений через quickview в каталоге без логина"
+"passed","mid (headless).compareOnItemCardTest with data set #0","18939","Добавить в лист сравнений через карточку товара  без логина"
+"passed","mid (headless).compareOnItemCardWithLoginTest with data set #0","31884","Добавить в лист сравнений через карточку товара в каталоге предварительно залогинившись"
+"passed","mid (headless).compareDeleteWithLoginTest with data set #0","31424","Удаление товара в листе сравнений  без логина"
+"passed","mid (headless).compareWithLoginTest with data set #0","27272","Добавить в лист сравнений через quickview в каталоге предварительно залогинившись"
+"passed","mid (headless).compareDeleteTest with data set #0","22524","Удаление товара в листе сравнений  без логина"

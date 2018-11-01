@@ -1,10 +1,60 @@
 [ {
-  "uid" : "9b0c3b72fa18287f",
-  "name" : "Тест корзины и негативные проверки",
+  "uid" : "73152e06f70383c0",
+  "name" : "compareTest with data set #0",
   "time" : {
-    "start" : 1541076620859,
-    "stop" : 1541076653077,
-    "duration" : 32218
+    "start" : 1541076789810,
+    "stop" : 1541076805383,
+    "duration" : 15573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a37d05b85c3c20a",
+  "name" : "compareOnItemCardTest with data set #0",
+  "time" : {
+    "start" : 1541076805383,
+    "stop" : 1541076824322,
+    "duration" : 18939
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ed3a3b56185d6a9",
+  "name" : "compareOnItemCardWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1541076874119,
+    "stop" : 1541076906003,
+    "duration" : 31884
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f20ceb48a4cbcd42",
+  "name" : "compareDeleteWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1541076906007,
+    "stop" : 1541076937431,
+    "duration" : 31424
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be4372f22c654c44",
+  "name" : "compareWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1541076846847,
+    "stop" : 1541076874119,
+    "duration" : 27272
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f78461c14fbd66e",
+  "name" : "compareDeleteTest with data set #0",
+  "time" : {
+    "start" : 1541076824323,
+    "stop" : 1541076846847,
+    "duration" : 22524
   },
   "status" : "passed",
   "severity" : "normal"

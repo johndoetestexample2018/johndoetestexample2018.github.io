@@ -1,12 +1,12 @@
 {
-  "uid" : "eb61171cf17b8bba",
-  "name" : "Тест корзины и негативные проверки",
+  "uid" : "6a37d05b85c3c20a",
+  "name" : "compareOnItemCardTest with data set #0",
   "fullName" : "mid (headless).compareOnItemCardTest with data set #0",
-  "historyId" : "fa5f754e6c2ea3f4ba31b59046311ec3",
+  "historyId" : "7ea5a51bd197a026d3dd7988983716e1",
   "time" : {
-    "start" : 1541076521189,
-    "stop" : 1541076540901,
-    "duration" : 19712
+    "start" : 1541076805383,
+    "stop" : 1541076824322,
+    "duration" : 18939
   },
   "description" : "Добавить в лист сравнений через карточку товара  без логина",
   "descriptionHtml" : "<p>Добавить в лист сравнений через карточку товара  без логина</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1541076521305,
-        "stop" : 1541076524263,
-        "duration" : 2958
+        "start" : 1541076805500,
+        "stop" : 1541076808322,
+        "duration" : 2822
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1541076524263,
-        "stop" : 1541076524365,
-        "duration" : 102
+        "start" : 1541076808322,
+        "stop" : 1541076808425,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "wait for element visible \"span•vmagicmenu-subtitle\"",
       "time" : {
-        "start" : 1541076524366,
-        "stop" : 1541076524867,
-        "duration" : 501
+        "start" : 1541076808426,
+        "stop" : 1541076808806,
+        "duration" : 380
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "click \"span•vmagicmenu-subtitle\"",
       "time" : {
-        "start" : 1541076524867,
-        "stop" : 1541076525864,
-        "duration" : 997
+        "start" : 1541076808806,
+        "stop" : 1541076809821,
+        "duration" : 1015
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
       "time" : {
-        "start" : 1541076525864,
-        "stop" : 1541076526218,
-        "duration" : 354
+        "start" : 1541076809822,
+        "stop" : 1541076809958,
+        "duration" : 136
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "move mouse over \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
       "time" : {
-        "start" : 1541076526218,
-        "stop" : 1541076526259,
-        "duration" : 41
+        "start" : 1541076809958,
+        "stop" : 1541076810102,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\",10",
       "time" : {
-        "start" : 1541076526259,
-        "stop" : 1541076526518,
-        "duration" : 259
+        "start" : 1541076810102,
+        "stop" : 1541076810540,
+        "duration" : 438
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\"",
       "time" : {
-        "start" : 1541076526518,
-        "stop" : 1541076529912,
-        "duration" : 3394
+        "start" : 1541076810541,
+        "stop" : 1541076813950,
+        "duration" : 3409
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "grab text from \"•images-container a•product-item-link\"",
       "time" : {
-        "start" : 1541076529912,
-        "stop" : 1541076530009,
-        "duration" : 97
+        "start" : 1541076813950,
+        "stop" : 1541076814041,
+        "duration" : 91
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "click \"•images-container a•product-item-link\"",
       "time" : {
-        "start" : 1541076530009,
-        "stop" : 1541076532976,
-        "duration" : 2967
+        "start" : 1541076814041,
+        "stop" : 1541076816999,
+        "duration" : 2958
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "click \"(descendant-or-self::a[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' tocompare '))])[position(•••\"",
       "time" : {
-        "start" : 1541076532976,
-        "stop" : 1541076537481,
-        "duration" : 4505
+        "start" : 1541076817000,
+        "stop" : 1541076821300,
+        "duration" : 4300
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "grab attribute from \"a[href='https://www•mideastore•ru/catalog/product_compare/']\",\"target\"",
       "time" : {
-        "start" : 1541076537481,
-        "stop" : 1541076537537,
-        "duration" : 56
+        "start" : 1541076821300,
+        "stop" : 1541076821335,
+        "duration" : 35
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "grab attribute from \"a[href='https://www•mideastore•ru/catalog/product_compare/']\",\"onclick\"",
       "time" : {
-        "start" : 1541076537538,
-        "stop" : 1541076537573,
-        "duration" : 35
+        "start" : 1541076821335,
+        "stop" : 1541076821382,
+        "duration" : 47
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "wait for element visible \"a[href='https://www•mideastore•ru/catalog/product_compare/']\",10",
       "time" : {
-        "start" : 1541076537573,
-        "stop" : 1541076537595,
-        "duration" : 22
+        "start" : 1541076821382,
+        "stop" : 1541076821402,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,9 +228,9 @@
     }, {
       "name" : "click \"a[href='https://www•mideastore•ru/catalog/product_compare/']\"",
       "time" : {
-        "start" : 1541076537596,
-        "stop" : 1541076537893,
-        "duration" : 297
+        "start" : 1541076821402,
+        "stop" : 1541076821643,
+        "duration" : 241
       },
       "status" : "passed",
       "steps" : [ ],
@@ -243,9 +243,9 @@
     }, {
       "name" : "switch to window ",
       "time" : {
-        "start" : 1541076537893,
-        "stop" : 1541076537951,
-        "duration" : 58
+        "start" : 1541076821643,
+        "stop" : 1541076821653,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -258,8 +258,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1541076537951,
-        "stop" : 1541076538053,
+        "start" : 1541076821653,
+        "stop" : 1541076821755,
         "duration" : 102
       },
       "status" : "passed",
@@ -273,9 +273,9 @@
     }, {
       "name" : "grab multiple \"#product-comparison  strong > a\"",
       "time" : {
-        "start" : 1541076538053,
-        "stop" : 1541076540850,
-        "duration" : 2797
+        "start" : 1541076821755,
+        "stop" : 1541076824271,
+        "duration" : 2516
       },
       "status" : "passed",
       "steps" : [ ],
@@ -288,8 +288,8 @@
     }, {
       "name" : "assert greater than 0,1",
       "time" : {
-        "start" : 1541076540850,
-        "stop" : 1541076540850,
+        "start" : 1541076824271,
+        "stop" : 1541076824271,
         "duration" : 0
       },
       "status" : "passed",
@@ -333,12 +333,14 @@
     "value" : "\"Микроволновки Мидеа\""
   } ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "eb61171cf17b8bba.json",
+  "source" : "6a37d05b85c3c20a.json",
   "parameterValues" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
 }
