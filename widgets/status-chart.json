@@ -1,60 +1,50 @@
 [ {
-  "uid" : "73152e06f70383c0",
-  "name" : "compareTest with data set #0",
+  "uid" : "fe4d4b3d6c5c4736",
+  "name" : "itemQuantityTest with data set #0",
   "time" : {
-    "start" : 1541076789810,
-    "stop" : 1541076805383,
-    "duration" : 15573
+    "start" : 1541085020911,
+    "stop" : 1541085043381,
+    "duration" : 22470
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6a37d05b85c3c20a",
-  "name" : "compareOnItemCardTest with data set #0",
+  "uid" : "232d90379b55d056",
+  "name" : "addToCartOnItemCardTest with data set #0",
   "time" : {
-    "start" : 1541076805383,
-    "stop" : 1541076824322,
-    "duration" : 18939
+    "start" : 1541084965245,
+    "stop" : 1541084991042,
+    "duration" : 25797
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "7ed3a3b56185d6a9",
-  "name" : "compareOnItemCardWithLoginTest with data set #0",
+  "uid" : "6f9b6ae20bb755d6",
+  "name" : "maxItemQuantityTest with data set #0",
   "time" : {
-    "start" : 1541076874119,
-    "stop" : 1541076906003,
-    "duration" : 31884
+    "start" : 1541084991043,
+    "stop" : 1541085020911,
+    "duration" : 29868
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f20ceb48a4cbcd42",
-  "name" : "compareDeleteWithLoginTest with data set #0",
+  "uid" : "1a021c226b9582d1",
+  "name" : "addToCartTest with data set #0",
   "time" : {
-    "start" : 1541076906007,
-    "stop" : 1541076937431,
-    "duration" : 31424
+    "start" : 1541084939537,
+    "stop" : 1541084965244,
+    "duration" : 25707
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "be4372f22c654c44",
-  "name" : "compareWithLoginTest with data set #0",
+  "uid" : "6b0a6c6c6396a442",
+  "name" : "deleteTest with data set #0",
   "time" : {
-    "start" : 1541076846847,
-    "stop" : 1541076874119,
-    "duration" : 27272
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3f78461c14fbd66e",
-  "name" : "compareDeleteTest with data set #0",
-  "time" : {
-    "start" : 1541076824323,
-    "stop" : 1541076846847,
-    "duration" : 22524
+    "start" : 1541085043382,
+    "stop" : 1541085083771,
+    "duration" : 40389
   },
   "status" : "passed",
   "severity" : "normal"
