@@ -1,37 +1,5 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "Waited for 15 secs but text 'Акции' still not found",
-      "children" : [ {
-        "name" : "homeTest with data set #9",
-        "uid" : "19c85e8fd2f708d8",
-        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1541004993525,
-          "stop" : 1541005013281,
-          "duration" : 19756
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
-      }, {
-        "name" : "homeWithLoginTest with data set #9",
-        "uid" : "1d333667ca9151b3",
-        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
-        "status" : "broken",
-        "time" : {
-          "start" : 1541005162802,
-          "stop" : 1541005193430,
-          "duration" : 30628
-        },
-        "flaky" : false,
-        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
-      } ],
-      "uid" : "6aec7c3bb58d37289cb2d0ea2d6e589b"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ],
+  "children" : [ ],
   "name" : "categories"
 }
