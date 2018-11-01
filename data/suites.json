@@ -4,28 +4,16 @@
     "name" : "mid (headless)",
     "children" : [ {
       "name" : "Тест корзины и негативные проверки",
-      "uid" : "de71aa17be69a21f",
+      "uid" : "9b0c3b72fa18287f",
       "parentUid" : "95050f8576f532d4ef5a1c9befe60324",
       "status" : "passed",
       "time" : {
-        "start" : 1541075368379,
-        "stop" : 1541075394092,
-        "duration" : 25713
+        "start" : 1541076620859,
+        "stop" : 1541076653077,
+        "duration" : 32218
       },
       "flaky" : false,
       "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
-    }, {
-      "name" : "Тест корзины и негативные проверки",
-      "uid" : "605eb45a931e9f31",
-      "parentUid" : "95050f8576f532d4ef5a1c9befe60324",
-      "status" : "passed",
-      "time" : {
-        "start" : 1541075394092,
-        "stop" : 1541075438572,
-        "duration" : 44480
-      },
-      "flaky" : false,
-      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Пылесосы\"" ]
     } ],
     "uid" : "95050f8576f532d4ef5a1c9befe60324"
   } ],

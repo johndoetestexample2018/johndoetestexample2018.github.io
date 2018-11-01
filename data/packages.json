@@ -3,29 +3,17 @@
   "children" : [ {
     "name" : "mid (headless)",
     "children" : [ {
-      "name" : "itemQuantityTest with data set #0",
-      "uid" : "de71aa17be69a21f",
+      "name" : "compareDeleteWithLoginTest with data set #0",
+      "uid" : "9b0c3b72fa18287f",
       "parentUid" : "b8270c268dab331d07e282a12cdbbc91",
       "status" : "passed",
       "time" : {
-        "start" : 1541075368379,
-        "stop" : 1541075394092,
-        "duration" : 25713
+        "start" : 1541076620859,
+        "stop" : 1541076653077,
+        "duration" : 32218
       },
       "flaky" : false,
       "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
-    }, {
-      "name" : "deleteTest with data set #0",
-      "uid" : "605eb45a931e9f31",
-      "parentUid" : "b8270c268dab331d07e282a12cdbbc91",
-      "status" : "passed",
-      "time" : {
-        "start" : 1541075394092,
-        "stop" : 1541075438572,
-        "duration" : 44480
-      },
-      "flaky" : false,
-      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Пылесосы\"" ]
     } ],
     "uid" : "b8270c268dab331d07e282a12cdbbc91"
   } ],
