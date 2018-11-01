@@ -1,15 +1,15 @@
 {
-  "uid" : "9f06fa74e8467794",
-  "name" : "loginTest",
-  "fullName" : "mid (headless).loginTest",
-  "historyId" : "8eccb0a03d47ceede244fe7de4826713",
+  "uid" : "c5852548539867d",
+  "name" : "homeWithLoginTest with data set #10",
+  "fullName" : "mid (headless).homeWithLoginTest with data set #10",
+  "historyId" : "a727c9215b5081e964ed12bb4f4793fd",
   "time" : {
-    "start" : 1540996880571,
-    "stop" : 1540996895270,
-    "duration" : 14699
+    "start" : 1541005193430,
+    "stop" : 1541005207755,
+    "duration" : 14325
   },
-  "description" : "Тест логина",
-  "descriptionHtml" : "<p>Тест логина</p>\n",
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1540996880725,
-        "stop" : 1540996880726,
-        "duration" : 1
+        "start" : 1541005193545,
+        "stop" : 1541005193545,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540996880730,
-        "stop" : 1540996883571,
-        "duration" : 2841
+        "start" : 1541005193546,
+        "stop" : 1541005196444,
+        "duration" : 2898
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,8 +48,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540996883571,
-        "stop" : 1540996883680,
+        "start" : 1541005196444,
+        "stop" : 1541005196553,
         "duration" : 109
       },
       "status" : "passed",
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1540996883762,
-        "stop" : 1540996884304,
-        "duration" : 542
+        "start" : 1541005196553,
+        "stop" : 1541005196977,
+        "duration" : 424
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1540996884304,
-        "stop" : 1540996884816,
-        "duration" : 512
+        "start" : 1541005196977,
+        "stop" : 1541005197652,
+        "duration" : 675
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1540996884816,
-        "stop" : 1540996884879,
-        "duration" : 63
+        "start" : 1541005197652,
+        "stop" : 1541005197796,
+        "duration" : 144
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1540996884879,
-        "stop" : 1540996884944,
-        "duration" : 65
+        "start" : 1541005197796,
+        "stop" : 1541005197850,
+        "duration" : 54
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1540996884944,
-        "stop" : 1540996887485,
-        "duration" : 2541
+        "start" : 1541005197851,
+        "stop" : 1541005199925,
+        "duration" : 2074
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,8 +138,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1540996887486,
-        "stop" : 1540996887588,
+        "start" : 1541005199925,
+        "stop" : 1541005200027,
         "duration" : 102
       },
       "status" : "passed",
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1540996887588,
-        "stop" : 1540996887755,
-        "duration" : 167
+        "start" : 1541005200027,
+        "stop" : 1541005200204,
+        "duration" : 177
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1540996887756,
-        "stop" : 1540996888119,
-        "duration" : 363
+        "start" : 1541005200204,
+        "stop" : 1541005200522,
+        "duration" : 318
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
       "time" : {
-        "start" : 1540996888119,
-        "stop" : 1540996888201,
-        "duration" : 82
+        "start" : 1541005200522,
+        "stop" : 1541005200605,
+        "duration" : 83
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"•fieldset  button[type='submit']\"",
       "time" : {
-        "start" : 1540996888202,
-        "stop" : 1540996890814,
-        "duration" : 2612
+        "start" : 1541005200605,
+        "stop" : 1541005204079,
+        "duration" : 3474
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "wait for text \"Моя панель управления\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
       "time" : {
-        "start" : 1540996890814,
-        "stop" : 1540996890858,
-        "duration" : 44
+        "start" : 1541005204080,
+        "stop" : 1541005204195,
+        "duration" : 115
       },
       "status" : "passed",
       "steps" : [ ],
@@ -226,11 +226,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"•top-links a[href='https://www•mideastore•ru/customer/account/logout/']\"",
+      "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1540996890858,
-        "stop" : 1540996890879,
-        "duration" : 21
+        "start" : 1541005204196,
+        "stop" : 1541005207269,
+        "duration" : 3073
       },
       "status" : "passed",
       "steps" : [ ],
@@ -241,26 +241,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"•top-links a[href='https://www•mideastore•ru/customer/account/logout/']\"",
+      "name" : "wait for text \"Блог\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' promo ')]/following-sibling::*[((@class and contains(concat(' ', normalize-space(@class), ' '),•••\"",
       "time" : {
-        "start" : 1540996890879,
-        "stop" : 1540996894990,
-        "duration" : 4111
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "wait for text \"You are signed out\"",
-      "time" : {
-        "start" : 1540996894990,
-        "stop" : 1540996895212,
-        "duration" : 222
+        "start" : 1541005207270,
+        "stop" : 1541005207703,
+        "duration" : 433
       },
       "status" : "passed",
       "steps" : [ ],
@@ -273,7 +258,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 17,
+    "stepsCount" : 16,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -287,7 +272,7 @@
     "value" : "mid (headless)"
   }, {
     "name" : "testMethod",
-    "value" : "loginTest"
+    "value" : "homeWithLoginTest with data set #10"
   }, {
     "name" : "package",
     "value" : "mid (headless)"
@@ -295,7 +280,13 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Блог\""
+  }, {
+    "name" : "1",
+    "value" : "\"div.promo + div.block\""
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
@@ -305,6 +296,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "9f06fa74e8467794.json",
-  "parameterValues" : [ ]
+  "source" : "c5852548539867d.json",
+  "parameterValues" : [ "\"Блог\"", "\"div.promo + div.block\"" ]
 }
