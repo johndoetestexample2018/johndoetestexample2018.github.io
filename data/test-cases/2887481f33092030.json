@@ -1,0 +1,121 @@
+{
+  "uid" : "2887481f33092030",
+  "name" : "homeTest with data set #13",
+  "fullName" : "mid (headless).homeTest with data set #13",
+  "historyId" : "f4ceee6349e411c9da5202b613eab76a",
+  "time" : {
+    "start" : 1541005024309,
+    "stop" : 1541005028269,
+    "duration" : 3960
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1541005024424,
+        "stop" : 1541005024424,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1541005024424,
+        "stop" : 1541005027549,
+        "duration" : 3125
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1541005027549,
+        "stop" : 1541005027651,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"О Midea\",15,\"((//div[contains(@class, 'footer-item')]//h3)[2])[position()=1]\"",
+      "time" : {
+        "start" : 1541005027652,
+        "stop" : 1541005028216,
+        "duration" : 564
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #13"
+  }, {
+    "name" : "package",
+    "value" : "mid (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"О Midea\""
+  }, {
+    "name" : "1",
+    "value" : "\"(//div[contains(@class, 'footer-item')]//h3)[2]\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2887481f33092030.json",
+  "parameterValues" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+}
