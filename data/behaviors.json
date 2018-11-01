@@ -1,65 +1,77 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
-  "name" : "behaviors",
   "children" : [ {
     "name" : "addToCartTest with data set #0",
-    "uid" : "1a021c226b9582d1",
+    "uid" : "c59de2405f534d11",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1541084939537,
-      "stop" : 1541084965244,
-      "duration" : 25707
+      "start" : 1541087471178,
+      "stop" : 1541087496787,
+      "duration" : 25609
     },
     "flaky" : false,
     "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
   }, {
     "name" : "addToCartOnItemCardTest with data set #0",
-    "uid" : "232d90379b55d056",
+    "uid" : "3b9a3ca2a6950968",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1541084965245,
-      "stop" : 1541084991042,
-      "duration" : 25797
+      "start" : 1541087496788,
+      "stop" : 1541087521263,
+      "duration" : 24475
     },
     "flaky" : false,
     "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
   }, {
     "name" : "maxItemQuantityTest with data set #0",
-    "uid" : "6f9b6ae20bb755d6",
+    "uid" : "a69cc4c056369b33",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1541084991043,
-      "stop" : 1541085020911,
-      "duration" : 29868
+      "start" : 1541087521263,
+      "stop" : 1541087551487,
+      "duration" : 30224
+    },
+    "flaky" : false,
+    "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+  }, {
+    "name" : "zeroItemQuantityTest with data set #0",
+    "uid" : "9c4d9e1a12441bf6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1541087551488,
+      "stop" : 1541087575174,
+      "duration" : 23686
     },
     "flaky" : false,
     "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
   }, {
     "name" : "itemQuantityTest with data set #0",
-    "uid" : "fe4d4b3d6c5c4736",
+    "uid" : "e1e2d3834e8e2741",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1541085020911,
-      "stop" : 1541085043381,
-      "duration" : 22470
+      "start" : 1541087575175,
+      "stop" : 1541087599654,
+      "duration" : 24479
     },
     "flaky" : false,
     "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
   }, {
     "name" : "deleteTest with data set #0",
-    "uid" : "6b0a6c6c6396a442",
+    "uid" : "b128f0c64ef1881",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1541085043382,
-      "stop" : 1541085083771,
-      "duration" : 40389
+      "start" : 1541087599656,
+      "stop" : 1541087645038,
+      "duration" : 45382
     },
     "flaky" : false,
     "parameters" : [ "\"Мелкая бытовая техника\"", "\"Пылесосы\"" ]
-  } ]
+  } ],
+  "name" : "behaviors"
 }
