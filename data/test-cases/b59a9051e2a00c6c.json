@@ -1,0 +1,309 @@
+{
+  "uid" : "b59a9051e2a00c6c",
+  "name" : "homeWithLoginTest with data set #9",
+  "fullName" : "mid.homeWithLoginTest with data set #9",
+  "historyId" : "4a241bcce27940199565db4b61b85e2b",
+  "time" : {
+    "start" : 1541173519734,
+    "stop" : 1541173560225,
+    "duration" : 40491
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "broken",
+  "statusMessage" : "Waited for 15 secs but text 'Акции' still not found",
+  "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(158): Codeception\\Codecept->runSuite(Array, 'mid', NULL)\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('mid')\n#6 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#12 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(42): Codeception\\Application->run()\n#13 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Waited for 15 secs but text 'Акции' still not found",
+    "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(158): Codeception\\Codecept->runSuite(Array, 'mid', NULL)\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(466): Codeception\\Codecept->run('mid')\n#6 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(361): Codeception\\Command\\Run->runSuites(Array, Array)\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#12 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(42): Codeception\\Application->run()\n#13 {main}",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1541173523475,
+        "stop" : 1541173523475,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1541173523475,
+        "stop" : 1541173526424,
+        "duration" : 2949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1541173526425,
+        "stop" : 1541173526530,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
+      "time" : {
+        "start" : 1541173526530,
+        "stop" : 1541173527276,
+        "duration" : 746
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
+      "time" : {
+        "start" : 1541173527276,
+        "stop" : 1541173527291,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
+      "time" : {
+        "start" : 1541173527291,
+        "stop" : 1541173527315,
+        "duration" : 24
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
+      "time" : {
+        "start" : 1541173527315,
+        "stop" : 1541173527333,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
+      "time" : {
+        "start" : 1541173527333,
+        "stop" : 1541173535600,
+        "duration" : 8267
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1541173535601,
+        "stop" : 1541173535702,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Вход в систему\",15",
+      "time" : {
+        "start" : 1541173535702,
+        "stop" : 1541173536457,
+        "duration" : 755
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1541173536457,
+        "stop" : 1541173536598,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1541173536598,
+        "stop" : 1541173536688,
+        "duration" : 90
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•fieldset  button[type='submit']\"",
+      "time" : {
+        "start" : 1541173536689,
+        "stop" : 1541173539634,
+        "duration" : 2945
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Моя панель управления\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
+      "time" : {
+        "start" : 1541173539634,
+        "stop" : 1541173539748,
+        "duration" : 114
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1541173539748,
+        "stop" : 1541173544068,
+        "duration" : 4320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Акции\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' promo ')]/descendant-or-self::*/strong)[position()=1]\"",
+      "time" : {
+        "start" : 1541173544068,
+        "stop" : 1541173559148,
+        "duration" : 15080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 16,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid"
+  }, {
+    "name" : "testClass",
+    "value" : "mid"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeWithLoginTest with data set #9"
+  }, {
+    "name" : "package",
+    "value" : "mid"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Акции\""
+  }, {
+    "name" : "1",
+    "value" : "\"div.promo  strong\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b59a9051e2a00c6c.json",
+  "parameterValues" : [ "\"Акции\"", "\"div.promo  strong\"" ]
+}

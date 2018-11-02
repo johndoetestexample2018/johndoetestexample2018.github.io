@@ -1,15 +1,15 @@
 {
-  "uid" : "a69cc4c056369b33",
-  "name" : "maxItemQuantityTest with data set #0",
-  "fullName" : "mid (headless).maxItemQuantityTest with data set #0",
-  "historyId" : "63d5f1969054c305673888ed1c92975e",
+  "uid" : "2a3de71594058df6",
+  "name" : "addToCartTest with data set #0",
+  "fullName" : "mid.addToCartTest with data set #0",
+  "historyId" : "f866bab34a281d6303f559a1c6fac9c9",
   "time" : {
-    "start" : 1541087521263,
-    "stop" : 1541087551487,
-    "duration" : 30224
+    "start" : 1541172741259,
+    "stop" : 1541172767427,
+    "duration" : 26168
   },
-  "description" : "Ввести максимальное кол-во товара",
-  "descriptionHtml" : "<p>Ввести максимальное кол-во товара</p>\n",
+  "description" : "Добавить в корзину через quickview в каталоге предварительно залогинившись",
+  "descriptionHtml" : "<p>Добавить в корзину через quickview в каталоге предварительно залогинившись</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1541087521380,
-        "stop" : 1541087524486,
-        "duration" : 3106
+        "start" : 1541172742404,
+        "stop" : 1541172744555,
+        "duration" : 2151
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1541087524487,
-        "stop" : 1541087524591,
-        "duration" : 104
+        "start" : 1541172744555,
+        "stop" : 1541172744673,
+        "duration" : 118
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::a[@href = 'https://www•mideastore•ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1541087524591,
-        "stop" : 1541087524922,
-        "duration" : 331
+        "start" : 1541172744678,
+        "stop" : 1541172745165,
+        "duration" : 487
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1541087524922,
-        "stop" : 1541087525244,
-        "duration" : 322
+        "start" : 1541172745165,
+        "stop" : 1541172745177,
+        "duration" : 12
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"a[href ='https://www•mideastore•ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1541087525244,
-        "stop" : 1541087525687,
-        "duration" : 443
+        "start" : 1541172745177,
+        "stop" : 1541172745185,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "wait for element visible \"a[href ='https://www•mideastore•ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1541087525687,
-        "stop" : 1541087525751,
-        "duration" : 64
+        "start" : 1541172745185,
+        "stop" : 1541172745202,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "click \"a[href ='https://www•mideastore•ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1541087525752,
-        "stop" : 1541087528302,
-        "duration" : 2550
+        "start" : 1541172745202,
+        "stop" : 1541172747529,
+        "duration" : 2327
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,8 +123,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1541087528302,
-        "stop" : 1541087528405,
+        "start" : 1541172747529,
+        "stop" : 1541172747632,
         "duration" : 103
       },
       "status" : "passed",
@@ -138,9 +138,9 @@
     }, {
       "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1541087528405,
-        "stop" : 1541087528676,
-        "duration" : 271
+        "start" : 1541172747632,
+        "stop" : 1541172747783,
+        "duration" : 151
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1541087528676,
-        "stop" : 1541087528856,
-        "duration" : 180
+        "start" : 1541172747783,
+        "stop" : 1541172748189,
+        "duration" : 406
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
       "time" : {
-        "start" : 1541087528857,
-        "stop" : 1541087528953,
-        "duration" : 96
+        "start" : 1541172748189,
+        "stop" : 1541172748261,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "click \"•fieldset  button[type='submit']\"",
       "time" : {
-        "start" : 1541087528953,
-        "stop" : 1541087531831,
-        "duration" : 2878
+        "start" : 1541172748262,
+        "stop" : 1541172751318,
+        "duration" : 3056
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1541087531831,
-        "stop" : 1541087534057,
-        "duration" : 2226
+        "start" : 1541172751318,
+        "stop" : 1541172756396,
+        "duration" : 5078
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "wait for element visible \"span•vmagicmenu-subtitle\"",
       "time" : {
-        "start" : 1541087534058,
-        "stop" : 1541087534322,
-        "duration" : 264
+        "start" : 1541172756396,
+        "stop" : 1541172756694,
+        "duration" : 298
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,9 +228,9 @@
     }, {
       "name" : "click \"span•vmagicmenu-subtitle\"",
       "time" : {
-        "start" : 1541087534323,
-        "stop" : 1541087534686,
-        "duration" : 363
+        "start" : 1541172756695,
+        "stop" : 1541172756892,
+        "duration" : 197
       },
       "status" : "passed",
       "steps" : [ ],
@@ -243,9 +243,9 @@
     }, {
       "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
       "time" : {
-        "start" : 1541087534686,
-        "stop" : 1541087534990,
-        "duration" : 304
+        "start" : 1541172756893,
+        "stop" : 1541172757193,
+        "duration" : 300
       },
       "status" : "passed",
       "steps" : [ ],
@@ -258,9 +258,9 @@
     }, {
       "name" : "move mouse over \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Мелкая бытовая техника')]\"",
       "time" : {
-        "start" : 1541087534990,
-        "stop" : 1541087535035,
-        "duration" : 45
+        "start" : 1541172757193,
+        "stop" : 1541172757237,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -273,9 +273,9 @@
     }, {
       "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\",10",
       "time" : {
-        "start" : 1541087535035,
-        "stop" : 1541087535118,
-        "duration" : 83
+        "start" : 1541172757238,
+        "stop" : 1541172757541,
+        "duration" : 303
       },
       "status" : "passed",
       "steps" : [ ],
@@ -288,9 +288,9 @@
     }, {
       "name" : "click \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Микроволновки Мидеа')]\"",
       "time" : {
-        "start" : 1541087535118,
-        "stop" : 1541087538890,
-        "duration" : 3772
+        "start" : 1541172757541,
+        "stop" : 1541172759986,
+        "duration" : 2445
       },
       "status" : "passed",
       "steps" : [ ],
@@ -303,9 +303,9 @@
     }, {
       "name" : "wait for element visible \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
       "time" : {
-        "start" : 1541087538890,
-        "stop" : 1541087538971,
-        "duration" : 81
+        "start" : 1541172759986,
+        "stop" : 1541172760006,
+        "duration" : 20
       },
       "status" : "passed",
       "steps" : [ ],
@@ -318,9 +318,9 @@
     }, {
       "name" : "scroll to \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
       "time" : {
-        "start" : 1541087538971,
-        "stop" : 1541087539049,
-        "duration" : 78
+        "start" : 1541172760007,
+        "stop" : 1541172760063,
+        "duration" : 56
       },
       "status" : "passed",
       "steps" : [ ],
@@ -333,9 +333,9 @@
     }, {
       "name" : "click \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
       "time" : {
-        "start" : 1541087539049,
-        "stop" : 1541087539538,
-        "duration" : 489
+        "start" : 1541172760063,
+        "stop" : 1541172760255,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ ],
@@ -348,9 +348,9 @@
     }, {
       "name" : "grab text from \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' images-container ')]/descendant-or-self::*/a[@class and contains(concat(' ', normalize-space(@class), ' '),•••\"",
       "time" : {
-        "start" : 1541087539538,
-        "stop" : 1541087539584,
-        "duration" : 46
+        "start" : 1541172760255,
+        "stop" : 1541172760597,
+        "duration" : 342
       },
       "status" : "passed",
       "steps" : [ ],
@@ -363,9 +363,9 @@
     }, {
       "name" : "click \"(descendant-or-self::button[(@type) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' tocart '))])[position()=1]\"",
       "time" : {
-        "start" : 1541087539584,
-        "stop" : 1541087539781,
-        "duration" : 197
+        "start" : 1541172760597,
+        "stop" : 1541172760752,
+        "duration" : 155
       },
       "status" : "passed",
       "steps" : [ ],
@@ -378,9 +378,9 @@
     }, {
       "name" : "grab attribute from \"•header-bottom a•showcart\",\"target\"",
       "time" : {
-        "start" : 1541087539782,
-        "stop" : 1541087539798,
-        "duration" : 16
+        "start" : 1541172760753,
+        "stop" : 1541172760781,
+        "duration" : 28
       },
       "status" : "passed",
       "steps" : [ ],
@@ -393,9 +393,9 @@
     }, {
       "name" : "grab attribute from \"•header-bottom a•showcart\",\"onclick\"",
       "time" : {
-        "start" : 1541087539798,
-        "stop" : 1541087539812,
-        "duration" : 14
+        "start" : 1541172760781,
+        "stop" : 1541172760789,
+        "duration" : 8
       },
       "status" : "passed",
       "steps" : [ ],
@@ -408,9 +408,9 @@
     }, {
       "name" : "wait for element visible \"•header-bottom a•showcart\",10",
       "time" : {
-        "start" : 1541087539812,
-        "stop" : 1541087539834,
-        "duration" : 22
+        "start" : 1541172760789,
+        "stop" : 1541172760806,
+        "duration" : 17
       },
       "status" : "passed",
       "steps" : [ ],
@@ -423,9 +423,9 @@
     }, {
       "name" : "click \"•header-bottom a•showcart\"",
       "time" : {
-        "start" : 1541087539834,
-        "stop" : 1541087544074,
-        "duration" : 4240
+        "start" : 1541172760806,
+        "stop" : 1541172766180,
+        "duration" : 5374
       },
       "status" : "passed",
       "steps" : [ ],
@@ -438,8 +438,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1541087544074,
-        "stop" : 1541087544176,
+        "start" : 1541172766180,
+        "stop" : 1541172766282,
         "duration" : 102
       },
       "status" : "passed",
@@ -453,9 +453,9 @@
     }, {
       "name" : "wait 1",
       "time" : {
-        "start" : 1541087544176,
-        "stop" : 1541087545179,
-        "duration" : 1003
+        "start" : 1541172766282,
+        "stop" : 1541172767282,
+        "duration" : 1000
       },
       "status" : "passed",
       "steps" : [ ],
@@ -468,9 +468,9 @@
     }, {
       "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' Shopping-Cart__Items ')]/descendant-or-self::*/h3/descendant-or-self::*/a)[position()=1]\",15",
       "time" : {
-        "start" : 1541087545180,
-        "stop" : 1541087545369,
-        "duration" : 189
+        "start" : 1541172767283,
+        "stop" : 1541172767306,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -483,9 +483,9 @@
     }, {
       "name" : "grab multiple \"•Shopping-Cart__Items h3 a \"",
       "time" : {
-        "start" : 1541087545369,
-        "stop" : 1541087545419,
-        "duration" : 50
+        "start" : 1541172767306,
+        "stop" : 1541172767324,
+        "duration" : 18
       },
       "status" : "passed",
       "steps" : [ ],
@@ -498,54 +498,9 @@
     }, {
       "name" : "assert greater than 0,1",
       "time" : {
-        "start" : 1541087545420,
-        "stop" : 1541087545420,
+        "start" : 1541172767325,
+        "stop" : 1541172767325,
         "duration" : 0
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "fill field \"input[data-cart-item-id]\",1000",
-      "time" : {
-        "start" : 1541087545420,
-        "stop" : 1541087545569,
-        "duration" : 149
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click \"(descendant-or-self::button[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' update '))])[positio•••\"",
-      "time" : {
-        "start" : 1541087545569,
-        "stop" : 1541087551345,
-        "duration" : 5776
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "wait for text \"У нас нет столько товара\",15,\"(descendant-or-self::div[(@class and contains(concat(' ', normalize-space(@class), ' '), ' messages ')) and (@data-bind)]/div)[position()=1]\"",
-      "time" : {
-        "start" : 1541087551345,
-        "stop" : 1541087551435,
-        "duration" : 90
       },
       "status" : "passed",
       "steps" : [ ],
@@ -558,7 +513,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 36,
+    "stepsCount" : 33,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -566,16 +521,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "mid (headless)"
+    "value" : "mid"
   }, {
     "name" : "testClass",
-    "value" : "mid (headless)"
+    "value" : "mid"
   }, {
     "name" : "testMethod",
-    "value" : "maxItemQuantityTest with data set #0"
+    "value" : "addToCartTest with data set #0"
   }, {
     "name" : "package",
-    "value" : "mid (headless)"
+    "value" : "mid"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -596,6 +551,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a69cc4c056369b33.json",
+  "source" : "2a3de71594058df6.json",
   "parameterValues" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
 }

@@ -1,5 +1,85 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
-  "name" : "categories"
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "unknown error: Element <a href=\"#\" data-post=\"{&quot;action&quot;:&quot;https:\\/\\/www.mideastore.ru\\/catalog\\/product_compare\\/add\\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1066&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cubWlkZWFzdG9yZS5ydS9tZWxrYWphLWJ5dG92YWphLXRlaG5pa2EvbWlrcm92b2xub3Z5ZS1wZWNoaS9taWtyb3ZvbG5vdmFqYS1wZWNoLW1pZGVhLWFtODIwY3VrLXctMS5odG1s&quot;}}\" data-role=\"add-to-links\" class=\"action tocompare\">...</a> is not clickable at point (2818, 857). Other element would receive the click: <li class=\"item link compare\" data-bind=\"scope: 'compareProducts'\" data-role=\"compare-products-link\">...</li>\n  (Session info: chrome=70.0.3538.77)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.3 x86_64)",
+      "children" : [ {
+        "name" : "compareOnItemCardTest with data set #0",
+        "uid" : "4903e3e89dedcea4",
+        "parentUid" : "48e2cfb33a9c3693e13c9fc43cd0a464",
+        "status" : "broken",
+        "time" : {
+          "start" : 1541173000476,
+          "stop" : 1541173014288,
+          "duration" : 13812
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+      } ],
+      "uid" : "48e2cfb33a9c3693e13c9fc43cd0a464"
+    }, {
+      "name" : "unknown error: Element <a href=\"#\" data-post=\"{&quot;action&quot;:&quot;https:\\/\\/www.mideastore.ru\\/catalog\\/product_compare\\/add\\/&quot;,&quot;data&quot;:{&quot;product&quot;:&quot;1066&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cubWlkZWFzdG9yZS5ydS9tZWxrYWphLWJ5dG92YWphLXRlaG5pa2EvbWlrcm92b2xub3Z5ZS1wZWNoaS9taWtyb3ZvbG5vdmFqYS1wZWNoLW1pZGVhLWFtODIwY3VrLXctMS5odG1s&quot;}}\" data-role=\"add-to-links\" class=\"action tocompare\">...</a> is not clickable at point (2818, 857). Other element would receive the click: <i class=\"icon icon-favorites\"></i>\n  (Session info: chrome=70.0.3538.77)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.3 x86_64)",
+      "children" : [ {
+        "name" : "compareOnItemCardWithLoginTest with data set #0",
+        "uid" : "3bd3b2ecf5123ff4",
+        "parentUid" : "758a4be52d2284523e1a20d42814b636",
+        "status" : "broken",
+        "time" : {
+          "start" : 1541173070558,
+          "stop" : 1541173095253,
+          "duration" : 24695
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+      } ],
+      "uid" : "758a4be52d2284523e1a20d42814b636"
+    }, {
+      "name" : "Waited for 15 secs but text 'Акции' still not found",
+      "children" : [ {
+        "name" : "homeTest with data set #9",
+        "uid" : "cfbba9c0599174f",
+        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1541173214625,
+          "stop" : 1541173237726,
+          "duration" : 23101
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
+      }, {
+        "name" : "homeWithLoginTest with data set #9",
+        "uid" : "b59a9051e2a00c6c",
+        "parentUid" : "6aec7c3bb58d37289cb2d0ea2d6e589b",
+        "status" : "broken",
+        "time" : {
+          "start" : 1541173519734,
+          "stop" : 1541173560225,
+          "duration" : 40491
+        },
+        "flaky" : false,
+        "parameters" : [ "\"Акции\"", "\"div.promo  strong\"" ]
+      } ],
+      "uid" : "6aec7c3bb58d37289cb2d0ea2d6e589b"
+    }, {
+      "name" : "unknown error: Element <a href=\"/about-us/\">...</a> is not clickable at point (2349, 849). Other element would receive the click: <div class=\"navbar-bottom-content\">...</div>\n  (Session info: chrome=70.0.3538.77)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.3 x86_64)",
+      "children" : [ {
+        "name" : "footerLinks",
+        "uid" : "de17498c2b191852",
+        "parentUid" : "fa9ab0803ed7192a40d162da2c29de5a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1541173783425,
+          "stop" : 1541173799564,
+          "duration" : 16139
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fa9ab0803ed7192a40d162da2c29de5a"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }
