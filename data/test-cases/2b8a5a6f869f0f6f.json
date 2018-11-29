@@ -1,0 +1,513 @@
+{
+  "uid" : "2b8a5a6f869f0f6f",
+  "name" : "addToWishlistOnItemCardTest with data set #0",
+  "fullName" : "midst.addToWishlistOnItemCardTest with data set #0",
+  "historyId" : "d81023a2e6676ce93c47647320052564",
+  "time" : {
+    "start" : 1543498459194,
+    "stop" : 1543498491656,
+    "duration" : 32462
+  },
+  "description" : "Добавить в wishlist через quickview в каталоге предварительно залогинившись",
+  "descriptionHtml" : "<p>Добавить в wishlist через quickview в каталоге предварительно залогинившись</p>\n",
+  "status" : "broken",
+  "statusMessage" : "unknown error: Element <a title=\"Избранное\" href=\"http://stage.mideastore.ru/wishlist/\" target=\"_blank\" class=\"wishlist icon icon-favorites\">...</a> is not clickable at point (2891, 25). Other element would receive the click: <h1 class=\"Product__Title\">...</h1>\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.3 x86_64)",
+  "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(158): Codeception\\Codecept->runSuite(Array, 'midst', 'WishlistCest')\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(355): Codeception\\Codecept->run('midst', 'WishlistCest', Array)\n#6 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(42): Codeception\\Application->run()\n#12 {main}",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "unknown error: Element <a title=\"Избранное\" href=\"http://stage.mideastore.ru/wishlist/\" target=\"_blank\" class=\"wishlist icon icon-favorites\">...</a> is not clickable at point (2891, 25). Other element would receive the click: <h1 class=\"Product__Title\">...</h1>\n  (Session info: chrome=70.0.3538.110)\n  (Driver info: chromedriver=2.41.578706 (5f725d1b4f0a4acbf5259df887244095596231db),platform=Mac OS X 10.13.3 x86_64)",
+    "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(755): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(109): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(157): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(189): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(158): Codeception\\Codecept->runSuite(Array, 'midst', 'WishlistCest')\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(355): Codeception\\Codecept->run('midst', 'WishlistCest', Array)\n#6 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(946): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(248): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(148): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(108): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(42): Codeception\\Application->run()\n#12 {main}",
+    "steps" : [ {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1543498466829,
+        "stop" : 1543498468999,
+        "duration" : 2170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1543498468999,
+        "stop" : 1543498469138,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' authorization-link ')]/descendant-or-self::*/a)[position()=1]\"",
+      "time" : {
+        "start" : 1543498469139,
+        "stop" : 1543498469317,
+        "duration" : 178
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"•authorization-link a\",\"target\"",
+      "time" : {
+        "start" : 1543498469318,
+        "stop" : 1543498469332,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"•authorization-link a\",\"onclick\"",
+      "time" : {
+        "start" : 1543498469332,
+        "stop" : 1543498469341,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"•authorization-link a\",10",
+      "time" : {
+        "start" : 1543498469341,
+        "stop" : 1543498469358,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•authorization-link a\"",
+      "time" : {
+        "start" : 1543498469358,
+        "stop" : 1543498474753,
+        "duration" : 5395
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1543498474753,
+        "stop" : 1543498474855,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Вход в систему\",15",
+      "time" : {
+        "start" : 1543498474855,
+        "stop" : 1543498474987,
+        "duration" : 132
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1543498474987,
+        "stop" : 1543498475320,
+        "duration" : 333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1543498475321,
+        "stop" : 1543498475401,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•fieldset  button[type='submit']\"",
+      "time" : {
+        "start" : 1543498475401,
+        "stop" : 1543498478657,
+        "duration" : 3256
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1543498478657,
+        "stop" : 1543498481525,
+        "duration" : 2868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1543498481526,
+        "stop" : 1543498481726,
+        "duration" : 200
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"span•vmagicmenu-subtitle\"",
+      "time" : {
+        "start" : 1543498481726,
+        "stop" : 1543498482871,
+        "duration" : 1145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Встраиваемая бытовая техника')]\",15",
+      "time" : {
+        "start" : 1543498482871,
+        "stop" : 1543498482892,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "move mouse over \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Встраиваемая бытовая техника')]\"",
+      "time" : {
+        "start" : 1543498482893,
+        "stop" : 1543498482933,
+        "duration" : 40
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Стиральные машины')]\",15",
+      "time" : {
+        "start" : 1543498482933,
+        "stop" : 1543498483489,
+        "duration" : 556
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//*[contains(@class,'vertical-menu')]//a[contains(•,'Стиральные машины')]\"",
+      "time" : {
+        "start" : 1543498483490,
+        "stop" : 1543498487310,
+        "duration" : 3820
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' images-container ')]/descendant-or-self::*/a[@class and contains(concat(' ', normalize-space(@class), ' •••\",10",
+      "time" : {
+        "start" : 1543498487310,
+        "stop" : 1543498487330,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab text from \"•images-container a•product-item-link\"",
+      "time" : {
+        "start" : 1543498487330,
+        "stop" : 1543498487348,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' hover-box ')])[position()=1]\"",
+      "time" : {
+        "start" : 1543498487348,
+        "stop" : 1543498488209,
+        "duration" : 861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' images-container ')]/descendant-or-self::*/a[@class and contains(concat(' ', normalize-space(@class), ' '),•••\"",
+      "time" : {
+        "start" : 1543498488209,
+        "stop" : 1543498489619,
+        "duration" : 1410
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::a[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' towishlist '))])[posit•••\",10",
+      "time" : {
+        "start" : 1543498489619,
+        "stop" : 1543498489640,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "scroll to \"(descendant-or-self::a[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' towishlist '))])[position•••\"",
+      "time" : {
+        "start" : 1543498489641,
+        "stop" : 1543498489748,
+        "duration" : 107
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::a[(@class and contains(concat(' ', normalize-space(@class), ' '), ' action ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), ' towishlist '))])[position•••\"",
+      "time" : {
+        "start" : 1543498489749,
+        "stop" : 1543498489895,
+        "duration" : 146
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•wishlist\",\"target\"",
+      "time" : {
+        "start" : 1543498489895,
+        "stop" : 1543498489907,
+        "duration" : 12
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•wishlist\",\"onclick\"",
+      "time" : {
+        "start" : 1543498489907,
+        "stop" : 1543498489914,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•wishlist\",10",
+      "time" : {
+        "start" : 1543498489914,
+        "stop" : 1543498489931,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•wishlist\"",
+      "time" : {
+        "start" : 1543498489931,
+        "stop" : 1543498490185,
+        "duration" : 254
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 30,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "midst"
+  }, {
+    "name" : "testClass",
+    "value" : "midst"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToWishlistOnItemCardTest with data set #0"
+  }, {
+    "name" : "package",
+    "value" : "midst"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Встраиваемая бытовая техника\""
+  }, {
+    "name" : "1",
+    "value" : "\"Стиральные машины\""
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2b8a5a6f869f0f6f.json",
+  "parameterValues" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+}
