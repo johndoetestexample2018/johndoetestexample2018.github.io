@@ -1,0 +1,121 @@
+{
+  "uid" : "a39ff6132a9ac96a",
+  "name" : "homeTest with data set #11",
+  "fullName" : "midst (headless).homeTest with data set #11",
+  "historyId" : "23fb84bed4128ccdae272b1051e268e0",
+  "time" : {
+    "start" : 1543918335968,
+    "stop" : 1543918338975,
+    "duration" : 3007
+  },
+  "description" : "Проверка текста на главной странице MIDST",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MIDST</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1543918336086,
+        "stop" : 1543918336086,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1543918336086,
+        "stop" : 1543918337950,
+        "duration" : 1864
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1543918337950,
+        "stop" : 1543918338053,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Подписаться\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' container ')]/descendant-or-self::*/button[(@type = 'submit') and (@title = 'Подписаться')•••\"",
+      "time" : {
+        "start" : 1543918338054,
+        "stop" : 1543918338922,
+        "duration" : 868
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "midst (headless)"
+  }, {
+    "name" : "testClass",
+    "value" : "midst (headless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #11"
+  }, {
+    "name" : "package",
+    "value" : "midst (headless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Подписаться\""
+  }, {
+    "name" : "1",
+    "value" : "\".container button[type='submit'][title='Подписаться']\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a39ff6132a9ac96a.json",
+  "parameterValues" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
+}
