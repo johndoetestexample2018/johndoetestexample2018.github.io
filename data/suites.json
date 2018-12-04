@@ -1,73 +1,1569 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "children" : [ {
+    "name" : "elc",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "eb51ac7261357c4d",
+      "parentUid" : "5c0d5966eaf62fe716ecb955a4232c3a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916351365,
+        "stop" : 1543916359091,
+        "duration" : 7726
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "5c0d5966eaf62fe716ecb955a4232c3a"
+  }, {
+    "name" : "mid",
+    "children" : [ {
+      "name" : "addToCartTest with data set #0",
+      "uid" : "d1d4fb58cca16ef9",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916765267,
+        "stop" : 1543916809644,
+        "duration" : 44377
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "addToCartOnItemCardTest with data set #0",
+      "uid" : "b1bf742d0cd1958e",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916809644,
+        "stop" : 1543916842916,
+        "duration" : 33272
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "maxItemQuantityTest with data set #0",
+      "uid" : "f6c8681c4ea16a52",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916842917,
+        "stop" : 1543916886903,
+        "duration" : 43986
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "zeroItemQuantityTest with data set #0",
+      "uid" : "ef26ccaec7dcab48",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916886903,
+        "stop" : 1543916926398,
+        "duration" : 39495
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "itemQuantityTest with data set #0",
+      "uid" : "260a1edd72f6b336",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916926399,
+        "stop" : 1543916956801,
+        "duration" : 30402
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "deleteTest with data set #0",
+      "uid" : "5283ab43853362c9",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543916956801,
+        "stop" : 1543917011656,
+        "duration" : 54855
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "addToCartWithOutLoginTest with data set #0",
+      "uid" : "68dbab7953e8777d",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543917011656,
+        "stop" : 1543917044588,
+        "duration" : 32932
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    }, {
+      "name" : "addToCartOnItemCardWithOutLoginTest with data set #0",
+      "uid" : "7b2b6369d16b771c",
+      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543917044588,
+        "stop" : 1543917069465,
+        "duration" : 24877
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Мелкая бытовая техника\"", "\"Микроволновки Мидеа\"" ]
+    } ],
+    "uid" : "b4e363988c8cbe2ee4fff89d3f086435"
+  }, {
     "name" : "midst",
     "children" : [ {
+      "name" : "addToCartTest with data set #0",
+      "uid" : "cdc5e259f11023df",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954347,
+        "stop" : 1543917954385,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartOnItemCardTest with data set #0",
+      "uid" : "f306b1b30e136741",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954386,
+        "stop" : 1543917954388,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "maxItemQuantityTest with data set #0",
+      "uid" : "f01908e118178504",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954388,
+        "stop" : 1543917954391,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "zeroItemQuantityTest with data set #0",
+      "uid" : "ad872526aee7db97",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954392,
+        "stop" : 1543917954394,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "itemQuantityTest with data set #0",
+      "uid" : "2edcb225d593150c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954394,
+        "stop" : 1543917954397,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteTest with data set #0",
+      "uid" : "657e4bfbf6031bc7",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954397,
+        "stop" : 1543917954400,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartWithOutLoginTest with data set #0",
+      "uid" : "6cd184c2ce4d8c1d",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954400,
+        "stop" : 1543917954402,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartOnItemCardWithOutLoginTest with data set #0",
+      "uid" : "3d8abda72c089acd",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954403,
+        "stop" : 1543917954405,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareTest with data set #0",
+      "uid" : "b909161d43eb052",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954407,
+        "stop" : 1543917954409,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareOnItemCardTest with data set #0",
+      "uid" : "6345e5f0a4e3a88c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954409,
+        "stop" : 1543917954411,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareDeleteTest with data set #0",
+      "uid" : "6d67d996df8d1929",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954412,
+        "stop" : 1543917954414,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareWithLoginTest with data set #0",
+      "uid" : "64dc2f6ffe0f4a98",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954414,
+        "stop" : 1543917954417,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareOnItemCardWithLoginTest with data set #0",
+      "uid" : "18123d1efb32441b",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954417,
+        "stop" : 1543917954419,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareDeleteWithLoginTest with data set #0",
+      "uid" : "a0764c550e52c2f1",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954420,
+        "stop" : 1543917954422,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "homeTest with data set #0",
+      "uid" : "d08092d556a137a3",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954424,
+        "stop" : 1543917954426,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
+    }, {
+      "name" : "homeTest with data set #1",
+      "uid" : "e5855f56439c95ba",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954426,
+        "stop" : 1543917954429,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатная\\nдоставка по Москве\"", "\"(//div[contains(@class, 'service-content')])[1]\"" ]
+    }, {
+      "name" : "homeTest with data set #2",
+      "uid" : "3984dd5615176c6",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954429,
+        "stop" : 1543917954431,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатный Подъем\\nдо квартиры\"", "\"(//div[contains(@class, 'service-content')])[2]\"" ]
+    }, {
+      "name" : "homeTest with data set #3",
+      "uid" : "e4ba5e80991ff575",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954432,
+        "stop" : 1543917954434,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"100% Гарантия\\nвозврата за 14 дней\"", "\"(//div[contains(@class, 'service-content')])[3]\"" ]
+    }, {
+      "name" : "homeTest with data set #4",
+      "uid" : "95769c8f5b834a01",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954435,
+        "stop" : 1543917954437,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Официальная Гарантия\\nот производителя\"", "\"(//div[contains(@class, 'service-content')])[4]\"" ]
+    }, {
+      "name" : "homeTest with data set #5",
+      "uid" : "f9b40426a242d01d",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954438,
+        "stop" : 1543917954440,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Хиты!\"", "\"[data-type='bestseller']\"" ]
+    }, {
+      "name" : "homeTest with data set #6",
+      "uid" : "50e3d58eedb5780e",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954441,
+        "stop" : 1543917954443,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Новинки\"", "\"[data-type='latest']\"" ]
+    }, {
+      "name" : "homeTest with data set #7",
+      "uid" : "a0b964c861af837c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954443,
+        "stop" : 1543917954446,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Блог\"", "\"div.promo + div.block\"" ]
+    }, {
+      "name" : "homeTest with data set #8",
+      "uid" : "79a3ebe3fba4c640",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954446,
+        "stop" : 1543917954448,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Последние новости\"", "\"div.alo-blog.magiccart-blog\"" ]
+    }, {
+      "name" : "homeTest with data set #9",
+      "uid" : "abe37cbe27b895a7",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954449,
+        "stop" : 1543917954451,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
+    }, {
+      "name" : "homeTest with data set #10",
+      "uid" : "138a176f27d8f2e2",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954451,
+        "stop" : 1543917954454,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+    }, {
+      "name" : "homeTest with data set #11",
+      "uid" : "6d09653fa6adf8b0",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954454,
+        "stop" : 1543917954457,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
+    }, {
+      "name" : "homeTest with data set #12",
+      "uid" : "aefec94dab366ba5",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954458,
+        "stop" : 1543917954460,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Copyright@2017 Midea. Все права защищены.\"", "\".copyright > span\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #0",
+      "uid" : "48a012bb6b8838ce",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954460,
+        "stop" : 1543917954463,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #1",
+      "uid" : "2135a7dcce71eba6",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954463,
+        "stop" : 1543917954466,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатная\\nдоставка по Москве\"", "\"(//div[contains(@class, 'service-content')])[1]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #2",
+      "uid" : "123735955648ac52",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954466,
+        "stop" : 1543917954469,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатный Подъем\\nдо квартиры\"", "\"(//div[contains(@class, 'service-content')])[2]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #3",
+      "uid" : "f7b075e8a63cb814",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954469,
+        "stop" : 1543917954471,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"100% Гарантия\\nвозврата за 14 дней\"", "\"(//div[contains(@class, 'service-content')])[3]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #4",
+      "uid" : "5ce7c9bc48d5bb32",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954472,
+        "stop" : 1543917954474,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Официальная Гарантия\\nот производителя\"", "\"(//div[contains(@class, 'service-content')])[4]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #5",
+      "uid" : "45e47faf3f816aa",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954475,
+        "stop" : 1543917954478,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Хиты!\"", "\"[data-type='bestseller']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #6",
+      "uid" : "6ab2f260130abb7",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954478,
+        "stop" : 1543917954481,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Новинки\"", "\"[data-type='latest']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #7",
+      "uid" : "674c6158d4c25b94",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954481,
+        "stop" : 1543917954484,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Блог\"", "\"div.promo + div.block\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #8",
+      "uid" : "f0d2420a02a558a7",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954484,
+        "stop" : 1543917954487,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Последние новости\"", "\"div.alo-blog.magiccart-blog\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #9",
+      "uid" : "42780dd703f2a8dc",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954487,
+        "stop" : 1543917954490,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #10",
+      "uid" : "dcc554f36c12ac8a",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954490,
+        "stop" : 1543917954492,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #11",
+      "uid" : "24980e519c1cca36",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954493,
+        "stop" : 1543917954495,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #12",
+      "uid" : "e5642979032ed031",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954496,
+        "stop" : 1543917954498,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Copyright@2017 Midea. Все права защищены.\"", "\".copyright > span\"" ]
+    }, {
+      "name" : "loginTest",
+      "uid" : "929d140212f83c7c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954502,
+        "stop" : 1543917954504,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptypassTest",
+      "uid" : "186b268357b92d42",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954507,
+        "stop" : 1543917954509,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "wrongpassTest",
+      "uid" : "e54c955190cae661",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954510,
+        "stop" : 1543917954512,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptymailTest",
+      "uid" : "644cec6e9897718b",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954512,
+        "stop" : 1543917954515,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "headerLinks",
+      "uid" : "5df0dcb138503384",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954519,
+        "stop" : 1543917954521,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "footerLinks",
+      "uid" : "fce6f26e046f8e39",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954522,
+        "stop" : 1543917954524,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyNamesTest",
+      "uid" : "ca7b326ebd25b12d",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954527,
+        "stop" : 1543917954529,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyEmailTest",
+      "uid" : "c20302ccfb03758a",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954529,
+        "stop" : 1543917954531,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyPassTest",
+      "uid" : "3c9cee3f7c24b77d",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954532,
+        "stop" : 1543917954534,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyPassConfirmTest",
+      "uid" : "61ca15924e15d81c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954535,
+        "stop" : 1543917954537,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "matchPassTest",
+      "uid" : "82159ec938aca89c",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954538,
+        "stop" : 1543917954540,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "invalidEmailTest",
+      "uid" : "d85136fb700ebb70",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954541,
+        "stop" : 1543917954543,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "smallPassTest",
+      "uid" : "6d30956f8bb6b862",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954543,
+        "stop" : 1543917954546,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "trailingSpacesPassTest",
+      "uid" : "bd4e814db23d6d53",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954546,
+        "stop" : 1543917954548,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sameUserTest",
+      "uid" : "e9a76754d0750ab1",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954549,
+        "stop" : 1543917954551,
+        "duration" : 2
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchTest",
+      "uid" : "e9507fff387d643f",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954553,
+        "stop" : 1543917954556,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
       "name" : "addToWishlistTest with data set #0",
-      "uid" : "80c702a14f4ca080",
+      "uid" : "e06b68f320ba0b9c",
       "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
-      "status" : "passed",
+      "status" : "broken",
       "time" : {
-        "start" : 1543498417099,
-        "stop" : 1543498459194,
-        "duration" : 42095
-      },
-      "flaky" : false,
-      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
-    }, {
-      "name" : "deleteInWishlistTest with data set #0",
-      "uid" : "70bb0b22e57f0d00",
-      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1543498491656,
-        "stop" : 1543498538732,
-        "duration" : 47076
-      },
-      "flaky" : false,
-      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
-    }, {
-      "name" : "deleteInSidebarTest with data set #0",
-      "uid" : "d7d595cf80de0c57",
-      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
-      "status" : "passed",
-      "time" : {
-        "start" : 1543498538732,
-        "stop" : 1543498589165,
-        "duration" : 50433
+        "start" : 1543917954558,
+        "stop" : 1543917954560,
+        "duration" : 2
       },
       "flaky" : false,
       "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
     }, {
       "name" : "addToWishlistOnItemCardTest with data set #0",
-      "uid" : "2b711d53c347ba0a",
+      "uid" : "cc748ab7a7c0e45e",
       "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
       "status" : "broken",
       "time" : {
-        "start" : 1543500335319,
-        "stop" : 1543500359541,
-        "duration" : 24222
+        "start" : 1543917954561,
+        "stop" : 1543917954563,
+        "duration" : 2
       },
-      "flaky" : true,
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteInWishlistTest with data set #0",
+      "uid" : "dc464c38e702e83d",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954563,
+        "stop" : 1543917954566,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteInSidebarTest with data set #0",
+      "uid" : "13640b028530dea0",
+      "parentUid" : "2e73be8ceca9b9d216aac341b73262fe",
+      "status" : "broken",
+      "time" : {
+        "start" : 1543917954566,
+        "stop" : 1543917954569,
+        "duration" : 3
+      },
+      "flaky" : false,
       "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
     } ],
     "uid" : "2e73be8ceca9b9d216aac341b73262fe"
   }, {
-    "name" : "mid",
+    "name" : "midst (headless)",
     "children" : [ {
-      "name" : "loginTest",
-      "uid" : "25f69e67abfa9535",
-      "parentUid" : "b4e363988c8cbe2ee4fff89d3f086435",
+      "name" : "addToCartTest with data set #0",
+      "uid" : "4b33a2a505f978e",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
       "status" : "passed",
       "time" : {
-        "start" : 1543501573631,
-        "stop" : 1543501591469,
-        "duration" : 17838
+        "start" : 1543917966161,
+        "stop" : 1543917997959,
+        "duration" : 31798
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartOnItemCardTest with data set #0",
+      "uid" : "d0d7c0ba18065ae1",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543917997960,
+        "stop" : 1543918026915,
+        "duration" : 28955
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "maxItemQuantityTest with data set #0",
+      "uid" : "214b79d9dee106d3",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918026917,
+        "stop" : 1543918059614,
+        "duration" : 32697
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "zeroItemQuantityTest with data set #0",
+      "uid" : "f30788d33ececc2f",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918059615,
+        "stop" : 1543918087326,
+        "duration" : 27711
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "itemQuantityTest with data set #0",
+      "uid" : "8bb63f1c77c206a0",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918087328,
+        "stop" : 1543918112529,
+        "duration" : 25201
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteTest with data set #0",
+      "uid" : "c7438c3fd0cf7df8",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918112530,
+        "stop" : 1543918150234,
+        "duration" : 37704
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartWithOutLoginTest with data set #0",
+      "uid" : "dae4bacca957f571",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918150235,
+        "stop" : 1543918166439,
+        "duration" : 16204
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToCartOnItemCardWithOutLoginTest with data set #0",
+      "uid" : "9a743adf9e2874ca",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918166440,
+        "stop" : 1543918182769,
+        "duration" : 16329
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareTest with data set #0",
+      "uid" : "b8535c473c98ff1d",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918182779,
+        "stop" : 1543918194344,
+        "duration" : 11565
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareOnItemCardTest with data set #0",
+      "uid" : "9095098b239cc950",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918194344,
+        "stop" : 1543918208713,
+        "duration" : 14369
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareDeleteTest with data set #0",
+      "uid" : "3f9cdb0bf75697e3",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918208714,
+        "stop" : 1543918226095,
+        "duration" : 17381
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareWithLoginTest with data set #0",
+      "uid" : "986fb7a993c00378",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918226096,
+        "stop" : 1543918247093,
+        "duration" : 20997
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareOnItemCardWithLoginTest with data set #0",
+      "uid" : "a54ffed54963fdaa",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918247094,
+        "stop" : 1543918269236,
+        "duration" : 22142
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "compareDeleteWithLoginTest with data set #0",
+      "uid" : "8204c2852e8cc2af",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918269237,
+        "stop" : 1543918299016,
+        "duration" : 29779
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "homeTest with data set #0",
+      "uid" : "614a3c9f26bf99f5",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918299020,
+        "stop" : 1543918302231,
+        "duration" : 3211
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
+    }, {
+      "name" : "homeTest with data set #1",
+      "uid" : "7c0a5560570583ec",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918302231,
+        "stop" : 1543918305115,
+        "duration" : 2884
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатная\\nдоставка по Москве\"", "\"(//div[contains(@class, 'service-content')])[1]\"" ]
+    }, {
+      "name" : "homeTest with data set #2",
+      "uid" : "200069b83892f91b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918305116,
+        "stop" : 1543918308170,
+        "duration" : 3054
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатный Подъем\\nдо квартиры\"", "\"(//div[contains(@class, 'service-content')])[2]\"" ]
+    }, {
+      "name" : "homeTest with data set #3",
+      "uid" : "1d2687bf8b79b58b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918308171,
+        "stop" : 1543918310865,
+        "duration" : 2694
+      },
+      "flaky" : false,
+      "parameters" : [ "\"100% Гарантия\\nвозврата за 14 дней\"", "\"(//div[contains(@class, 'service-content')])[3]\"" ]
+    }, {
+      "name" : "homeTest with data set #4",
+      "uid" : "b88f42ca0b247490",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918310866,
+        "stop" : 1543918315796,
+        "duration" : 4930
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Официальная Гарантия\\nот производителя\"", "\"(//div[contains(@class, 'service-content')])[4]\"" ]
+    }, {
+      "name" : "homeTest with data set #5",
+      "uid" : "5eb9d480f3bf7b2b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918315797,
+        "stop" : 1543918320750,
+        "duration" : 4953
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Хиты!\"", "\"[data-type='bestseller']\"" ]
+    }, {
+      "name" : "homeTest with data set #6",
+      "uid" : "8b5f91a14e99189b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918320750,
+        "stop" : 1543918323577,
+        "duration" : 2827
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Новинки\"", "\"[data-type='latest']\"" ]
+    }, {
+      "name" : "homeTest with data set #7",
+      "uid" : "5fef852de4c3bbcb",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918323577,
+        "stop" : 1543918326918,
+        "duration" : 3341
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Блог\"", "\"div.promo + div.block\"" ]
+    }, {
+      "name" : "homeTest with data set #8",
+      "uid" : "f29da08f1cee2a31",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918326918,
+        "stop" : 1543918329796,
+        "duration" : 2878
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Последние новости\"", "\"div.alo-blog.magiccart-blog\"" ]
+    }, {
+      "name" : "homeTest with data set #9",
+      "uid" : "5d3a918d42284ecf",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918329796,
+        "stop" : 1543918332985,
+        "duration" : 3189
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
+    }, {
+      "name" : "homeTest with data set #10",
+      "uid" : "71cdf5a6a32f7263",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918332986,
+        "stop" : 1543918335968,
+        "duration" : 2982
+      },
+      "flaky" : false,
+      "parameters" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+    }, {
+      "name" : "homeTest with data set #11",
+      "uid" : "fe4ecb03621ceb33",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918335968,
+        "stop" : 1543918338975,
+        "duration" : 3007
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
+    }, {
+      "name" : "homeTest with data set #12",
+      "uid" : "7da1fb48eb9791ff",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918338975,
+        "stop" : 1543918341653,
+        "duration" : 2678
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Copyright@2017 Midea. Все права защищены.\"", "\".copyright > span\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #0",
+      "uid" : "1f6885e45c8477d8",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918341653,
+        "stop" : 1543918354962,
+        "duration" : 13309
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #1",
+      "uid" : "792069e95a1ebf8",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918354963,
+        "stop" : 1543918367583,
+        "duration" : 12620
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатная\\nдоставка по Москве\"", "\"(//div[contains(@class, 'service-content')])[1]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #2",
+      "uid" : "c153967b4abf53",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918367583,
+        "stop" : 1543918379671,
+        "duration" : 12088
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Бесплатный Подъем\\nдо квартиры\"", "\"(//div[contains(@class, 'service-content')])[2]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #3",
+      "uid" : "607cd3b2cb2aa5ad",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918379672,
+        "stop" : 1543918393697,
+        "duration" : 14025
+      },
+      "flaky" : false,
+      "parameters" : [ "\"100% Гарантия\\nвозврата за 14 дней\"", "\"(//div[contains(@class, 'service-content')])[3]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #4",
+      "uid" : "6b95728d1bf8f6ec",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918393698,
+        "stop" : 1543918407381,
+        "duration" : 13683
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Официальная Гарантия\\nот производителя\"", "\"(//div[contains(@class, 'service-content')])[4]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #5",
+      "uid" : "21d6c5a23d5bdd69",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918407382,
+        "stop" : 1543918420617,
+        "duration" : 13235
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Хиты!\"", "\"[data-type='bestseller']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #6",
+      "uid" : "bf701caf245e7f3c",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918420620,
+        "stop" : 1543918434922,
+        "duration" : 14302
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Новинки\"", "\"[data-type='latest']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #7",
+      "uid" : "4debb48504c507d1",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918434923,
+        "stop" : 1543918449413,
+        "duration" : 14490
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Блог\"", "\"div.promo + div.block\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #8",
+      "uid" : "6ed1e514153b0ec6",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918449413,
+        "stop" : 1543918462503,
+        "duration" : 13090
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Последние новости\"", "\"div.alo-blog.magiccart-blog\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #9",
+      "uid" : "e14567329c374a4c",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918462504,
+        "stop" : 1543918475213,
+        "duration" : 12709
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #10",
+      "uid" : "e7f6f659bd601ee7",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918475214,
+        "stop" : 1543918489255,
+        "duration" : 14041
+      },
+      "flaky" : false,
+      "parameters" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #11",
+      "uid" : "fe1aa332874225b1",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918489256,
+        "stop" : 1543918505293,
+        "duration" : 16037
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
+    }, {
+      "name" : "homeWithLoginTest with data set #12",
+      "uid" : "95bc4185fed988dc",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918505293,
+        "stop" : 1543918519324,
+        "duration" : 14031
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Copyright@2017 Midea. Все права защищены.\"", "\".copyright > span\"" ]
+    }, {
+      "name" : "loginTest",
+      "uid" : "41bb4a48c86f8fac",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918519329,
+        "stop" : 1543918534719,
+        "duration" : 15390
       },
       "flaky" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "emptypassTest",
+      "uid" : "4d68531b63f5ba0d",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918534724,
+        "stop" : 1543918541068,
+        "duration" : 6344
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "wrongpassTest",
+      "uid" : "3c44d574195f5c96",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918541069,
+        "stop" : 1543918550624,
+        "duration" : 9555
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptymailTest",
+      "uid" : "5c22592a6322cfcd",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918550624,
+        "stop" : 1543918557406,
+        "duration" : 6782
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "headerLinks",
+      "uid" : "b7c890edaf6160a1",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918557411,
+        "stop" : 1543918590424,
+        "duration" : 33013
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "footerLinks",
+      "uid" : "bbaac86fb0c9dafd",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918590425,
+        "stop" : 1543918640828,
+        "duration" : 50403
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyNamesTest",
+      "uid" : "fd29fc3fbffbfcb7",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918640834,
+        "stop" : 1543918648291,
+        "duration" : 7457
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyEmailTest",
+      "uid" : "6b4273068a3fb537",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918648291,
+        "stop" : 1543918655369,
+        "duration" : 7078
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyPassTest",
+      "uid" : "915e73b908192d4b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918655369,
+        "stop" : 1543918662594,
+        "duration" : 7225
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "emptyPassConfirmTest",
+      "uid" : "836ce19073b1c093",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918662594,
+        "stop" : 1543918670062,
+        "duration" : 7468
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "matchPassTest",
+      "uid" : "488bbcce4226762b",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918670064,
+        "stop" : 1543918676805,
+        "duration" : 6741
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "invalidEmailTest",
+      "uid" : "204cecf846904cad",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918676806,
+        "stop" : 1543918683845,
+        "duration" : 7039
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "smallPassTest",
+      "uid" : "d0ae160b7b5d2572",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918683846,
+        "stop" : 1543918691287,
+        "duration" : 7441
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "trailingSpacesPassTest",
+      "uid" : "3beae56f21c6f7ce",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918691288,
+        "stop" : 1543918698412,
+        "duration" : 7124
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "sameUserTest",
+      "uid" : "f11a337029405ec2",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918698412,
+        "stop" : 1543918708580,
+        "duration" : 10168
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "searchTest",
+      "uid" : "13ad7181a84299fe",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918708584,
+        "stop" : 1543918727230,
+        "duration" : 18646
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addToWishlistTest with data set #0",
+      "uid" : "a7b389f2e4705863",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918727233,
+        "stop" : 1543918754770,
+        "duration" : 27537
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "addToWishlistOnItemCardTest with data set #0",
+      "uid" : "78efabeb6fe0ce0e",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918754771,
+        "stop" : 1543918782954,
+        "duration" : 28183
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteInWishlistTest with data set #0",
+      "uid" : "8833da91623e0a25",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918782955,
+        "stop" : 1543918813724,
+        "duration" : 30769
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
+    }, {
+      "name" : "deleteInSidebarTest with data set #0",
+      "uid" : "8b47a0f948727be0",
+      "parentUid" : "1910f385745788b36f93606c0f555d0d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1543918813725,
+        "stop" : 1543918851396,
+        "duration" : 37671
+      },
+      "flaky" : false,
+      "parameters" : [ "\"Встраиваемая бытовая техника\"", "\"Стиральные машины\"" ]
     } ],
-    "uid" : "b4e363988c8cbe2ee4fff89d3f086435"
+    "uid" : "1910f385745788b36f93606c0f555d0d"
   } ],
   "name" : "suites"
 }
