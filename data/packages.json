@@ -1,11 +1,10 @@
 {
   "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
-  "name" : "packages",
   "children" : [ {
     "name" : "mid (chromeheadless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "8acfb6a168e0a907",
+      "uid" : "e4aaa4055ce941f8",
       "parentUid" : "27e993f510340d597f4f0f01f5d9279e",
       "status" : "passed",
       "time" : {
@@ -17,5 +16,6 @@
       "parameters" : [ ]
     } ],
     "uid" : "27e993f510340d597f4f0f01f5d9279e"
-  } ]
+  } ],
+  "name" : "packages"
 }
