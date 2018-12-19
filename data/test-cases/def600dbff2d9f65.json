@@ -1,0 +1,121 @@
+{
+  "uid" : "def600dbff2d9f65",
+  "name" : "homeTest with data set #7",
+  "fullName" : "mid (chromeheadless).homeTest with data set #7",
+  "historyId" : "9a485221248936a46fc5768caf161c6a",
+  "time" : {
+    "start" : 1545233540741,
+    "stop" : 1545233543320,
+    "duration" : 2579
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1545233540855,
+        "stop" : 1545233540855,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1545233540855,
+        "stop" : 1545233542541,
+        "duration" : 1686
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1545233542541,
+        "stop" : 1545233542642,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Почему покупатели выбирают технику «Мидеа»\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' main-product ')]/following-sibling::*[(name() = 'h2') and•••\"",
+      "time" : {
+        "start" : 1545233542643,
+        "stop" : 1545233543267,
+        "duration" : 624
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #7"
+  }, {
+    "name" : "package",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Почему покупатели выбирают технику «Мидеа»\""
+  }, {
+    "name" : "1",
+    "value" : "\"div.main-product + h2 \""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "def600dbff2d9f65.json",
+  "parameterValues" : [ "\"Почему покупатели выбирают технику «Мидеа»\"", "\"div.main-product + h2 \"" ]
+}

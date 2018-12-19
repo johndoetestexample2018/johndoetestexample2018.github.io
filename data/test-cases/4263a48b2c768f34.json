@@ -1,0 +1,325 @@
+{
+  "uid" : "4263a48b2c768f34",
+  "name" : "emptyNamesTest",
+  "fullName" : "mid (chromeheadless).emptyNamesTest",
+  "historyId" : "fa2e158c1fc4fbd7c972bd930bb58c44",
+  "time" : {
+    "start" : 1545233833666,
+    "stop" : 1545233840099,
+    "duration" : 6433
+  },
+  "description" : "Негативные тесты для регистрации",
+  "descriptionHtml" : "<p>Негативные тесты для регистрации</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1545233833781,
+        "stop" : 1545233833781,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1545233833781,
+        "stop" : 1545233835448,
+        "duration" : 1667
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1545233835448,
+        "stop" : 1545233835550,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Создать учётную запись\",\"(//a[contains(text(),'Создать учётную запись')])[position()=1]\"",
+      "time" : {
+        "start" : 1545233835556,
+        "stop" : 1545233836341,
+        "duration" : 785
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"//a[contains(text(),'Создать учётную запись')]\",\"target\"",
+      "time" : {
+        "start" : 1545233836341,
+        "stop" : 1545233836672,
+        "duration" : 331
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"//a[contains(text(),'Создать учётную запись')]\",\"onclick\"",
+      "time" : {
+        "start" : 1545233836672,
+        "stop" : 1545233836717,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//a[contains(text(),'Создать учётную запись')]\",10",
+      "time" : {
+        "start" : 1545233836718,
+        "stop" : 1545233836754,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//a[contains(text(),'Создать учётную запись')]\"",
+      "time" : {
+        "start" : 1545233836754,
+        "stop" : 1545233838828,
+        "duration" : 2074
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1545233838828,
+        "stop" : 1545233838930,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Создать новую учётную запись клиента\"",
+      "time" : {
+        "start" : 1545233838931,
+        "stop" : 1545233839150,
+        "duration" : 219
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#firstname\",\"\"",
+      "time" : {
+        "start" : 1545233839150,
+        "stop" : 1545233839316,
+        "duration" : 166
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#lastname\",\"\"",
+      "time" : {
+        "start" : 1545233839316,
+        "stop" : 1545233839393,
+        "duration" : 77
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#email_address\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1545233839393,
+        "stop" : 1545233839544,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input#password\",\"Test2018\"",
+      "time" : {
+        "start" : 1545233839545,
+        "stop" : 1545233839673,
+        "duration" : 128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='password_confirmation']\",\"Test2018\"",
+      "time" : {
+        "start" : 1545233839673,
+        "stop" : 1545233839818,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#form-validate  button\"",
+      "time" : {
+        "start" : 1545233839818,
+        "stop" : 1545233839948,
+        "duration" : 130
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Это поле обязательно для заполнения•\",\"(descendant-or-self::*[@id = 'firstname-error'])[position()=1]\"",
+      "time" : {
+        "start" : 1545233839948,
+        "stop" : 1545233840000,
+        "duration" : 52
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see \"Это поле обязательно для заполнения•\",\"(descendant-or-self::*[@id = 'lastname-error'])[position()=1]\"",
+      "time" : {
+        "start" : 1545233840000,
+        "stop" : 1545233840042,
+        "duration" : 42
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 18,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "emptyNamesTest"
+  }, {
+    "name" : "package",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4263a48b2c768f34.json",
+  "parameterValues" : [ ]
+}

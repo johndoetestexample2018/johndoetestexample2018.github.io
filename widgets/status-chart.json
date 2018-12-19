@@ -1,10 +1,670 @@
 [ {
-  "uid" : "2f6c3bbaa367ce42",
+  "uid" : "da08388180289f37",
+  "name" : "deleteInSidebarTest with data set #0",
+  "time" : {
+    "start" : 1545233997139,
+    "stop" : 1545234030517,
+    "duration" : 33378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aba398eebbf0802",
+  "name" : "wrongpassTest",
+  "time" : {
+    "start" : 1545233721179,
+    "stop" : 1545233729087,
+    "duration" : 7908
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75f11c63d863940a",
+  "name" : "homeWithLoginTest with data set #6",
+  "time" : {
+    "start" : 1545233620840,
+    "stop" : 1545233629914,
+    "duration" : 9074
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dae1a6ff203f3359",
+  "name" : "deleteTest with data set #0",
+  "time" : {
+    "start" : 1545234399380,
+    "stop" : 1545234431330,
+    "duration" : 31950
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4263a48b2c768f34",
+  "name" : "emptyNamesTest",
+  "time" : {
+    "start" : 1545233833666,
+    "stop" : 1545233840099,
+    "duration" : 6433
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0e072012fcfedef",
+  "name" : "homeWithLoginTest with data set #4",
+  "time" : {
+    "start" : 1545233602294,
+    "stop" : 1545233611612,
+    "duration" : 9318
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6f5b389e6cf11cf0",
+  "name" : "compareDeleteTest with data set #0",
+  "time" : {
+    "start" : 1545236107374,
+    "stop" : 1545236123051,
+    "duration" : 15677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1d5f2f54d2769ca",
+  "name" : "matchPassTest",
+  "time" : {
+    "start" : 1545233873454,
+    "stop" : 1545233879986,
+    "duration" : 6532
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c4623d73aa47810",
+  "name" : "itemQuantityTest with data set #0",
+  "time" : {
+    "start" : 1545234368000,
+    "stop" : 1545234399377,
+    "duration" : 31377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "12c7360485ca3e56",
+  "name" : "emptyPassTest",
+  "time" : {
+    "start" : 1545233846760,
+    "stop" : 1545233867181,
+    "duration" : 20421
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13a0057410443f91",
+  "name" : "homeWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1545233562556,
+    "stop" : 1545233572596,
+    "duration" : 10040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a38d2236a460d9f",
+  "name" : "homeTest with data set #8",
+  "time" : {
+    "start" : 1545233543320,
+    "stop" : 1545233545680,
+    "duration" : 2360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dec669d421ee147",
   "name" : "loginTest",
   "time" : {
-    "start" : 1544550275944,
-    "stop" : 1544550282277,
-    "duration" : 6333
+    "start" : 1545232974083,
+    "stop" : 1545232996021,
+    "duration" : 21938
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22f406aca80fac61",
+  "name" : "homeTest with data set #6",
+  "time" : {
+    "start" : 1545233535540,
+    "stop" : 1545233540741,
+    "duration" : 5201
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddfe6b02c9d58e34",
+  "name" : "homeTest with data set #4",
+  "time" : {
+    "start" : 1545233527795,
+    "stop" : 1545233530339,
+    "duration" : 2544
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "442ff6910fc11be5",
+  "name" : "homeTest with data set #2",
+  "time" : {
+    "start" : 1545233522310,
+    "stop" : 1545233525202,
+    "duration" : 2892
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fca635b67257c1",
+  "name" : "homeTest with data set #0",
+  "time" : {
+    "start" : 1545233517496,
+    "stop" : 1545233519769,
+    "duration" : 2273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "205ffcde67345b1c",
+  "name" : "homeTest with data set #13",
+  "time" : {
+    "start" : 1545233556814,
+    "stop" : 1545233559844,
+    "duration" : 3030
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "be49c7d5081ea8b6",
+  "name" : "deleteInWishlistTest with data set #0",
+  "time" : {
+    "start" : 1545233975509,
+    "stop" : 1545233997139,
+    "duration" : 21630
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "433efb748f6f49c",
+  "name" : "invalidEmailTest",
+  "time" : {
+    "start" : 1545233879986,
+    "stop" : 1545233886741,
+    "duration" : 6755
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "78f93240dd7db2a",
+  "name" : "emptyEmailTest",
+  "time" : {
+    "start" : 1545233840099,
+    "stop" : 1545233846759,
+    "duration" : 6660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "102634b71f90f4d6",
+  "name" : "homeTest with data set #14",
+  "time" : {
+    "start" : 1545233559846,
+    "stop" : 1545233562555,
+    "duration" : 2709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0cc4f58ac757adc",
+  "name" : "homeWithLoginTest with data set #8",
+  "time" : {
+    "start" : 1545233639271,
+    "stop" : 1545233648539,
+    "duration" : 9268
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "def600dbff2d9f65",
+  "name" : "homeTest with data set #7",
+  "time" : {
+    "start" : 1545233540741,
+    "stop" : 1545233543320,
+    "duration" : 2579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9d66e73ea2ef941",
+  "name" : "homeWithLoginTest with data set #13",
+  "time" : {
+    "start" : 1545233685486,
+    "stop" : 1545233695242,
+    "duration" : 9756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e87976f3320f2b40",
+  "name" : "emptymailTest",
+  "time" : {
+    "start" : 1545233729087,
+    "stop" : 1545233734486,
+    "duration" : 5399
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d3e796579524bfb9",
+  "name" : "sameUserTest",
+  "time" : {
+    "start" : 1545233899333,
+    "stop" : 1545233909357,
+    "duration" : 10024
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ddcb1c89affc8f9",
+  "name" : "smallPassTest",
+  "time" : {
+    "start" : 1545233886742,
+    "stop" : 1545233893031,
+    "duration" : 6289
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bee58100d05a076",
+  "name" : "homeTest with data set #11",
+  "time" : {
+    "start" : 1545233551734,
+    "stop" : 1545233554330,
+    "duration" : 2596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b112ca0a0ae974a",
+  "name" : "homeWithLoginTest with data set #10",
+  "time" : {
+    "start" : 1545233656958,
+    "stop" : 1545233665923,
+    "duration" : 8965
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "84daca532548d6b4",
+  "name" : "emptyPassConfirmTest",
+  "time" : {
+    "start" : 1545233867182,
+    "stop" : 1545233873453,
+    "duration" : 6271
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41be3f80047c232a",
+  "name" : "addToWishlistOnItemCardTest with data set #0",
+  "time" : {
+    "start" : 1545233951149,
+    "stop" : 1545233975509,
+    "duration" : 24360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1aa5aa98c0c95029",
+  "name" : "trailingSpacesPassTest",
+  "time" : {
+    "start" : 1545233893032,
+    "stop" : 1545233899333,
+    "duration" : 6301
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "285943c63c3f3567",
+  "name" : "addToCartWithOutLoginTest with data set #0",
+  "time" : {
+    "start" : 1545234431331,
+    "stop" : 1545234460984,
+    "duration" : 29653
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42678360f88a9d8f",
+  "name" : "homeTest with data set #5",
+  "time" : {
+    "start" : 1545233530340,
+    "stop" : 1545233535539,
+    "duration" : 5199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10cf52ed76a67f0b",
+  "name" : "homeWithLoginTest with data set #2",
+  "time" : {
+    "start" : 1545233581932,
+    "stop" : 1545233592162,
+    "duration" : 10230
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3b3fc6d05c7495d",
+  "name" : "headerLinks",
+  "time" : {
+    "start" : 1545233734491,
+    "stop" : 1545233770049,
+    "duration" : 35558
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7c8accc444e0ea1",
+  "name" : "homeTest with data set #9",
+  "time" : {
+    "start" : 1545233545681,
+    "stop" : 1545233549208,
+    "duration" : 3527
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2168d6c54a8f38f",
+  "name" : "compareDeleteWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1545236165813,
+    "stop" : 1545236192571,
+    "duration" : 26758
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8b66cf2183f8bf3",
+  "name" : "homeWithLoginTest with data set #12",
+  "time" : {
+    "start" : 1545233675800,
+    "stop" : 1545233685485,
+    "duration" : 9685
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae511586e770744d",
+  "name" : "addToCartTest with data set #0",
+  "time" : {
+    "start" : 1545234265151,
+    "stop" : 1545234284907,
+    "duration" : 19756
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18b73110156d3a23",
+  "name" : "homeTest with data set #10",
+  "time" : {
+    "start" : 1545233549208,
+    "stop" : 1545233551734,
+    "duration" : 2526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "26bd49c7b551c596",
+  "name" : "emptypassTest",
+  "time" : {
+    "start" : 1545233715110,
+    "stop" : 1545233721179,
+    "duration" : 6069
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e28fcb7ed82ef525",
+  "name" : "homeTest with data set #12",
+  "time" : {
+    "start" : 1545233554331,
+    "stop" : 1545233556813,
+    "duration" : 2482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "68a72116e490ff6f",
+  "name" : "homeTest with data set #3",
+  "time" : {
+    "start" : 1545233525203,
+    "stop" : 1545233527795,
+    "duration" : 2592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c7fa45c64d6a848",
+  "name" : "orderTest2 with data set #0",
+  "time" : {
+    "start" : 1545233831746,
+    "stop" : 1545233833658,
+    "duration" : 1912
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "2f1fe231bc31ee51",
+  "name" : "footerLinks",
+  "time" : {
+    "start" : 1545233770049,
+    "stop" : 1545233829557,
+    "duration" : 59508
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a58897b734942065",
+  "name" : "addToWishlistTest with data set #0",
+  "time" : {
+    "start" : 1545233926878,
+    "stop" : 1545233951148,
+    "duration" : 24270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9734ac4d61a536d4",
+  "name" : "homeWithLoginTest with data set #14",
+  "time" : {
+    "start" : 1545233695242,
+    "stop" : 1545233706170,
+    "duration" : 10928
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da8ede70ff0985d1",
+  "name" : "loginTest",
+  "time" : {
+    "start" : 1545233706177,
+    "stop" : 1545233715106,
+    "duration" : 8929
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f50ecc53d7614f2b",
+  "name" : "compareWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1545236123051,
+    "stop" : 1545236140496,
+    "duration" : 17445
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7ab6a4000027674e",
+  "name" : "homeWithLoginTest with data set #3",
+  "time" : {
+    "start" : 1545233592162,
+    "stop" : 1545233602293,
+    "duration" : 10131
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ef681e7b748ecd9",
+  "name" : "homeWithLoginTest with data set #1",
+  "time" : {
+    "start" : 1545233572597,
+    "stop" : 1545233581931,
+    "duration" : 9334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e04221c796bbae0",
+  "name" : "orderTest with data set #0",
+  "time" : {
+    "start" : 1545233829561,
+    "stop" : 1545233831743,
+    "duration" : 2182
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1a640f28299b79c",
+  "name" : "homeWithLoginTest with data set #7",
+  "time" : {
+    "start" : 1545233629916,
+    "stop" : 1545233639268,
+    "duration" : 9352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1727c0ac4c0ea457",
+  "name" : "homeWithLoginTest with data set #5",
+  "time" : {
+    "start" : 1545233611612,
+    "stop" : 1545233620839,
+    "duration" : 9227
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5941f59d8c3a475d",
+  "name" : "addToCartOnItemCardWithOutLoginTest with data set #0",
+  "time" : {
+    "start" : 1545234460986,
+    "stop" : 1545234475898,
+    "duration" : 14912
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a228c4cf5565b4df",
+  "name" : "compareTest with data set #0",
+  "time" : {
+    "start" : 1545236084333,
+    "stop" : 1545236095151,
+    "duration" : 10818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b477761d1133647",
+  "name" : "searchTest",
+  "time" : {
+    "start" : 1545233909360,
+    "stop" : 1545233926875,
+    "duration" : 17515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "36f0481ad26b32fd",
+  "name" : "compareOnItemCardTest with data set #0",
+  "time" : {
+    "start" : 1545236095151,
+    "stop" : 1545236107374,
+    "duration" : 12223
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee4fbb0e0b1174b7",
+  "name" : "zeroItemQuantityTest with data set #0",
+  "time" : {
+    "start" : 1545234343482,
+    "stop" : 1545234367999,
+    "duration" : 24517
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "90fd426d495fda05",
+  "name" : "homeWithLoginTest with data set #11",
+  "time" : {
+    "start" : 1545233665924,
+    "stop" : 1545233675799,
+    "duration" : 9875
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24760753aa414636",
+  "name" : "homeTest with data set #1",
+  "time" : {
+    "start" : 1545233519770,
+    "stop" : 1545233522309,
+    "duration" : 2539
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79dada8bfae617aa",
+  "name" : "addToCartOnItemCardTest with data set #0",
+  "time" : {
+    "start" : 1545234284908,
+    "stop" : 1545234303222,
+    "duration" : 18314
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5f7c38f0609ac91",
+  "name" : "homeWithLoginTest with data set #9",
+  "time" : {
+    "start" : 1545233648540,
+    "stop" : 1545233656957,
+    "duration" : 8417
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb08f97f8a70eb99",
+  "name" : "maxItemQuantityTest with data set #0",
+  "time" : {
+    "start" : 1545236030407,
+    "stop" : 1545236054859,
+    "duration" : 24452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b0f76484c601bfa3",
+  "name" : "compareOnItemCardWithLoginTest with data set #0",
+  "time" : {
+    "start" : 1545236140496,
+    "stop" : 1545236165813,
+    "duration" : 25317
   },
   "status" : "passed",
   "severity" : "normal"
