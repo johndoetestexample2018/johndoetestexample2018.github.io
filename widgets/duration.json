@@ -1,5 +1,15 @@
 [ {
-  "uid" : "fa9dd535cd320da5",
+  "uid" : "a0e65073abc2de85",
+  "name" : "emptymailTest",
+  "time" : {
+    "start" : 1545237994809,
+    "stop" : 1545237998342,
+    "duration" : 3533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0d94bf556688984",
   "name" : "loginTest",
   "time" : {
     "start" : 1545237309267,
@@ -9,12 +19,32 @@
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "e6b01e6338fd991d",
+  "uid" : "9b0b6690a37b1df7",
+  "name" : "emptypassTest",
+  "time" : {
+    "start" : 1545237985604,
+    "stop" : 1545237989848,
+    "duration" : 4244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10de4062e24e82a3",
   "name" : "loginTest",
   "time" : {
     "start" : 1545237735635,
     "stop" : 1545237742232,
     "duration" : 6597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ddc5b338e1b48335",
+  "name" : "wrongpassTest",
+  "time" : {
+    "start" : 1545237989849,
+    "stop" : 1545237994808,
+    "duration" : 4959
   },
   "status" : "passed",
   "severity" : "normal"

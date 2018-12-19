@@ -1,8 +1,9 @@
 {
   "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
   "children" : [ {
     "name" : "loginTest",
-    "uid" : "fa9dd535cd320da5",
+    "uid" : "d0d94bf556688984",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -14,7 +15,7 @@
     "parameters" : [ ]
   }, {
     "name" : "loginTest",
-    "uid" : "e6b01e6338fd991d",
+    "uid" : "10de4062e24e82a3",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
@@ -24,6 +25,41 @@
     },
     "flaky" : false,
     "parameters" : [ ]
-  } ],
-  "name" : "behaviors"
+  }, {
+    "name" : "emptypassTest",
+    "uid" : "9b0b6690a37b1df7",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1545237985604,
+      "stop" : 1545237989848,
+      "duration" : 4244
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "wrongpassTest",
+    "uid" : "ddc5b338e1b48335",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1545237989849,
+      "stop" : 1545237994808,
+      "duration" : 4959
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "emptymailTest",
+    "uid" : "a0e65073abc2de85",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1545237994809,
+      "stop" : 1545237998342,
+      "duration" : 3533
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  } ]
 }
