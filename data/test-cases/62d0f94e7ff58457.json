@@ -1,15 +1,15 @@
 {
-  "uid" : "a0e65073abc2de85",
-  "name" : "emptymailTest",
-  "fullName" : "elc (chromeheadless).emptymailTest",
-  "historyId" : "9f3067f5d407feb73c9f13a4cc0a5b0e",
+  "uid" : "62d0f94e7ff58457",
+  "name" : "loginTest",
+  "fullName" : "mid (chromeheadless).loginTest",
+  "historyId" : "886c901f336dc64ea6a8e8a048c1e3b1",
   "time" : {
-    "start" : 1545237994809,
-    "stop" : 1545237998342,
-    "duration" : 3533
+    "start" : 1545237309267,
+    "stop" : 1545237321190,
+    "duration" : 11923
   },
-  "description" : "Негативные тесты валидации логина",
-  "descriptionHtml" : "<p>Негативные тесты валидации логина</p>\n",
+  "description" : "Тест логина",
+  "descriptionHtml" : "<p>Тест логина</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1545237994927,
-        "stop" : 1545237994927,
-        "duration" : 0
+        "start" : 1545237309426,
+        "stop" : 1545237309428,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1545237994927,
-        "stop" : 1545237996227,
-        "duration" : 1300
+        "start" : 1545237309431,
+        "stop" : 1545237313281,
+        "duration" : 3850
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237996227,
-        "stop" : 1545237996329,
-        "duration" : 102
+        "start" : 1545237313281,
+        "stop" : 1545237313393,
+        "duration" : 112
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,11 +61,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"регистрация\",15,\"(descendant-or-self::*[@id = 'top-menu']/descendant-or-self::*/a[@href = 'https://www•elc-russia•ru/customer/account/login/'])[position()=1]\"",
+      "name" : "wait for text \"Войти\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' authorization-link ')]/descendant-or-self::*/a)[position()=1]\"",
       "time" : {
-        "start" : 1545237996330,
-        "stop" : 1545237996360,
-        "duration" : 30
+        "start" : 1545237313493,
+        "stop" : 1545237313815,
+        "duration" : 322
       },
       "status" : "passed",
       "steps" : [ ],
@@ -76,11 +76,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"target\"",
+      "name" : "grab attribute from \"•authorization-link a\",\"target\"",
       "time" : {
-        "start" : 1545237996361,
-        "stop" : 1545237996376,
-        "duration" : 15
+        "start" : 1545237313815,
+        "stop" : 1545237314007,
+        "duration" : 192
       },
       "status" : "passed",
       "steps" : [ ],
@@ -91,11 +91,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"onclick\"",
+      "name" : "grab attribute from \"•authorization-link a\",\"onclick\"",
       "time" : {
-        "start" : 1545237996377,
-        "stop" : 1545237996386,
-        "duration" : 9
+        "start" : 1545237314008,
+        "stop" : 1545237314068,
+        "duration" : 60
       },
       "status" : "passed",
       "steps" : [ ],
@@ -106,11 +106,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",10",
+      "name" : "wait for element visible \"•authorization-link a\",10",
       "time" : {
-        "start" : 1545237996386,
-        "stop" : 1545237996413,
-        "duration" : 27
+        "start" : 1545237314068,
+        "stop" : 1545237314130,
+        "duration" : 62
       },
       "status" : "passed",
       "steps" : [ ],
@@ -121,11 +121,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\"",
+      "name" : "click \"•authorization-link a\"",
       "time" : {
-        "start" : 1545237996413,
-        "stop" : 1545237997695,
-        "duration" : 1282
+        "start" : 1545237314130,
+        "stop" : 1545237315951,
+        "duration" : 1821
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,68 +138,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237997695,
-        "stop" : 1545237997797,
-        "duration" : 102
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "wait for text \"Зайти через учетную запись OpenID\",15",
-      "time" : {
-        "start" : 1545237997797,
-        "stop" : 1545237997935,
-        "duration" : 138
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "fill field \"input[id='email']\",\"\"",
-      "time" : {
-        "start" : 1545237997935,
-        "stop" : 1545237998060,
-        "duration" : 125
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "fill field \"input[id='pass']\",\"Test2018\"",
-      "time" : {
-        "start" : 1545237998060,
-        "stop" : 1545237998159,
-        "duration" : 99
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "click \"#login-form button[type='submit']\"",
-      "time" : {
-        "start" : 1545237998159,
-        "stop" : 1545237998260,
+        "start" : 1545237315951,
+        "stop" : 1545237316052,
         "duration" : 101
       },
       "status" : "passed",
@@ -211,11 +151,116 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Это поле обязательно для заполнения•\",30,\"(descendant-or-self::*[@id = 'advice-required-entry-email'])[position()=1]\"",
+      "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1545237998260,
-        "stop" : 1545237998289,
-        "duration" : 29
+        "start" : 1545237316053,
+        "stop" : 1545237316207,
+        "duration" : 154
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1545237316207,
+        "stop" : 1545237316410,
+        "duration" : 203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1545237316410,
+        "stop" : 1545237316495,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"•fieldset  button[type='submit']\"",
+      "time" : {
+        "start" : 1545237316495,
+        "stop" : 1545237318328,
+        "duration" : 1833
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Моя учётная запись\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
+      "time" : {
+        "start" : 1545237318329,
+        "stop" : 1545237318493,
+        "duration" : 164
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//a[contains(@href,'logout')]\"",
+      "time" : {
+        "start" : 1545237318493,
+        "stop" : 1545237318587,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//a[contains(@href,'logout')]\"",
+      "time" : {
+        "start" : 1545237318587,
+        "stop" : 1545237320998,
+        "duration" : 2411
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"You are signed out\"",
+      "time" : {
+        "start" : 1545237320998,
+        "stop" : 1545237321133,
+        "duration" : 135
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,7 +273,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 14,
+    "stepsCount" : 17,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -236,16 +281,16 @@
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "suite",
-    "value" : "elc (chromeheadless)"
+    "value" : "mid (chromeheadless)"
   }, {
     "name" : "testClass",
-    "value" : "elc (chromeheadless)"
+    "value" : "mid (chromeheadless)"
   }, {
     "name" : "testMethod",
-    "value" : "emptymailTest"
+    "value" : "loginTest"
   }, {
     "name" : "package",
-    "value" : "elc (chromeheadless)"
+    "value" : "mid (chromeheadless)"
   }, {
     "name" : "resultFormat",
     "value" : "allure1"
@@ -260,6 +305,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "a0e65073abc2de85.json",
+  "source" : "62d0f94e7ff58457.json",
   "parameterValues" : [ ]
 }

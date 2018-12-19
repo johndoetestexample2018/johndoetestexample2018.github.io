@@ -1,11 +1,10 @@
 {
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
-  "name" : "suites",
   "children" : [ {
     "name" : "mid (chromeheadless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "d0d94bf556688984",
+      "uid" : "62d0f94e7ff58457",
       "parentUid" : "931377cab65ba73063560c041fcec8d9",
       "status" : "passed",
       "time" : {
@@ -21,7 +20,7 @@
     "name" : "elc (chromeheadless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "10de4062e24e82a3",
+      "uid" : "55b11232bb27aae5",
       "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
       "status" : "passed",
       "time" : {
@@ -33,7 +32,7 @@
       "parameters" : [ ]
     }, {
       "name" : "emptypassTest",
-      "uid" : "9b0b6690a37b1df7",
+      "uid" : "e3949d870e21b1e1",
       "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
       "status" : "passed",
       "time" : {
@@ -45,7 +44,7 @@
       "parameters" : [ ]
     }, {
       "name" : "wrongpassTest",
-      "uid" : "ddc5b338e1b48335",
+      "uid" : "1e692842786236cf",
       "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
       "status" : "passed",
       "time" : {
@@ -57,7 +56,7 @@
       "parameters" : [ ]
     }, {
       "name" : "emptymailTest",
-      "uid" : "a0e65073abc2de85",
+      "uid" : "fc18fc9710df3587",
       "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
       "status" : "passed",
       "time" : {
@@ -67,7 +66,32 @@
       },
       "flaky" : false,
       "parameters" : [ ]
+    }, {
+      "name" : "headerLinks",
+      "uid" : "4d3ea80fcfabf765",
+      "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545238054977,
+        "stop" : 1545238129840,
+        "duration" : 74863
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "footerLinks",
+      "uid" : "3705199ac3d64e8f",
+      "parentUid" : "ede9bc6054509a56fccfad7a6ef8785a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545238129841,
+        "stop" : 1545238258780,
+        "duration" : 128939
+      },
+      "flaky" : false,
+      "parameters" : [ ]
     } ],
     "uid" : "ede9bc6054509a56fccfad7a6ef8785a"
-  } ]
+  } ],
+  "name" : "suites"
 }

@@ -1,15 +1,15 @@
 {
-  "uid" : "ddc5b338e1b48335",
-  "name" : "wrongpassTest",
-  "fullName" : "elc (chromeheadless).wrongpassTest",
-  "historyId" : "bc29df52cb8f76bcf71898db4f83251f",
+  "uid" : "55b11232bb27aae5",
+  "name" : "loginTest",
+  "fullName" : "elc (chromeheadless).loginTest",
+  "historyId" : "8d7b9f233c9580f0b506c2c92fec7b20",
   "time" : {
-    "start" : 1545237989849,
-    "stop" : 1545237994808,
-    "duration" : 4959
+    "start" : 1545237735635,
+    "stop" : 1545237742232,
+    "duration" : 6597
   },
-  "description" : "Негативные тесты валидации логина",
-  "descriptionHtml" : "<p>Негативные тесты валидации логина</p>\n",
+  "description" : "Тест логина",
+  "descriptionHtml" : "<p>Тест логина</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1545237989968,
-        "stop" : 1545237989968,
-        "duration" : 0
+        "start" : 1545237735798,
+        "stop" : 1545237735800,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1545237989969,
-        "stop" : 1545237991336,
-        "duration" : 1367
+        "start" : 1545237735803,
+        "stop" : 1545237737211,
+        "duration" : 1408
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237991336,
-        "stop" : 1545237991438,
-        "duration" : 102
+        "start" : 1545237737211,
+        "stop" : 1545237737320,
+        "duration" : 109
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"регистрация\",15,\"(descendant-or-self::*[@id = 'top-menu']/descendant-or-self::*/a[@href = 'https://www•elc-russia•ru/customer/account/login/'])[position()=1]\"",
       "time" : {
-        "start" : 1545237991439,
-        "stop" : 1545237991486,
-        "duration" : 47
+        "start" : 1545237737422,
+        "stop" : 1545237737461,
+        "duration" : 39
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,8 +78,8 @@
     }, {
       "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"target\"",
       "time" : {
-        "start" : 1545237991487,
-        "stop" : 1545237991501,
+        "start" : 1545237737462,
+        "stop" : 1545237737476,
         "duration" : 14
       },
       "status" : "passed",
@@ -93,9 +93,9 @@
     }, {
       "name" : "grab attribute from \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",\"onclick\"",
       "time" : {
-        "start" : 1545237991501,
-        "stop" : 1545237991569,
-        "duration" : 68
+        "start" : 1545237737476,
+        "stop" : 1545237737486,
+        "duration" : 10
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\",10",
       "time" : {
-        "start" : 1545237991569,
-        "stop" : 1545237991683,
-        "duration" : 114
+        "start" : 1545237737486,
+        "stop" : 1545237737575,
+        "duration" : 89
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/login/']\"",
       "time" : {
-        "start" : 1545237991684,
-        "stop" : 1545237992876,
-        "duration" : 1192
+        "start" : 1545237737575,
+        "stop" : 1545237738820,
+        "duration" : 1245
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237992877,
-        "stop" : 1545237992980,
-        "duration" : 103
+        "start" : 1545237738820,
+        "stop" : 1545237738921,
+        "duration" : 101
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Зайти через учетную запись OpenID\",15",
       "time" : {
-        "start" : 1545237992981,
-        "stop" : 1545237993117,
-        "duration" : 136
+        "start" : 1545237738922,
+        "stop" : 1545237739041,
+        "duration" : 119
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[id='email']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1545237993117,
-        "stop" : 1545237993322,
-        "duration" : 205
+        "start" : 1545237739041,
+        "stop" : 1545237739280,
+        "duration" : 239
       },
       "status" : "passed",
       "steps" : [ ],
@@ -181,11 +181,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "fill field \"input[id='pass']\",\"wrongpass2018\"",
+      "name" : "fill field \"input[id='pass']\",\"Test2018\"",
       "time" : {
-        "start" : 1545237993322,
-        "stop" : 1545237993448,
-        "duration" : 126
+        "start" : 1545237739280,
+        "stop" : 1545237739382,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"#login-form button[type='submit']\"",
       "time" : {
-        "start" : 1545237993449,
-        "stop" : 1545237994704,
-        "duration" : 1255
+        "start" : 1545237739382,
+        "stop" : 1545237740856,
+        "duration" : 1474
       },
       "status" : "passed",
       "steps" : [ ],
@@ -211,11 +211,56 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Неправильный логин или пароль•\",30,\"(descendant-or-self::li[@class and contains(concat(' ', normalize-space(@class), ' '), ' error-msg ')])[position()=1]\"",
+      "name" : "wait for text \"Мой аккаунт\",15,\"(descendant-or-self::h1)[position()=1]\"",
       "time" : {
-        "start" : 1545237994704,
-        "stop" : 1545237994756,
-        "duration" : 52
+        "start" : 1545237740856,
+        "stop" : 1545237740885,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"#top-menu a[href='https://www•elc-russia•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1545237740885,
+        "stop" : 1545237740905,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#top-menu a[href='https://www•elc-russia•ru/customer/account/logout/']\"",
+      "time" : {
+        "start" : 1545237740906,
+        "stop" : 1545237742037,
+        "duration" : 1131
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Подождите\"",
+      "time" : {
+        "start" : 1545237742037,
+        "stop" : 1545237742174,
+        "duration" : 137
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,7 +273,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 14,
+    "stepsCount" : 17,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -242,7 +287,7 @@
     "value" : "elc (chromeheadless)"
   }, {
     "name" : "testMethod",
-    "value" : "wrongpassTest"
+    "value" : "loginTest"
   }, {
     "name" : "package",
     "value" : "elc (chromeheadless)"
@@ -260,6 +305,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ddc5b338e1b48335.json",
+  "source" : "55b11232bb27aae5.json",
   "parameterValues" : [ ]
 }
