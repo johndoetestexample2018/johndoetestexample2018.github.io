@@ -2,13 +2,25 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "loginTest",
-    "uid" : "ad35513f929201cc",
+    "uid" : "fa9dd535cd320da5",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
       "start" : 1545237309267,
       "stop" : 1545237321190,
       "duration" : 11923
+    },
+    "flaky" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "loginTest",
+    "uid" : "e6b01e6338fd991d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1545237735635,
+      "stop" : 1545237742232,
+      "duration" : 6597
     },
     "flaky" : false,
     "parameters" : [ ]

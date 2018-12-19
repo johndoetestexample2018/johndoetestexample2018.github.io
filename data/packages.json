@@ -4,7 +4,7 @@
     "name" : "mid (chromeheadless)",
     "children" : [ {
       "name" : "loginTest",
-      "uid" : "ad35513f929201cc",
+      "uid" : "fa9dd535cd320da5",
       "parentUid" : "27e993f510340d597f4f0f01f5d9279e",
       "status" : "passed",
       "time" : {
@@ -16,6 +16,22 @@
       "parameters" : [ ]
     } ],
     "uid" : "27e993f510340d597f4f0f01f5d9279e"
+  }, {
+    "name" : "elc (chromeheadless)",
+    "children" : [ {
+      "name" : "loginTest",
+      "uid" : "e6b01e6338fd991d",
+      "parentUid" : "a809e9d7aca6f9a612f0e93c75a7dd93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1545237735635,
+        "stop" : 1545237742232,
+        "duration" : 6597
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a809e9d7aca6f9a612f0e93c75a7dd93"
   } ],
   "name" : "packages"
 }
