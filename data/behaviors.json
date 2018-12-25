@@ -2,85 +2,13 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "loginTest",
-    "uid" : "62d0f94e7ff58457",
+    "uid" : "51b1f01aab15331b",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1545237309267,
-      "stop" : 1545237321190,
-      "duration" : 11923
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "loginTest",
-    "uid" : "55b11232bb27aae5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545237735635,
-      "stop" : 1545237742232,
-      "duration" : 6597
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "emptypassTest",
-    "uid" : "e3949d870e21b1e1",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545237985604,
-      "stop" : 1545237989848,
-      "duration" : 4244
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "wrongpassTest",
-    "uid" : "1e692842786236cf",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545237989849,
-      "stop" : 1545237994808,
-      "duration" : 4959
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "emptymailTest",
-    "uid" : "fc18fc9710df3587",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545237994809,
-      "stop" : 1545237998342,
-      "duration" : 3533
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "headerLinks",
-    "uid" : "4d3ea80fcfabf765",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545238054977,
-      "stop" : 1545238129840,
-      "duration" : 74863
-    },
-    "flaky" : false,
-    "parameters" : [ ]
-  }, {
-    "name" : "footerLinks",
-    "uid" : "3705199ac3d64e8f",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1545238129841,
-      "stop" : 1545238258780,
-      "duration" : 128939
+      "start" : 1545757505835,
+      "stop" : 1545757520196,
+      "duration" : 14361
     },
     "flaky" : false,
     "parameters" : [ ]

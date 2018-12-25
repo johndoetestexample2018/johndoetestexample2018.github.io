@@ -1,12 +1,12 @@
 {
-  "uid" : "62d0f94e7ff58457",
+  "uid" : "51581cebe783038a",
   "name" : "loginTest",
   "fullName" : "mid (chromeheadless).loginTest",
   "historyId" : "886c901f336dc64ea6a8e8a048c1e3b1",
   "time" : {
-    "start" : 1545237309267,
-    "stop" : 1545237321190,
-    "duration" : 11923
+    "start" : 1545757234299,
+    "stop" : 1545757248109,
+    "duration" : 13810
   },
   "description" : "Тест логина",
   "descriptionHtml" : "<p>Тест логина</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1545237309426,
-        "stop" : 1545237309428,
-        "duration" : 2
+        "start" : 1545757235046,
+        "stop" : 1545757235049,
+        "duration" : 3
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1545237309431,
-        "stop" : 1545237313281,
-        "duration" : 3850
+        "start" : 1545757235052,
+        "stop" : 1545757236986,
+        "duration" : 1934
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237313281,
-        "stop" : 1545237313393,
-        "duration" : 112
+        "start" : 1545757236986,
+        "stop" : 1545757237097,
+        "duration" : 111
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' authorization-link ')]/descendant-or-self::*/a)[position()=1]\"",
       "time" : {
-        "start" : 1545237313493,
-        "stop" : 1545237313815,
-        "duration" : 322
+        "start" : 1545757237262,
+        "stop" : 1545757238006,
+        "duration" : 744
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"•authorization-link a\",\"target\"",
       "time" : {
-        "start" : 1545237313815,
-        "stop" : 1545237314007,
-        "duration" : 192
+        "start" : 1545757238006,
+        "stop" : 1545757238078,
+        "duration" : 72
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "grab attribute from \"•authorization-link a\",\"onclick\"",
       "time" : {
-        "start" : 1545237314008,
-        "stop" : 1545237314068,
-        "duration" : 60
+        "start" : 1545757238079,
+        "stop" : 1545757238381,
+        "duration" : 302
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"•authorization-link a\",10",
       "time" : {
-        "start" : 1545237314068,
-        "stop" : 1545237314130,
-        "duration" : 62
+        "start" : 1545757238381,
+        "stop" : 1545757238466,
+        "duration" : 85
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"•authorization-link a\"",
       "time" : {
-        "start" : 1545237314130,
-        "stop" : 1545237315951,
-        "duration" : 1821
+        "start" : 1545757238466,
+        "stop" : 1545757240772,
+        "duration" : 2306
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545237315951,
-        "stop" : 1545237316052,
-        "duration" : 101
+        "start" : 1545757240772,
+        "stop" : 1545757240874,
+        "duration" : 102
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1545237316053,
-        "stop" : 1545237316207,
-        "duration" : 154
+        "start" : 1545757240874,
+        "stop" : 1545757241211,
+        "duration" : 337
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1545237316207,
-        "stop" : 1545237316410,
-        "duration" : 203
+        "start" : 1545757241211,
+        "stop" : 1545757241430,
+        "duration" : 219
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
       "time" : {
-        "start" : 1545237316410,
-        "stop" : 1545237316495,
-        "duration" : 85
+        "start" : 1545757241430,
+        "stop" : 1545757241517,
+        "duration" : 87
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"•fieldset  button[type='submit']\"",
       "time" : {
-        "start" : 1545237316495,
-        "stop" : 1545237318328,
-        "duration" : 1833
+        "start" : 1545757241517,
+        "stop" : 1545757244487,
+        "duration" : 2970
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "wait for text \"Моя учётная запись\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
       "time" : {
-        "start" : 1545237318329,
-        "stop" : 1545237318493,
-        "duration" : 164
+        "start" : 1545757244487,
+        "stop" : 1545757244531,
+        "duration" : 44
       },
       "status" : "passed",
       "steps" : [ ],
@@ -228,9 +228,9 @@
     }, {
       "name" : "wait for element visible \"//a[contains(@href,'logout')]\"",
       "time" : {
-        "start" : 1545237318493,
-        "stop" : 1545237318587,
-        "duration" : 94
+        "start" : 1545757244531,
+        "stop" : 1545757244554,
+        "duration" : 23
       },
       "status" : "passed",
       "steps" : [ ],
@@ -243,9 +243,9 @@
     }, {
       "name" : "click \"//a[contains(@href,'logout')]\"",
       "time" : {
-        "start" : 1545237318587,
-        "stop" : 1545237320998,
-        "duration" : 2411
+        "start" : 1545757244554,
+        "stop" : 1545757247744,
+        "duration" : 3190
       },
       "status" : "passed",
       "steps" : [ ],
@@ -258,9 +258,9 @@
     }, {
       "name" : "wait for text \"You are signed out\"",
       "time" : {
-        "start" : 1545237320998,
-        "stop" : 1545237321133,
-        "duration" : 135
+        "start" : 1545757247744,
+        "stop" : 1545757248052,
+        "duration" : 308
       },
       "status" : "passed",
       "steps" : [ ],
@@ -297,14 +297,12 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : false,
-  "retry" : false,
+  "hidden" : true,
+  "retry" : true,
   "extra" : {
-    "severity" : "normal",
-    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "62d0f94e7ff58457.json",
+  "source" : "51581cebe783038a.json",
   "parameterValues" : [ ]
 }
