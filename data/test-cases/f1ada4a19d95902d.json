@@ -1,15 +1,15 @@
 {
-  "uid" : "51b1f01aab15331b",
-  "name" : "loginTest",
-  "fullName" : "mid (chromeheadless).loginTest",
-  "historyId" : "886c901f336dc64ea6a8e8a048c1e3b1",
+  "uid" : "f1ada4a19d95902d",
+  "name" : "homeWithLoginTest with data set #10",
+  "fullName" : "mid (chromeheadless).homeWithLoginTest with data set #10",
+  "historyId" : "1d07d9d6238fd5779b494e2d147e180f",
   "time" : {
-    "start" : 1545757505835,
-    "stop" : 1545757520196,
-    "duration" : 14361
+    "start" : 1547743559787,
+    "stop" : 1547743570886,
+    "duration" : 11099
   },
-  "description" : "Тест логина",
-  "descriptionHtml" : "<p>Тест логина</p>\n",
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
   "status" : "passed",
   "flaky" : false,
   "beforeStages" : [ ],
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1545757505991,
-        "stop" : 1545757505993,
-        "duration" : 2
+        "start" : 1547743559906,
+        "stop" : 1547743559906,
+        "duration" : 0
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1545757505994,
-        "stop" : 1545757510724,
-        "duration" : 4730
+        "start" : 1547743559906,
+        "stop" : 1547743562073,
+        "duration" : 2167
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545757510725,
-        "stop" : 1545757510833,
-        "duration" : 108
+        "start" : 1547743562073,
+        "stop" : 1547743562177,
+        "duration" : 104
       },
       "status" : "passed",
       "steps" : [ ],
@@ -63,9 +63,9 @@
     }, {
       "name" : "wait for text \"Войти\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' authorization-link ')]/descendant-or-self::*/a)[position()=1]\"",
       "time" : {
-        "start" : 1545757510908,
-        "stop" : 1545757511504,
-        "duration" : 596
+        "start" : 1547743562178,
+        "stop" : 1547743562482,
+        "duration" : 304
       },
       "status" : "passed",
       "steps" : [ ],
@@ -78,9 +78,9 @@
     }, {
       "name" : "grab attribute from \"•authorization-link a\",\"target\"",
       "time" : {
-        "start" : 1545757511504,
-        "stop" : 1545757511608,
-        "duration" : 104
+        "start" : 1547743562482,
+        "stop" : 1547743562931,
+        "duration" : 449
       },
       "status" : "passed",
       "steps" : [ ],
@@ -93,9 +93,9 @@
     }, {
       "name" : "grab attribute from \"•authorization-link a\",\"onclick\"",
       "time" : {
-        "start" : 1545757511608,
-        "stop" : 1545757511686,
-        "duration" : 78
+        "start" : 1547743562931,
+        "stop" : 1547743563328,
+        "duration" : 397
       },
       "status" : "passed",
       "steps" : [ ],
@@ -108,9 +108,9 @@
     }, {
       "name" : "wait for element visible \"•authorization-link a\",10",
       "time" : {
-        "start" : 1545757511686,
-        "stop" : 1545757511737,
-        "duration" : 51
+        "start" : 1547743563329,
+        "stop" : 1547743563418,
+        "duration" : 89
       },
       "status" : "passed",
       "steps" : [ ],
@@ -123,9 +123,9 @@
     }, {
       "name" : "click \"•authorization-link a\"",
       "time" : {
-        "start" : 1545757511737,
-        "stop" : 1545757514027,
-        "duration" : 2290
+        "start" : 1547743563419,
+        "stop" : 1547743565665,
+        "duration" : 2246
       },
       "status" : "passed",
       "steps" : [ ],
@@ -138,9 +138,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1545757514027,
-        "stop" : 1545757514129,
-        "duration" : 102
+        "start" : 1547743565665,
+        "stop" : 1547743565768,
+        "duration" : 103
       },
       "status" : "passed",
       "steps" : [ ],
@@ -153,9 +153,9 @@
     }, {
       "name" : "wait for text \"Вход в систему\",15",
       "time" : {
-        "start" : 1545757514129,
-        "stop" : 1545757514278,
-        "duration" : 149
+        "start" : 1547743565769,
+        "stop" : 1547743566058,
+        "duration" : 289
       },
       "status" : "passed",
       "steps" : [ ],
@@ -168,9 +168,9 @@
     }, {
       "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
       "time" : {
-        "start" : 1545757514278,
-        "stop" : 1545757514515,
-        "duration" : 237
+        "start" : 1547743566059,
+        "stop" : 1547743566259,
+        "duration" : 200
       },
       "status" : "passed",
       "steps" : [ ],
@@ -183,9 +183,9 @@
     }, {
       "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
       "time" : {
-        "start" : 1545757514515,
-        "stop" : 1545757514614,
-        "duration" : 99
+        "start" : 1547743566259,
+        "stop" : 1547743566348,
+        "duration" : 89
       },
       "status" : "passed",
       "steps" : [ ],
@@ -198,9 +198,9 @@
     }, {
       "name" : "click \"•fieldset  button[type='submit']\"",
       "time" : {
-        "start" : 1545757514614,
-        "stop" : 1545757517570,
-        "duration" : 2956
+        "start" : 1547743566348,
+        "stop" : 1547743569176,
+        "duration" : 2828
       },
       "status" : "passed",
       "steps" : [ ],
@@ -213,9 +213,9 @@
     }, {
       "name" : "wait for text \"Моя учётная запись\",15,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' page-title-wrapper ')]/h1)[position()=1]\"",
       "time" : {
-        "start" : 1545757517570,
-        "stop" : 1545757517689,
-        "duration" : 119
+        "start" : 1547743569176,
+        "stop" : 1547743569218,
+        "duration" : 42
       },
       "status" : "passed",
       "steps" : [ ],
@@ -226,11 +226,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for element visible \"//a[contains(@href,'logout')]\"",
+      "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1545757517689,
-        "stop" : 1545757517723,
-        "duration" : 34
+        "start" : 1547743569219,
+        "stop" : 1547743570752,
+        "duration" : 1533
       },
       "status" : "passed",
       "steps" : [ ],
@@ -241,26 +241,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "click \"//a[contains(@href,'logout')]\"",
+      "name" : "wait for text \"Последние новости\",15,\"(descendant-or-self::div[(@class and contains(concat(' ', normalize-space(@class), ' '), ' alo-blog ')) and (@class and contains(concat(' ', normalize-space(@class), ' '), •••\"",
       "time" : {
-        "start" : 1545757517723,
-        "stop" : 1545757519874,
-        "duration" : 2151
-      },
-      "status" : "passed",
-      "steps" : [ ],
-      "attachments" : [ ],
-      "parameters" : [ ],
-      "stepsCount" : 0,
-      "attachmentsCount" : 0,
-      "shouldDisplayMessage" : false,
-      "hasContent" : false
-    }, {
-      "name" : "wait for text \"You are signed out\"",
-      "time" : {
-        "start" : 1545757519875,
-        "stop" : 1545757520138,
-        "duration" : 263
+        "start" : 1547743570753,
+        "stop" : 1547743570830,
+        "duration" : 77
       },
       "status" : "passed",
       "steps" : [ ],
@@ -273,7 +258,7 @@
     } ],
     "attachments" : [ ],
     "parameters" : [ ],
-    "stepsCount" : 17,
+    "stepsCount" : 16,
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
     "hasContent" : true
@@ -287,7 +272,7 @@
     "value" : "mid (chromeheadless)"
   }, {
     "name" : "testMethod",
-    "value" : "loginTest"
+    "value" : "homeWithLoginTest with data set #10"
   }, {
     "name" : "package",
     "value" : "mid (chromeheadless)"
@@ -295,24 +280,22 @@
     "name" : "resultFormat",
     "value" : "allure1"
   } ],
-  "parameters" : [ ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Последние новости\""
+  }, {
+    "name" : "1",
+    "value" : "\"div.alo-blog.magiccart-blog\""
+  } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "51581cebe783038a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1545757234299,
-        "stop" : 1545757248109,
-        "duration" : 13810
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "51b1f01aab15331b.json",
-  "parameterValues" : [ ]
+  "source" : "f1ada4a19d95902d.json",
+  "parameterValues" : [ "\"Последние новости\"", "\"div.alo-blog.magiccart-blog\"" ]
 }
