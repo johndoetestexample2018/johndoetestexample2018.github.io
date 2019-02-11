@@ -1,12 +1,12 @@
 {
-  "uid" : "c70042d5308b505a",
-  "name" : "homeTest with data set #2",
-  "fullName" : "mid (chromeheadless).homeTest with data set #2",
-  "historyId" : "3dd34eb28209690c14b2088e54b7841",
+  "uid" : "2c19e75f42b6aa2f",
+  "name" : "homeTest with data set #0",
+  "fullName" : "mid (chromeheadless).homeTest with data set #0",
+  "historyId" : "1cfe576552966d3576b1f3f72d8ae72e",
   "time" : {
-    "start" : 1549904608704,
-    "stop" : 1549904618480,
-    "duration" : 9776
+    "start" : 1549904766924,
+    "stop" : 1549904772407,
+    "duration" : 5483
   },
   "description" : "Проверка текста на главной странице MID",
   "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
@@ -18,9 +18,9 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1549904609230,
-        "stop" : 1549904609230,
-        "duration" : 0
+        "start" : 1549904767112,
+        "stop" : 1549904767114,
+        "duration" : 2
       },
       "status" : "passed",
       "steps" : [ ],
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1549904609230,
-        "stop" : 1549904617823,
-        "duration" : 8593
+        "start" : 1549904767117,
+        "stop" : 1549904770808,
+        "duration" : 3691
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,9 +48,9 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1549904617823,
-        "stop" : 1549904617927,
-        "duration" : 104
+        "start" : 1549904770808,
+        "stop" : 1549904770921,
+        "duration" : 113
       },
       "status" : "passed",
       "steps" : [ ],
@@ -61,11 +61,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"О Midea\",15,\"((//div[contains(@class, 'footer-item')]//h3)[2])[position()=1]\"",
+      "name" : "wait for text \"Есть вопросы? Звоните!\\n8 495 212 18 19\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' hotline-body ')])[position()=1]\"",
       "time" : {
-        "start" : 1549904617968,
-        "stop" : 1549904618428,
-        "duration" : 460
+        "start" : 1549904771050,
+        "stop" : 1549904772341,
+        "duration" : 1291
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,7 +92,7 @@
     "value" : "mid (chromeheadless)"
   }, {
     "name" : "testMethod",
-    "value" : "homeTest with data set #2"
+    "value" : "homeTest with data set #0"
   }, {
     "name" : "package",
     "value" : "mid (chromeheadless)"
@@ -102,20 +102,28 @@
   } ],
   "parameters" : [ {
     "name" : "0",
-    "value" : "\"О Midea\""
+    "value" : "\"Есть вопросы? Звоните!\\n8 495 212 18 19\""
   }, {
     "name" : "1",
-    "value" : "\"(//div[contains(@class, 'footer-item')]//h3)[2]\""
+    "value" : "\".hotline-body\""
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "b3d52edd58888bfa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549904579050,
+        "stop" : 1549904584656,
+        "duration" : 5606
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "c70042d5308b505a.json",
-  "parameterValues" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
+  "source" : "2c19e75f42b6aa2f.json",
+  "parameterValues" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
 }

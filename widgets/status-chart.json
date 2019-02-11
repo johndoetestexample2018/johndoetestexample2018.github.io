@@ -1,50 +1,50 @@
 [ {
-  "uid" : "c70042d5308b505a",
-  "name" : "homeTest with data set #2",
+  "uid" : "2c19e75f42b6aa2f",
+  "name" : "homeTest with data set #0",
   "time" : {
-    "start" : 1549904608704,
-    "stop" : 1549904618480,
-    "duration" : 9776
+    "start" : 1549904766924,
+    "stop" : 1549904772407,
+    "duration" : 5483
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "bf55a361b0ba10cd",
+  "uid" : "ed46a62c3a8ee546",
+  "name" : "homeTest with data set #2",
+  "time" : {
+    "start" : 1549904791957,
+    "stop" : 1549904796959,
+    "duration" : 5002
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee27a694d21a1bc5",
+  "name" : "homeTest with data set #4",
+  "time" : {
+    "start" : 1549904819661,
+    "stop" : 1549904825698,
+    "duration" : 6037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a02a8db181bd1068",
   "name" : "homeTest with data set #1",
   "time" : {
-    "start" : 1549904584659,
-    "stop" : 1549904608701,
-    "duration" : 24042
+    "start" : 1549904772408,
+    "stop" : 1549904791955,
+    "duration" : 19547
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "550e393384008790",
-  "name" : "homeTest with data set #4",
-  "time" : {
-    "start" : 1549904640784,
-    "stop" : 1549904646351,
-    "duration" : 5567
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "97e66f4a0a5eb8c9",
-  "name" : "homeTest with data set #0",
-  "time" : {
-    "start" : 1549904579050,
-    "stop" : 1549904584656,
-    "duration" : 5606
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "faa3cd20e7b33851",
+  "uid" : "1555c9c095224662",
   "name" : "homeTest with data set #3",
   "time" : {
-    "start" : 1549904618481,
-    "stop" : 1549904640780,
-    "duration" : 22299
+    "start" : 1549904796960,
+    "stop" : 1549904819655,
+    "duration" : 22695
   },
   "status" : "broken",
   "severity" : "normal"

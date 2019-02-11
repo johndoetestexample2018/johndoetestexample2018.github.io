@@ -1,12 +1,12 @@
 {
-  "uid" : "550e393384008790",
-  "name" : "homeTest with data set #4",
-  "fullName" : "mid (chromeheadless).homeTest with data set #4",
-  "historyId" : "3150bd01f0e6ee30202c2a152f5a316a",
+  "uid" : "ed46a62c3a8ee546",
+  "name" : "homeTest with data set #2",
+  "fullName" : "mid (chromeheadless).homeTest with data set #2",
+  "historyId" : "3dd34eb28209690c14b2088e54b7841",
   "time" : {
-    "start" : 1549904640784,
-    "stop" : 1549904646351,
-    "duration" : 5567
+    "start" : 1549904791957,
+    "stop" : 1549904796959,
+    "duration" : 5002
   },
   "description" : "Проверка текста на главной странице MID",
   "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
@@ -18,8 +18,8 @@
     "steps" : [ {
       "name" : "get url from config ",
       "time" : {
-        "start" : 1549904641136,
-        "stop" : 1549904641136,
+        "start" : 1549904792383,
+        "stop" : 1549904792383,
         "duration" : 0
       },
       "status" : "passed",
@@ -33,9 +33,9 @@
     }, {
       "name" : "am on page \"/\"",
       "time" : {
-        "start" : 1549904641136,
-        "stop" : 1549904645571,
-        "duration" : 4435
+        "start" : 1549904792383,
+        "stop" : 1549904796370,
+        "duration" : 3987
       },
       "status" : "passed",
       "steps" : [ ],
@@ -48,8 +48,8 @@
     }, {
       "name" : "resize window 5000,5000",
       "time" : {
-        "start" : 1549904645571,
-        "stop" : 1549904645674,
+        "start" : 1549904796370,
+        "stop" : 1549904796473,
         "duration" : 103
       },
       "status" : "passed",
@@ -61,11 +61,11 @@
       "shouldDisplayMessage" : false,
       "hasContent" : false
     }, {
-      "name" : "wait for text \"Copyright@2018 Midea• Все права защищены•\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' copyright ')]/span)[position()=1]\"",
+      "name" : "wait for text \"О Midea\",15,\"((//div[contains(@class, 'footer-item')]//h3)[2])[position()=1]\"",
       "time" : {
-        "start" : 1549904645677,
-        "stop" : 1549904646299,
-        "duration" : 622
+        "start" : 1549904796474,
+        "stop" : 1549904796907,
+        "duration" : 433
       },
       "status" : "passed",
       "steps" : [ ],
@@ -92,7 +92,7 @@
     "value" : "mid (chromeheadless)"
   }, {
     "name" : "testMethod",
-    "value" : "homeTest with data set #4"
+    "value" : "homeTest with data set #2"
   }, {
     "name" : "package",
     "value" : "mid (chromeheadless)"
@@ -102,20 +102,28 @@
   } ],
   "parameters" : [ {
     "name" : "0",
-    "value" : "\"Copyright@2018 Midea. Все права защищены.\""
+    "value" : "\"О Midea\""
   }, {
     "name" : "1",
-    "value" : "\".copyright > span\""
+    "value" : "\"(//div[contains(@class, 'footer-item')]//h3)[2]\""
   } ],
   "links" : [ ],
   "hidden" : false,
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ ],
+    "retries" : [ {
+      "uid" : "a51459b139a7e15b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549904608704,
+        "stop" : 1549904618480,
+        "duration" : 9776
+      }
+    } ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "550e393384008790.json",
-  "parameterValues" : [ "\"Copyright@2018 Midea. Все права защищены.\"", "\".copyright > span\"" ]
+  "source" : "ed46a62c3a8ee546.json",
+  "parameterValues" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
 }
