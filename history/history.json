@@ -9,7 +9,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "622859c2827d5707",
+      "uid" : "435ce2a583935b7d",
       "status" : "passed",
       "time" : {
         "start" : 1549891753938,
@@ -28,7 +28,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e8739c8ee2cead80",
+      "uid" : "c025ed2a78259e92",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -48,7 +48,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2ef6832deff484ec",
+      "uid" : "beb8a570d6680d9e",
       "status" : "passed",
       "time" : {
         "start" : 1549891815254,
@@ -67,7 +67,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "59d0eda4be61c548",
+      "uid" : "96504fd1a6b8916",
       "status" : "passed",
       "time" : {
         "start" : 1549890216818,
@@ -86,7 +86,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f96b526bfacfb0d",
+      "uid" : "850d1e508cabe617",
       "status" : "passed",
       "time" : {
         "start" : 1549889278193,
@@ -105,7 +105,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57df706a8665b00c",
+      "uid" : "6cefe77883c90952",
       "status" : "passed",
       "time" : {
         "start" : 1549889364953,
@@ -124,7 +124,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6ce9e01d86d529aa",
+      "uid" : "9ae63aebf543d244",
       "status" : "passed",
       "time" : {
         "start" : 1549889254899,
@@ -143,7 +143,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "177cfb4b69b2670b",
+      "uid" : "6c1a5e59021e603c",
       "status" : "passed",
       "time" : {
         "start" : 1549889570598,
@@ -162,7 +162,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2aa12d016ade0434",
+      "uid" : "14202089a3456510",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -182,31 +182,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7108301a7693645f",
+      "uid" : "15960396a45bf749",
       "status" : "passed",
       "time" : {
         "start" : 1549891805246,
         "stop" : 1549891815253,
         "duration" : 10007
-      }
-    } ]
-  },
-  "8338e6d8c172b919df93bca2f779be98" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "65d15dd479a139e",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549890236592,
-        "stop" : 1549890243150,
-        "duration" : 6558
       }
     } ]
   },
@@ -220,12 +201,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3e8218e784f8c14d",
+      "uid" : "fde7f6ac7187f64f",
       "status" : "passed",
       "time" : {
         "start" : 1549889402754,
         "stop" : 1549889495875,
         "duration" : 93121
+      }
+    } ]
+  },
+  "8338e6d8c172b919df93bca2f779be98" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9a213d24c193281c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549890236592,
+        "stop" : 1549890243150,
+        "duration" : 6558
       }
     } ]
   },
@@ -239,7 +239,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7f2c31dd046a442e",
+      "uid" : "624aa656fa5dde15",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -259,7 +259,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4066069515ed2d00",
+      "uid" : "7dd0d570910dd0e1",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -279,32 +279,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e08506caabcfef8b",
+      "uid" : "2ecef51382107d33",
       "status" : "passed",
       "time" : {
         "start" : 1549891662491,
         "stop" : 1549891665406,
         "duration" : 2915
-      }
-    } ]
-  },
-  "4b956118cb8b3e9ff9a276942d8271b9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e8efa866e52bb9d8",
-      "status" : "broken",
-      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' container ')]/descendant-or-self::*/button[(@type = 'submit') and (@title = 'Подписаться')])[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "time" : {
-        "start" : 1549891866051,
-        "stop" : 1549891892872,
-        "duration" : 26821
       }
     } ]
   },
@@ -318,13 +298,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "14ff891a05ddf1b7",
+      "uid" : "ded55e082819b762",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889236914,
         "stop" : 1549889236974,
         "duration" : 60
+      }
+    } ]
+  },
+  "4b956118cb8b3e9ff9a276942d8271b9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2db204fa6aee5459",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' container ')]/descendant-or-self::*/button[(@type = 'submit') and (@title = 'Подписаться')])[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1549891866051,
+        "stop" : 1549891892872,
+        "duration" : 26821
       }
     } ]
   },
@@ -338,7 +338,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "77f6d8784b15347b",
+      "uid" : "299b04bda053e07e",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -358,7 +358,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "81b85f1732a464cd",
+      "uid" : "941fb7942ccbe8e0",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -378,31 +378,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "22575b68cf81944e",
+      "uid" : "67662b6f72b70143",
       "status" : "passed",
       "time" : {
-        "start" : 1549895812965,
-        "stop" : 1549895825457,
-        "duration" : 12492
-      }
-    } ]
-  },
-  "6b4e0e29598781f42ebcd38d336e7844" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "9def76be517cc641",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549890321747,
-        "stop" : 1549890345561,
-        "duration" : 23814
+        "start" : 1549895984121,
+        "stop" : 1549895993761,
+        "duration" : 9640
       }
     } ]
   },
@@ -416,13 +397,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c88c37ed150c94b",
+      "uid" : "e7493c6e5ec86047",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237719,
         "stop" : 1549889237778,
         "duration" : 59
+      }
+    } ]
+  },
+  "6b4e0e29598781f42ebcd38d336e7844" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ac5a3fcb5b6ec8b8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549890321747,
+        "stop" : 1549890345561,
+        "duration" : 23814
       }
     } ]
   },
@@ -436,7 +436,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51a62340d84a96d2",
+      "uid" : "1c740193b4fb9212",
       "status" : "skipped",
       "statusDetails" : "sss",
       "time" : {
@@ -456,7 +456,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e430d826c3094222",
+      "uid" : "82dfe6f88f837265",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -476,7 +476,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b3295b26d2bb6687",
+      "uid" : "1cef16b0f50f160",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -496,7 +496,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6fc55b9f487a55a3",
+      "uid" : "d4f014da929a09fa",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -516,7 +516,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "10c9cbdbffff0330",
+      "uid" : "6ba1e32a823eca9d",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -536,7 +536,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b173db9d3efceee2",
+      "uid" : "936f984f9c1b5398",
       "status" : "passed",
       "time" : {
         "start" : 1549891744179,
@@ -555,7 +555,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d11e260a883d4cf8",
+      "uid" : "381bbc2c93618811",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -575,7 +575,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5ae67f53a94481c0",
+      "uid" : "98762ddfa29e0024",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -595,7 +595,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "34f40d31818a1433",
+      "uid" : "6fc62d4ead3903a",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -615,7 +615,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "97c8a3263e6256ff",
+      "uid" : "db354b62e3cfc7bf",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -635,7 +635,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3f7f984e30d5b666",
+      "uid" : "5680d63088f42656",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block-title ')]/h3)[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -655,7 +655,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9a54963dfe8c899",
+      "uid" : "a69d1ff8d65ced9",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -675,7 +675,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4726fd9461d66ecf",
+      "uid" : "1826b23e6a0ccff4",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -695,7 +695,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5f9996fbf7d859ba",
+      "uid" : "4198e22798cb457",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -715,7 +715,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c57d6bf16f71794e",
+      "uid" : "e78b74efa53eb832",
       "status" : "passed",
       "time" : {
         "start" : 1549891646584,
@@ -734,31 +734,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5edf78e222f975d2",
+      "uid" : "7ce927748c6e6084",
       "status" : "passed",
       "time" : {
         "start" : 1549890243150,
         "stop" : 1549890249422,
         "duration" : 6272
-      }
-    } ]
-  },
-  "92c2d578d79c84faa416990225d486c2" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "5e5df91eb775101d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549890262065,
-        "stop" : 1549890268347,
-        "duration" : 6282
       }
     } ]
   },
@@ -772,13 +753,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e95a4a76493872ec",
+      "uid" : "5334d889373f1ddf",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889234683,
         "stop" : 1549889234741,
         "duration" : 58
+      }
+    } ]
+  },
+  "92c2d578d79c84faa416990225d486c2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bf8ee063d08ef27",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549890262065,
+        "stop" : 1549890268347,
+        "duration" : 6282
       }
     } ]
   },
@@ -792,7 +792,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d77608ba8938dd4e",
+      "uid" : "33e72f2a3789f4e8",
       "status" : "passed",
       "time" : {
         "start" : 1549889343956,
@@ -811,7 +811,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "95c9516b0a91d0bc",
+      "uid" : "d767d39e2a199350",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -831,32 +831,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d6127cbff591ea5e",
+      "uid" : "2c37c50d9c46c2b2",
       "status" : "passed",
       "time" : {
         "start" : 1549889619822,
         "stop" : 1549889707961,
         "duration" : 88139
-      }
-    } ]
-  },
-  "bfbdb62bacca8ff5ec426a121782bb01" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 1,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "642e13497145fe9",
-      "status" : "skipped",
-      "statusDetails" : "sss",
-      "time" : {
-        "start" : 1549891581760,
-        "stop" : 1549891583713,
-        "duration" : 1953
       }
     } ]
   },
@@ -870,13 +850,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe4836badcee89f",
+      "uid" : "9e0b70debc14677c",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237283,
         "stop" : 1549889237344,
         "duration" : 61
+      }
+    } ]
+  },
+  "bfbdb62bacca8ff5ec426a121782bb01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24dafec0294e100f",
+      "status" : "skipped",
+      "statusDetails" : "sss",
+      "time" : {
+        "start" : 1549891581760,
+        "stop" : 1549891583713,
+        "duration" : 1953
       }
     } ]
   },
@@ -890,32 +890,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b03a94091729b059",
+      "uid" : "e4074dfea02abe17",
       "status" : "passed",
       "time" : {
         "start" : 1549889707969,
         "stop" : 1549889727619,
         "duration" : 19650
-      }
-    } ]
-  },
-  "e3525faa626673c1ab7435d2b718f26a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "492793ee85534b26",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "time" : {
-        "start" : 1549889235105,
-        "stop" : 1549889235166,
-        "duration" : 61
       }
     } ]
   },
@@ -929,12 +909,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4b0892fe27cadabc",
+      "uid" : "59146b4e26ed1cf6",
       "status" : "passed",
       "time" : {
         "start" : 1549890369578,
         "stop" : 1549890399789,
         "duration" : 30211
+      }
+    } ]
+  },
+  "e3525faa626673c1ab7435d2b718f26a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dbe8aa4f19ca0647",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1549889235105,
+        "stop" : 1549889235166,
+        "duration" : 61
       }
     } ]
   },
@@ -948,7 +948,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f214174eda8550f",
+      "uid" : "d2ea73d5a4d4e6f1",
       "status" : "passed",
       "time" : {
         "start" : 1549890345562,
@@ -967,7 +967,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "541590420996a4af",
+      "uid" : "b462f50f54621a3a",
       "status" : "passed",
       "time" : {
         "start" : 1549891643922,
@@ -986,7 +986,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2dda3f1cebee31bd",
+      "uid" : "847a955f8f96382e",
       "status" : "passed",
       "time" : {
         "start" : 1549889747095,
@@ -1005,7 +1005,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1f74ff55f0f851ba",
+      "uid" : "f5a7f95f62c62663",
       "status" : "passed",
       "time" : {
         "start" : 1549891764396,
@@ -1024,7 +1024,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9be70fe627c16ad",
+      "uid" : "4941f04d64576a1d",
       "status" : "passed",
       "time" : {
         "start" : 1549890050729,
@@ -1043,32 +1043,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5647b9866120ab81",
+      "uid" : "d49d873d74be3d00",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237344,
         "stop" : 1549889237404,
-        "duration" : 60
-      }
-    } ]
-  },
-  "2aa88ff072539b8b65b428c5f06bdb3e" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ab0329fde5100f0",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "time" : {
-        "start" : 1549889238144,
-        "stop" : 1549889238204,
         "duration" : 60
       }
     } ]
@@ -1083,12 +1063,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7e115b3d6705286c",
+      "uid" : "d1535440fef1a85a",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237158,
         "stop" : 1549889237218,
+        "duration" : 60
+      }
+    } ]
+  },
+  "2aa88ff072539b8b65b428c5f06bdb3e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c26d00a045f619ed",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1549889238144,
+        "stop" : 1549889238204,
         "duration" : 60
       }
     } ]
@@ -1103,32 +1103,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "20872c318ee90f64",
+      "uid" : "992e6236e60a392a",
       "status" : "passed",
       "time" : {
         "start" : 1549891725502,
         "stop" : 1549891734646,
         "duration" : 9144
-      }
-    } ]
-  },
-  "ca4d68f92ec6552e8780f95263b241d9" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e245da5491903b21",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "time" : {
-        "start" : 1549889237778,
-        "stop" : 1549889237839,
-        "duration" : 61
       }
     } ]
   },
@@ -1142,13 +1122,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ba316eb7e84f38e",
+      "uid" : "7c81619e763a798c",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889236614,
         "stop" : 1549889236674,
         "duration" : 60
+      }
+    } ]
+  },
+  "ca4d68f92ec6552e8780f95263b241d9" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77f0c4099981bb64",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1549889237778,
+        "stop" : 1549889237839,
+        "duration" : 61
       }
     } ]
   },
@@ -1162,7 +1162,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fe3ec74488608f34",
+      "uid" : "dd2a404b98b9f514",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1182,7 +1182,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c33386a2290ae849",
+      "uid" : "5df393ef73f2a89c",
       "status" : "passed",
       "time" : {
         "start" : 1549891855471,
@@ -1201,7 +1201,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd66ab5ab355947a",
+      "uid" : "3eeb01a883ee517d",
       "status" : "passed",
       "time" : {
         "start" : 1549890298157,
@@ -1220,7 +1220,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "8e9d9ad8bd6ff340",
+      "uid" : "fc94098103143280",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1240,7 +1240,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3533c31e1eec2e46",
+      "uid" : "71d9fd6344a4ae76",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' container ')]/descendant-or-self::*/button[(@type = 'submit') and (@title = 'Подписаться')])[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1260,7 +1260,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4111a3aa824c011f",
+      "uid" : "48d64b97b6bfdebd",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1280,7 +1280,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f6049df98334dbc1",
+      "uid" : "5eec3ffd1e85d5a6",
       "status" : "passed",
       "time" : {
         "start" : 1549890044566,
@@ -1299,7 +1299,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "aa0c1d8c1095690",
+      "uid" : "da7026196fbf821a",
       "status" : "broken",
       "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' block-title ')]/h3)[position()=1]\"}\n  (Session info: headless chrome=70.0.3538.67)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1319,7 +1319,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d7c1ff9b5f07b7cd",
+      "uid" : "110152c5fdd891d2",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1339,7 +1339,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b51f00421cd0d11d",
+      "uid" : "7b8ffb907f4c35ed",
       "status" : "passed",
       "time" : {
         "start" : 1549891641399,
@@ -1358,7 +1358,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bd944bea8b1326a8",
+      "uid" : "89c0fe66a267e1e6",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1378,7 +1378,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "57bc1211f0b549da",
+      "uid" : "817188fd4213198a",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1398,7 +1398,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c1d06b4e15f781af",
+      "uid" : "934ef06fbe8ffca",
       "status" : "passed",
       "time" : {
         "start" : 1549891665407,
@@ -1417,7 +1417,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f3ccacd63c820c46",
+      "uid" : "1864110ceb9e4850",
       "status" : "passed",
       "time" : {
         "start" : 1549889603191,
@@ -1436,32 +1436,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c9b19030a93fa383",
+      "uid" : "cf17c2058e3694dc",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889234802,
         "stop" : 1549889234863,
         "duration" : 61
-      }
-    } ]
-  },
-  "34222d92001f31ee3cd92e5289dfcbdc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "e068f69ecdc08930",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549891784978,
-        "stop" : 1549891794785,
-        "duration" : 9807
       }
     } ]
   },
@@ -1475,12 +1456,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4a563521a02f45dc",
+      "uid" : "c10738a8f15f79a9",
       "status" : "passed",
       "time" : {
         "start" : 1549890276859,
         "stop" : 1549890298153,
         "duration" : 21294
+      }
+    } ]
+  },
+  "34222d92001f31ee3cd92e5289dfcbdc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7a335ca30df2af78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549891784978,
+        "stop" : 1549891794785,
+        "duration" : 9807
       }
     } ]
   },
@@ -1494,7 +1494,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b490494d74884a19",
+      "uid" : "dee0afd7743776b0",
       "status" : "passed",
       "time" : {
         "start" : 1549891687607,
@@ -1513,7 +1513,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9c1f168f42fd82c",
+      "uid" : "1ee7531ecff079e2",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1533,7 +1533,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1baf81c0f13b23e2",
+      "uid" : "7990306b0e8783da",
       "status" : "passed",
       "time" : {
         "start" : 1549890090458,
@@ -1552,7 +1552,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e7afb33369c5b63c",
+      "uid" : "d376095a8f5ec8a",
       "status" : "passed",
       "time" : {
         "start" : 1549890249422,
@@ -1571,7 +1571,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ccdd9bec9c266f6c",
+      "uid" : "4e42eaf85f100a0e",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1591,7 +1591,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9fe52247192ad023",
+      "uid" : "5e464672dc5b372e",
       "status" : "passed",
       "time" : {
         "start" : 1549890066424,
@@ -1610,7 +1610,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9742037c3b38f24c",
+      "uid" : "b10407cbd4002ce5",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1630,7 +1630,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "6f33babbd887251",
+      "uid" : "fc83be56f60a6a6f",
       "status" : "passed",
       "time" : {
         "start" : 1549891635810,
@@ -1649,7 +1649,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "807c8519126a164d",
+      "uid" : "8005062e72317b77",
       "status" : "passed",
       "time" : {
         "start" : 1549890223396,
@@ -1668,7 +1668,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b7bf53d408bfb509",
+      "uid" : "66bd8e658643b5dd",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1688,7 +1688,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a780a735c6787e7f",
+      "uid" : "58844ea742f3361e",
       "status" : "passed",
       "time" : {
         "start" : 1549889495875,
@@ -1707,7 +1707,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18654bab22265293",
+      "uid" : "cd90a618b0d0344c",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1727,7 +1727,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "31903e01266d0829",
+      "uid" : "e6731fa944117bd1",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1747,7 +1747,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "5975023268d57dc1",
+      "uid" : "25c8e55251327dad",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1767,7 +1767,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f7e6dea621ec117",
+      "uid" : "4726953ad2bf0df2",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1787,7 +1787,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ac0ed9fa852f3d59",
+      "uid" : "2b33df1846454100",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1807,7 +1807,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "3a165967e5b92af",
+      "uid" : "10cb254a93dd274e",
       "status" : "passed",
       "time" : {
         "start" : 1549891632439,
@@ -1826,7 +1826,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "53cf319b1c7948e",
+      "uid" : "569e220eccb086e5",
       "status" : "passed",
       "time" : {
         "start" : 1549891794786,
@@ -1845,7 +1845,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "30c646f0eeb35684",
+      "uid" : "4496d6ec3eb5d533",
       "status" : "passed",
       "time" : {
         "start" : 1549891892875,
@@ -1864,7 +1864,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e243ee236e7ae3ca",
+      "uid" : "f753dbcbd5ac707d",
       "status" : "passed",
       "time" : {
         "start" : 1549891656291,
@@ -1883,7 +1883,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fec78711f843d6ef",
+      "uid" : "7d60a3155dfa8574",
       "status" : "passed",
       "time" : {
         "start" : 1549891650923,
@@ -1902,7 +1902,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e97295f690a54948",
+      "uid" : "1ec33aea188c2958",
       "status" : "passed",
       "time" : {
         "start" : 1549890255482,
@@ -1921,7 +1921,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cc3fd9ee03c62b02",
+      "uid" : "b24a17416f3d5f51",
       "status" : "passed",
       "time" : {
         "start" : 1549890268347,
@@ -1940,7 +1940,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "9de5ecaf2d034544",
+      "uid" : "6fa1b5b6b669637",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -1960,32 +1960,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b32bda739513262",
+      "uid" : "df86b0850257ab81",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889235471,
         "stop" : 1549889235531,
         "duration" : 60
-      }
-    } ]
-  },
-  "f074e65aa00e418d66144504071900d1" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "c36b347306d31b0b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549891711371,
-        "stop" : 1549891713980,
-        "duration" : 2609
       }
     } ]
   },
@@ -1999,12 +1980,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cb6441eb9097dbb6",
+      "uid" : "db95495786043efa",
       "status" : "passed",
       "time" : {
         "start" : 1549889323174,
         "stop" : 1549889343955,
         "duration" : 20781
+      }
+    } ]
+  },
+  "f074e65aa00e418d66144504071900d1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fe710da5a7bc2024",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549891711371,
+        "stop" : 1549891713980,
+        "duration" : 2609
       }
     } ]
   },
@@ -2018,7 +2018,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f2ae3b4490ca7238",
+      "uid" : "5da52dd4f1197db2",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2038,7 +2038,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "777e06b82d6f9385",
+      "uid" : "5e52ed45df38966b",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2058,7 +2058,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1a0f7548eaf39360",
+      "uid" : "12bf85bdef761c14",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2078,33 +2078,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c56e9ff34f0edc91",
+      "uid" : "1cfe562eff643319",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889235043,
         "stop" : 1549889235104,
         "duration" : 61
-      }
-    } ]
-  },
-  "740dc195bc5375e76066541228dbe798" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
-      "passed" : 0,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "62e848e3c820282e",
-      "status" : "broken",
-      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
-      "time" : {
-        "start" : 1549889234864,
-        "stop" : 1549889234924,
-        "duration" : 60
       }
     } ]
   },
@@ -2118,13 +2098,33 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "c840c85cfedf9f4e",
+      "uid" : "fd1cf05a5de374b1",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889234925,
         "stop" : 1549889234984,
         "duration" : 59
+      }
+    } ]
+  },
+  "740dc195bc5375e76066541228dbe798" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "18c8267c0a3ab856",
+      "status" : "broken",
+      "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
+      "time" : {
+        "start" : 1549889234864,
+        "stop" : 1549889234924,
+        "duration" : 60
       }
     } ]
   },
@@ -2138,7 +2138,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "b95f69f3a40ba5be",
+      "uid" : "b99207992cd147d3",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2158,7 +2158,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bca0e799a1f56e38",
+      "uid" : "8e18ec9c51d574d4",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2178,7 +2178,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ff3ce2f58884b22a",
+      "uid" : "8484b2c5f78f43b2",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2198,7 +2198,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "f639952c12e6bbfc",
+      "uid" : "8a34e5c079f6cedd",
       "status" : "passed",
       "time" : {
         "start" : 1549891774552,
@@ -2217,32 +2217,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "98e7c3d6531e8959",
+      "uid" : "44e0291abddb2ca6",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889238084,
         "stop" : 1549889238144,
         "duration" : 60
-      }
-    } ]
-  },
-  "7347af46d69e68556f0fe12231fc780a" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "848de6df38f06c99",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549891659173,
-        "stop" : 1549891662490,
-        "duration" : 3317
       }
     } ]
   },
@@ -2256,12 +2237,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7abbf0a9f2d56dc",
+      "uid" : "15f396f0f1e9f3b",
       "status" : "passed",
       "time" : {
         "start" : 1549890060193,
         "stop" : 1549890066419,
         "duration" : 6226
+      }
+    } ]
+  },
+  "7347af46d69e68556f0fe12231fc780a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "38eea8cd21c027b1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549891659173,
+        "stop" : 1549891662490,
+        "duration" : 3317
       }
     } ]
   },
@@ -2275,7 +2275,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "508608c46bd7b558",
+      "uid" : "b7f9e84a82cdefe0",
       "status" : "passed",
       "time" : {
         "start" : 1549889727620,
@@ -2294,7 +2294,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "602324a3616ef924",
+      "uid" : "acd775e4e0957b60",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2314,32 +2314,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "d49ff43fdf3b28bd",
+      "uid" : "b4104dd675973ab3",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237965,
         "stop" : 1549889238023,
         "duration" : 58
-      }
-    } ]
-  },
-  "214d6a87f57af22a7c8360a856f3d6b5" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "a27954c2d29965f5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549890230495,
-        "stop" : 1549890236591,
-        "duration" : 6096
       }
     } ]
   },
@@ -2353,13 +2334,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "86deda58f98f9a52",
+      "uid" : "b601dc6cb0c66499",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889238267,
         "stop" : 1549889238323,
         "duration" : 56
+      }
+    } ]
+  },
+  "214d6a87f57af22a7c8360a856f3d6b5" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e4bc8a3c4269bd5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549890230495,
+        "stop" : 1549890236591,
+        "duration" : 6096
       }
     } ]
   },
@@ -2373,7 +2373,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fa27f222929be094",
+      "uid" : "4fc45e1159fa521a",
       "status" : "passed",
       "time" : {
         "start" : 1549891734646,
@@ -2392,7 +2392,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "bb92c87b395f2ae3",
+      "uid" : "66e0bed1babedf95",
       "status" : "passed",
       "time" : {
         "start" : 1549889300034,
@@ -2411,7 +2411,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "e9f96b214df197ae",
+      "uid" : "459d9f41a34e9628",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2431,7 +2431,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "51cf3c39b1903717",
+      "uid" : "727c474d71b7ce5d",
       "status" : "passed",
       "time" : {
         "start" : 1549891638580,
@@ -2450,7 +2450,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a7b8170507c7a273",
+      "uid" : "61e0b0f863a7e535",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2470,7 +2470,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "26ce1adf00d030a6",
+      "uid" : "7c684410c86754d9",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2490,7 +2490,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "42b145e66eeaf977",
+      "uid" : "ddd0a83d0cefb53b",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
@@ -2510,32 +2510,13 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "ab9172721f672ec0",
+      "uid" : "4158f875986568d8",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889236134,
         "stop" : 1549889236194,
         "duration" : 60
-      }
-    } ]
-  },
-  "8ad5606c1b49bf821b6f3f9d49e84e01" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "bca94b9190ca8a54",
-      "status" : "passed",
-      "time" : {
-        "start" : 1549891713980,
-        "stop" : 1549891725501,
-        "duration" : 11521
       }
     } ]
   },
@@ -2549,13 +2530,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "28821f28165ed9d",
+      "uid" : "a59e735ab90f434a",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {
         "start" : 1549889237595,
         "stop" : 1549889237653,
         "duration" : 58
+      }
+    } ]
+  },
+  "8ad5606c1b49bf821b6f3f9d49e84e01" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "26c6812be573bdde",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549891713980,
+        "stop" : 1549891725501,
+        "duration" : 11521
       }
     } ]
   },
@@ -2569,7 +2569,7 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd59b3bbbd9809cc",
+      "uid" : "3241f6e4fa67d95f",
       "status" : "broken",
       "statusDetails" : "unknown error: Chrome failed to start: exited abnormally\n  (unknown error: DevToolsActivePort file doesn't exist)\n  (The process started from chrome location /usr/bin/google-chrome is no longer running, so ChromeDriver is assuming that Chrome has crashed.)\n  (Driver info: chromedriver=2.42.591071 (0b695ff80972cc1a65a5cd643186d2ae582cd4ac),platform=Linux 4.9.93-linuxkit-aufs x86_64)",
       "time" : {

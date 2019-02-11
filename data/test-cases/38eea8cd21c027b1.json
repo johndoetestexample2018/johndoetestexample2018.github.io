@@ -1,0 +1,137 @@
+{
+  "uid" : "38eea8cd21c027b1",
+  "name" : "homeTest with data set #8",
+  "fullName" : "mid (chromeheadless).homeTest with data set #8",
+  "historyId" : "7347af46d69e68556f0fe12231fc780a",
+  "time" : {
+    "start" : 1549891659173,
+    "stop" : 1549891662490,
+    "duration" : 3317
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1549891659291,
+        "stop" : 1549891659291,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1549891659291,
+        "stop" : 1549891661470,
+        "duration" : 2179
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1549891661470,
+        "stop" : 1549891661573,
+        "duration" : 103
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"4 причины оформить заказ на нашем сайте\",15,\"(descendant-or-self::p/following-sibling::*[(name() = 'h2') and (position() = 1)])[position()=1]\"",
+      "time" : {
+        "start" : 1549891661573,
+        "stop" : 1549891662438,
+        "duration" : 865
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #8"
+  }, {
+    "name" : "package",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"4 причины оформить заказ на нашем сайте\""
+  }, {
+    "name" : "1",
+    "value" : "\"p + h2\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "3113fb6cf4dd9046",
+      "status" : "passed",
+      "time" : {
+        "start" : 1549889804345,
+        "stop" : 1549889807875,
+        "duration" : 3530
+      }
+    }, {
+      "uid" : "e9f72299f0f574e6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1547743391873,
+        "stop" : 1547743394495,
+        "duration" : 2622
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38eea8cd21c027b1.json",
+  "parameterValues" : [ "\"4 причины оформить заказ на нашем сайте\"", "\"p + h2\"" ]
+}
