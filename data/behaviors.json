@@ -2,61 +2,61 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "homeTest with data set #0",
-    "uid" : "2c19e75f42b6aa2f",
+    "uid" : "20b58505ba8c0c80",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1549904766924,
-      "stop" : 1549904772407,
-      "duration" : 5483
+      "start" : 1549905025807,
+      "stop" : 1549905030368,
+      "duration" : 4561
     },
     "flaky" : false,
     "parameters" : [ "\"Есть вопросы? Звоните!\\n8 495 212 18 19\"", "\".hotline-body\"" ]
   }, {
     "name" : "homeTest with data set #1",
-    "uid" : "a02a8db181bd1068",
+    "uid" : "4885244d9d382374",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1549904772408,
-      "stop" : 1549904791955,
-      "duration" : 19547
+      "start" : 1549905030369,
+      "stop" : 1549905051819,
+      "duration" : 21450
     },
     "flaky" : true,
     "parameters" : [ "\"Подпишитесь на новости\"", "\".block-title > h3\"" ]
   }, {
     "name" : "homeTest with data set #2",
-    "uid" : "ed46a62c3a8ee546",
+    "uid" : "65c31364ec468892",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1549904791957,
-      "stop" : 1549904796959,
-      "duration" : 5002
+      "start" : 1549905051823,
+      "stop" : 1549905056017,
+      "duration" : 4194
     },
     "flaky" : false,
     "parameters" : [ "\"О Midea\"", "\"(//div[contains(@class, 'footer-item')]//h3)[2]\"" ]
   }, {
     "name" : "homeTest with data set #3",
-    "uid" : "1555c9c095224662",
+    "uid" : "26d1a5e1e965e84a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "broken",
     "time" : {
-      "start" : 1549904796960,
-      "stop" : 1549904819655,
-      "duration" : 22695
+      "start" : 1549905056018,
+      "stop" : 1549905078572,
+      "duration" : 22554
     },
     "flaky" : true,
     "parameters" : [ "\"Подписаться\"", "\".container button[type='submit'][title='Подписаться']\"" ]
   }, {
     "name" : "homeTest with data set #4",
-    "uid" : "ee27a694d21a1bc5",
+    "uid" : "68ed5ae3ff02a9a1",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1549904819661,
-      "stop" : 1549904825698,
-      "duration" : 6037
+      "start" : 1549905078573,
+      "stop" : 1549905083129,
+      "duration" : 4556
     },
     "flaky" : false,
     "parameters" : [ "\"Copyright@2018 Midea. Все права защищены.\"", "\".copyright > span\"" ]
