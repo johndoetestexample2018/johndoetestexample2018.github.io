@@ -1,0 +1,137 @@
+{
+  "uid" : "f7aa599d0858a931",
+  "name" : "homeTest with data set #4",
+  "fullName" : "mid (chromeheadless).homeTest with data set #4",
+  "historyId" : "59c68e64b89105cb9b1ed890a9c8d911",
+  "time" : {
+    "start" : 1550769701775,
+    "stop" : 1550769704391,
+    "duration" : 2616
+  },
+  "description" : "Проверка текста на главной странице MID",
+  "descriptionHtml" : "<p>Проверка текста на главной странице MID</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "get url from config ",
+      "time" : {
+        "start" : 1550769701895,
+        "stop" : 1550769701895,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1550769701895,
+        "stop" : 1550769703748,
+        "duration" : 1853
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 5000,5000",
+      "time" : {
+        "start" : 1550769703748,
+        "stop" : 1550769703852,
+        "duration" : 104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Хиты!\",15,\"(descendant-or-self::*[@data-type = 'bestseller'])[position()=1]\"",
+      "time" : {
+        "start" : 1550769703860,
+        "stop" : 1550769704339,
+        "duration" : 479
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testClass",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "testMethod",
+    "value" : "homeTest with data set #4"
+  }, {
+    "name" : "package",
+    "value" : "mid (chromeheadless)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "0",
+    "value" : "\"Хиты!\""
+  }, {
+    "name" : "1",
+    "value" : "\"[data-type='bestseller']\""
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ed115a777a2a8a7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550768306288,
+        "stop" : 1550768308795,
+        "duration" : 2507
+      }
+    }, {
+      "uid" : "94288d93bec2a536",
+      "status" : "passed",
+      "time" : {
+        "start" : 1550766637699,
+        "stop" : 1550766640529,
+        "duration" : 2830
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f7aa599d0858a931.json",
+  "parameterValues" : [ "\"Хиты!\"", "\"[data-type='bestseller']\"" ]
+}
