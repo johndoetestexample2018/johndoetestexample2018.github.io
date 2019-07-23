@@ -1,0 +1,415 @@
+{
+  "uid" : "fc4c218da766858c",
+  "name" : "addToCartOnItemCard2Test",
+  "fullName" : "nn (chrome).addToCartOnItemCard2Test",
+  "historyId" : "c2e69cfed70ce16e768a6046e3052e13",
+  "time" : {
+    "start" : 1563813474303,
+    "stop" : 1563813490040,
+    "duration" : 15737
+  },
+  "description" : "Логин - карточка товара - купить товар, выбрать кол-во селектором",
+  "descriptionHtml" : "<p>Логин - карточка товара - купить товар, выбрать кол-во селектором</p>\n",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <div data-role=\"qty-option\" class=\"options-grid-item\">...</div> is not clickable at point (1221, 472). Other element would receive the click: <div data-role=\"qty-option\" class=\"options-grid-item\">...</div>\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+  "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(746): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(118): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(158): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(193): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(182): Codeception\\Codecept->runSuite(Array, 'nn (chrome)', 'CartNCest')\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(385): Codeception\\Codecept->run('nn', 'CartNCest', Array)\n#6 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(921): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(107): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(43): Codeception\\Application->run()\n#12 {main}",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <div data-role=\"qty-option\" class=\"options-grid-item\">...</div> is not clickable at point (1221, 472). Other element would receive the click: <div data-role=\"qty-option\" class=\"options-grid-item\">...</div>\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+    "statusTrace" : "#0 /Users/hamster/Desktop/regression/vendor/phpunit/phpunit/src/Framework/TestSuite.php(746): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#1 /Users/hamster/Desktop/regression/vendor/codeception/phpunit-wrapper/src/Runner.php(118): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#2 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/SuiteManager.php(158): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#3 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(193): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#4 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Codecept.php(182): Codeception\\Codecept->runSuite(Array, 'nn (chrome)', 'CartNCest')\n#5 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Command/Run.php(385): Codeception\\Codecept->run('nn', 'CartNCest', Array)\n#6 /Users/hamster/Desktop/regression/vendor/symfony/console/Command/Command.php(255): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#7 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(921): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#8 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(273): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#9 /Users/hamster/Desktop/regression/vendor/symfony/console/Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#10 /Users/hamster/Desktop/regression/vendor/codeception/codeception/src/Codeception/Application.php(107): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#11 /Users/hamster/Desktop/regression/vendor/codeception/codeception/codecept(43): Codeception\\Application->run()\n#12 {main}",
+    "steps" : [ {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1563813477430,
+        "stop" : 1563813479775,
+        "duration" : 2345
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563813479776,
+        "stop" : 1563813479881,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"ЛИЧНЫЙ КАБИНЕТ\",10,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' welcome-ppl ')])[position()=1]\"",
+      "time" : {
+        "start" : 1563813479881,
+        "stop" : 1563813479900,
+        "duration" : 19
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 1",
+      "time" : {
+        "start" : 1563813479900,
+        "stop" : 1563813480903,
+        "duration" : 1003
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "move mouse over \"div•welcome-ppl\"",
+      "time" : {
+        "start" : 1563813480904,
+        "stop" : 1563813480925,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"div•welcome-ppl\",\"target\"",
+      "time" : {
+        "start" : 1563813480926,
+        "stop" : 1563813480933,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"div•welcome-ppl\",\"onclick\"",
+      "time" : {
+        "start" : 1563813480934,
+        "stop" : 1563813480943,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"div•welcome-ppl\",10",
+      "time" : {
+        "start" : 1563813480943,
+        "stop" : 1563813480959,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"div•welcome-ppl\"",
+      "time" : {
+        "start" : 1563813480960,
+        "stop" : 1563813481023,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563813481023,
+        "stop" : 1563813481124,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Если у вас уже есть аккаунт, пожалуйста, войдите•\",10",
+      "time" : {
+        "start" : 1563813481124,
+        "stop" : 1563813481218,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1563813481219,
+        "stop" : 1563813481360,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1563813481360,
+        "stop" : 1563813481946,
+        "duration" : 586
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#send2\"",
+      "time" : {
+        "start" : 1563813481946,
+        "stop" : 1563813485776,
+        "duration" : 3830
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"ПАНЕЛЬ УПРАВЛЕНИЯ\",15,\"(descendant-or-self::*[@id = 'element']/div[(@class and contains(concat(' ', normalize-space(@class), ' '), ' headline ')) and (@class and contains(concat(' ', normalize-sp•••\"",
+      "time" : {
+        "start" : 1563813485776,
+        "stop" : 1563813485861,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/coffee-capsules/original\"",
+      "time" : {
+        "start" : 1563813485861,
+        "stop" : 1563813487441,
+        "duration" : 1580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563813487441,
+        "stop" : 1563813487462,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab text from \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563813487462,
+        "stop" : 1563813487485,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563813487485,
+        "stop" : 1563813488565,
+        "duration" : 1080
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' box-tocart ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\",15",
+      "time" : {
+        "start" : 1563813488565,
+        "stop" : 1563813488612,
+        "duration" : 47
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' box-tocart ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\"",
+      "time" : {
+        "start" : 1563813488612,
+        "stop" : 1563813488816,
+        "duration" : 204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"//div[contains(@class,'qty-box')][@style]//div[contains(@class,'options-grid-item')]//span[contains(text(),'30')]/••\",15",
+      "time" : {
+        "start" : 1563813488816,
+        "stop" : 1563813489100,
+        "duration" : 284
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"//div[contains(@class,'qty-box')][@style]//div[contains(@class,'options-grid-item')]//span[contains(text(),'30')]/••\"",
+      "time" : {
+        "start" : 1563813489101,
+        "stop" : 1563813489262,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "f98267d36cdefbfd",
+      "name" : "png",
+      "source" : "f98267d36cdefbfd.png",
+      "type" : "image/png",
+      "size" : 165233
+    }, {
+      "uid" : "cf13f009f8a8f6a8",
+      "name" : "html",
+      "source" : "cf13f009f8a8f6a8.html",
+      "type" : "text/html",
+      "size" : 163705
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 23,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testClass",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testMethod",
+    "value" : "addToCartOnItemCard2Test"
+  }, {
+    "name" : "package",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc4c218da766858c.json",
+  "parameterValues" : [ ]
+}

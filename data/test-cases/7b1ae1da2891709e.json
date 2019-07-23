@@ -1,0 +1,996 @@
+{
+  "uid" : "7b1ae1da2891709e",
+  "name" : "deleteTest",
+  "fullName" : "nn (chrome).deleteTest",
+  "historyId" : "ef869eb690003a5d13ff459fb2ab9ea",
+  "time" : {
+    "start" : 1563815204058,
+    "stop" : 1563815243664,
+    "duration" : 39606
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1563815206993,
+        "stop" : 1563815209420,
+        "duration" : 2427
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563815209420,
+        "stop" : 1563815209526,
+        "duration" : 106
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"ЛИЧНЫЙ КАБИНЕТ\",10,\"(descendant-or-self::div[@class and contains(concat(' ', normalize-space(@class), ' '), ' welcome-ppl ')])[position()=1]\"",
+      "time" : {
+        "start" : 1563815209527,
+        "stop" : 1563815209606,
+        "duration" : 79
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 1",
+      "time" : {
+        "start" : 1563815209607,
+        "stop" : 1563815210612,
+        "duration" : 1005
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "move mouse over \"div•welcome-ppl\"",
+      "time" : {
+        "start" : 1563815210612,
+        "stop" : 1563815210633,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"div•welcome-ppl\",\"target\"",
+      "time" : {
+        "start" : 1563815210633,
+        "stop" : 1563815210640,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"div•welcome-ppl\",\"onclick\"",
+      "time" : {
+        "start" : 1563815210641,
+        "stop" : 1563815210647,
+        "duration" : 6
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"div•welcome-ppl\",10",
+      "time" : {
+        "start" : 1563815210648,
+        "stop" : 1563815210663,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"div•welcome-ppl\"",
+      "time" : {
+        "start" : 1563815210663,
+        "stop" : 1563815210724,
+        "duration" : 61
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563815210725,
+        "stop" : 1563815210827,
+        "duration" : 102
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Если у вас уже есть аккаунт, пожалуйста, войдите•\",10",
+      "time" : {
+        "start" : 1563815210827,
+        "stop" : 1563815210945,
+        "duration" : 118
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[username]']\",\"johndoetestexample2018@gmail•com\"",
+      "time" : {
+        "start" : 1563815210945,
+        "stop" : 1563815211056,
+        "duration" : 111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"input[name='login[password]']\",\"Test2018\"",
+      "time" : {
+        "start" : 1563815211056,
+        "stop" : 1563815211641,
+        "duration" : 585
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"#send2\"",
+      "time" : {
+        "start" : 1563815211641,
+        "stop" : 1563815215693,
+        "duration" : 4052
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"ПАНЕЛЬ УПРАВЛЕНИЯ\",15,\"(descendant-or-self::*[@id = 'element']/div[(@class and contains(concat(' ', normalize-space(@class), ' '), ' headline ')) and (@class and contains(concat(' ', normalize-sp•••\"",
+      "time" : {
+        "start" : 1563815215693,
+        "stop" : 1563815215766,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/coffee-capsules/original\"",
+      "time" : {
+        "start" : 1563815215766,
+        "stop" : 1563815217396,
+        "duration" : 1630
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563815217397,
+        "stop" : 1563815217422,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab text from \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563815217422,
+        "stop" : 1563815217455,
+        "duration" : 33
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-link ')])[position()=2]\"",
+      "time" : {
+        "start" : 1563815217455,
+        "stop" : 1563815218415,
+        "duration" : 960
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' box-tocart ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\",15",
+      "time" : {
+        "start" : 1563815218415,
+        "stop" : 1563815218460,
+        "duration" : 45
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' box-tocart ')]/descendant-or-self::*/button[@title = 'Добавить в корзину'])[position()=1]\"",
+      "time" : {
+        "start" : 1563815218460,
+        "stop" : 1563815218667,
+        "duration" : 207
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::input[@name = 'qty'])[position()=1]\",15",
+      "time" : {
+        "start" : 1563815218667,
+        "stop" : 1563815219226,
+        "duration" : 559
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "fill field \"(descendant-or-self::input[@name = 'qty'])[position()=1]\",30",
+      "time" : {
+        "start" : 1563815219226,
+        "stop" : 1563815219297,
+        "duration" : 71
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' active ')]/descendant-or-self::*/button[@class and contains(concat(' ', normalize-space(@class), ' '), '•••\",15",
+      "time" : {
+        "start" : 1563815219297,
+        "stop" : 1563815219313,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' active ')]/descendant-or-self::*/button[@class and contains(concat(' ', normalize-space(@class), ' '), ' cu•••\"",
+      "time" : {
+        "start" : 1563815219313,
+        "stop" : 1563815219375,
+        "duration" : 62
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 3",
+      "time" : {
+        "start" : 1563815219376,
+        "stop" : 1563815222378,
+        "duration" : 3002
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•showcart\",15",
+      "time" : {
+        "start" : 1563815222378,
+        "stop" : 1563815222401,
+        "duration" : 23
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•showcart\"",
+      "time" : {
+        "start" : 1563815222401,
+        "stop" : 1563815222748,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•viewcart\",15",
+      "time" : {
+        "start" : 1563815222748,
+        "stop" : 1563815222763,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•viewcart\",\"target\"",
+      "time" : {
+        "start" : 1563815222763,
+        "stop" : 1563815222774,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•viewcart\",\"onclick\"",
+      "time" : {
+        "start" : 1563815222774,
+        "stop" : 1563815222782,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•viewcart\",10",
+      "time" : {
+        "start" : 1563815222782,
+        "stop" : 1563815222792,
+        "duration" : 10
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•viewcart\"",
+      "time" : {
+        "start" : 1563815222793,
+        "stop" : 1563815225448,
+        "duration" : 2655
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563815225448,
+        "stop" : 1563815225549,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1]\",15",
+      "time" : {
+        "start" : 1563815225550,
+        "stop" : 1563815230273,
+        "duration" : 4723
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab multiple \"•product-item-name a\"",
+      "time" : {
+        "start" : 1563815230274,
+        "stop" : 1563815230291,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "assert greater than 0,1",
+      "time" : {
+        "start" : 1563815230291,
+        "stop" : 1563815230291,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1563815230291,
+        "stop" : 1563815232068,
+        "duration" : 1777
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait 3",
+      "time" : {
+        "start" : 1563815232068,
+        "stop" : 1563815235069,
+        "duration" : 3001
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•showcart\",15",
+      "time" : {
+        "start" : 1563815235069,
+        "stop" : 1563815235089,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•showcart\"",
+      "time" : {
+        "start" : 1563815235089,
+        "stop" : 1563815235310,
+        "duration" : 221
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•viewcart\",15",
+      "time" : {
+        "start" : 1563815235310,
+        "stop" : 1563815235487,
+        "duration" : 177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•viewcart\",\"target\"",
+      "time" : {
+        "start" : 1563815235487,
+        "stop" : 1563815235495,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab attribute from \"a•viewcart\",\"onclick\"",
+      "time" : {
+        "start" : 1563815235496,
+        "stop" : 1563815235503,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"a•viewcart\",10",
+      "time" : {
+        "start" : 1563815235503,
+        "stop" : 1563815235511,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"a•viewcart\"",
+      "time" : {
+        "start" : 1563815235512,
+        "stop" : 1563815238185,
+        "duration" : 2673
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "resize window 2000,2000",
+      "time" : {
+        "start" : 1563815238185,
+        "stop" : 1563815238286,
+        "duration" : 101
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::a[@class and contains(concat(' ', normalize-space(@class), ' '), ' action-delete ')])[position()=1]\"",
+      "time" : {
+        "start" : 1563815238286,
+        "stop" : 1563815240259,
+        "duration" : 1973
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab multiple \"a•action-delete\"",
+      "time" : {
+        "start" : 1563815240259,
+        "stop" : 1563815240323,
+        "duration" : 64
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1]\",10",
+      "time" : {
+        "start" : 1563815240324,
+        "stop" : 1563815240337,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "grab text from \"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1]\"",
+      "time" : {
+        "start" : 1563815240338,
+        "stop" : 1563815240354,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for element visible \"(descendant-or-self::a[@class and contains(concat(' ', normalize-space(@class), ' '), ' action-delete ')])[position()=1]\",10",
+      "time" : {
+        "start" : 1563815240355,
+        "stop" : 1563815240371,
+        "duration" : 16
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "click \"(descendant-or-self::a[@class and contains(concat(' ', normalize-space(@class), ' '), ' action-delete ')])[position()=1]\"",
+      "time" : {
+        "start" : 1563815240371,
+        "stop" : 1563815240522,
+        "duration" : 151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "wait for text \"Ваша корзина покупок пуста•\",15,\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' cart-empty ')])[position()=1]\"",
+      "time" : {
+        "start" : 1563815240523,
+        "stop" : 1563815243613,
+        "duration" : 3090
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 54,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testClass",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteTest"
+  }, {
+    "name" : "package",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "1a7202aaf0714f4c",
+      "status" : "broken",
+      "statusDetails" : "Waited for 10 secs but text 'Если у вас уже есть аккаунт, пожалуйста, войдите.' still not found",
+      "time" : {
+        "start" : 1563814862648,
+        "stop" : 1563814881306,
+        "duration" : 18658
+      }
+    }, {
+      "uid" : "2b375770acaf1be1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563814456731,
+        "stop" : 1563814525429,
+        "duration" : 68698
+      }
+    }, {
+      "uid" : "5cd79c765c15fbf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563813898694,
+        "stop" : 1563813939233,
+        "duration" : 40539
+      }
+    }, {
+      "uid" : "e9a1efaf17af6519",
+      "status" : "broken",
+      "statusDetails" : "Waited for 10 secs but text 'Если у вас уже есть аккаунт, пожалуйста, войдите.' still not found",
+      "time" : {
+        "start" : 1563813655353,
+        "stop" : 1563813673574,
+        "duration" : 18221
+      }
+    }, {
+      "uid" : "2f8b2c96bfa5fd77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563813294772,
+        "stop" : 1563813360270,
+        "duration" : 65498
+      }
+    }, {
+      "uid" : "d41c3ea147dc83da",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563812496199,
+        "stop" : 1563812557759,
+        "duration" : 61560
+      }
+    }, {
+      "uid" : "b65463a6b102dd81",
+      "status" : "failed",
+      "statusDetails" : "CSS or XPath or Regex element with (descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1] was not found.",
+      "time" : {
+        "start" : 1563812277200,
+        "stop" : 1563812387428,
+        "duration" : 110228
+      }
+    }, {
+      "uid" : "570a3a74dec00a10",
+      "status" : "failed",
+      "statusDetails" : "CSS or XPath or Regex element with (descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=3] was not found.",
+      "time" : {
+        "start" : 1563812135665,
+        "stop" : 1563812180975,
+        "duration" : 45310
+      }
+    }, {
+      "uid" : "34b7c5c66d75db1f",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"(descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1]\"}\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "time" : {
+        "start" : 1563812076234,
+        "stop" : 1563812115901,
+        "duration" : 39667
+      }
+    }, {
+      "uid" : "8efba35bd8389619",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563811986077,
+        "stop" : 1563812025804,
+        "duration" : 39727
+      }
+    }, {
+      "uid" : "d62108fbf07e976a",
+      "status" : "failed",
+      "statusDetails" : "CSS or XPath or Regex element with (descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1] was not found.",
+      "time" : {
+        "start" : 1563811820284,
+        "stop" : 1563811861071,
+        "duration" : 40787
+      }
+    }, {
+      "uid" : "eaab843ca623f638",
+      "status" : "failed",
+      "statusDetails" : "CSS or XPath or Regex element with (descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1] was not found.",
+      "time" : {
+        "start" : 1563811624420,
+        "stop" : 1563811667956,
+        "duration" : 43536
+      }
+    }, {
+      "uid" : "8fe7cd6d7deb2c88",
+      "status" : "failed",
+      "statusDetails" : "CSS or XPath or Regex element with (descendant-or-self::*[@class and contains(concat(' ', normalize-space(@class), ' '), ' product-item-name ')]/descendant-or-self::*/a)[position()=1] was not found.",
+      "time" : {
+        "start" : 1563811467875,
+        "stop" : 1563811513312,
+        "duration" : 45437
+      }
+    }, {
+      "uid" : "833a10bc5c392551",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <a href=\"#\" title=\"Удалить позицию\" class=\"action action-delete\" data-post=\"{&quot;action&quot;:&quot;https:\\/\\/www.nespresso.com\\/ru\\/ru\\/checkout\\/cart\\/delete\\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;624888&quot;}}\">...</a> is not clickable at point (1151, 378). Other element would receive the click: <div class=\"loader\">...</div>\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "time" : {
+        "start" : 1563811370776,
+        "stop" : 1563811415321,
+        "duration" : 44545
+      }
+    }, {
+      "uid" : "a2fb5e539a7012c2",
+      "status" : "broken",
+      "statusDetails" : "Waited for 10 secs but text 'Если у вас уже есть аккаунт, пожалуйста, войдите.' still not found",
+      "time" : {
+        "start" : 1563811273493,
+        "stop" : 1563811359886,
+        "duration" : 86393
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b1ae1da2891709e.json",
+  "parameterValues" : [ ]
+}

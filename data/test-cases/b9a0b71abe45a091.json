@@ -1,0 +1,110 @@
+{
+  "uid" : "b9a0b71abe45a091",
+  "name" : "testtest",
+  "fullName" : "nn (chrome).testtest",
+  "historyId" : "5465b8e0c4dddbc971c8c8ce728fce26",
+  "time" : {
+    "start" : 1563877560691,
+    "stop" : 1563877572700,
+    "duration" : 12009
+  },
+  "description" : "Тест логина",
+  "descriptionHtml" : "<p>Тест логина</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "am on page \"/\"",
+      "time" : {
+        "start" : 1563877561795,
+        "stop" : 1563877563873,
+        "duration" : 2078
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "am on url \"https://2ip•ru/\"",
+      "time" : {
+        "start" : 1563877563873,
+        "stop" : 1563877565948,
+        "duration" : 2075
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "execute in selenium \"Closure\"",
+      "time" : {
+        "start" : 1563877565948,
+        "stop" : 1563877565951,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testClass",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "testMethod",
+    "value" : "testtest"
+  }, {
+    "name" : "package",
+    "value" : "nn (chrome)"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "8fcfe6c2dddad915",
+      "status" : "broken",
+      "statusDetails" : "no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"#content > ul > li:nth-child(1) > a\"}\n  (Session info: chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "time" : {
+        "start" : 1563877408537,
+        "stop" : 1563877429289,
+        "duration" : 20752
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b9a0b71abe45a091.json",
+  "parameterValues" : [ ]
+}

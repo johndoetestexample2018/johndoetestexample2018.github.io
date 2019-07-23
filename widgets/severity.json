@@ -1,740 +1,110 @@
 [ {
-  "uid" : "374477ec0e2414bd",
-  "name" : "addToWishlistOnItemCardTest with data set #0",
+  "uid" : "a7f9b1ea420d1bc5",
+  "name" : "addToCartOnItemCard2Test",
   "time" : {
-    "start" : 1550760744535,
-    "stop" : 1550760771644,
-    "duration" : 27109
+    "start" : 1563885879517,
+    "stop" : 1563885900686,
+    "duration" : 21169
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f96d8f169f706549",
-  "name" : "compareTest with data set #0",
+  "uid" : "cd529f64fbe223f7",
+  "name" : "addToCart2Test",
   "time" : {
-    "start" : 1550760158922,
-    "stop" : 1550760168752,
-    "duration" : 9830
+    "start" : 1563885839575,
+    "stop" : 1563885859227,
+    "duration" : 19652
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "81726fc4403b0830",
-  "name" : "homeWithLoginTest with data set #5",
+  "uid" : "4e6795c4dea9082a",
+  "name" : "addToCart2Test",
   "time" : {
-    "start" : 1550769784860,
-    "stop" : 1550769793535,
-    "duration" : 8675
+    "start" : 1563815125533,
+    "stop" : 1563815151861,
+    "duration" : 26328
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8cbfee227125324b",
-  "name" : "homeWithLoginTest with data set #8",
+  "uid" : "b9a0b71abe45a091",
+  "name" : "testtest",
   "time" : {
-    "start" : 1550769811164,
-    "stop" : 1550769820147,
-    "duration" : 8983
+    "start" : 1563877560691,
+    "stop" : 1563877572700,
+    "duration" : 12009
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "9caae07daa1ca925",
-  "name" : "homeTest with data set #13",
+  "uid" : "1672e088a1ad4876",
+  "name" : "addToCartOnItemCardTest",
   "time" : {
-    "start" : 1550766661792,
-    "stop" : 1550766680887,
-    "duration" : 19095
+    "start" : 1563885859227,
+    "stop" : 1563885879516,
+    "duration" : 20289
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "dceb2415d3eb69ab",
-  "name" : "homeTest with data set #0",
-  "time" : {
-    "start" : 1550769690202,
-    "stop" : 1550769693713,
-    "duration" : 3511
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f69fc24a34399c2c",
-  "name" : "wrongpassTest",
-  "time" : {
-    "start" : 1550760570662,
-    "stop" : 1550760577967,
-    "duration" : 7305
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4c0ff5ccbd544fdc",
-  "name" : "addToCartTest with data set #0",
-  "time" : {
-    "start" : 1550759994567,
-    "stop" : 1550760018016,
-    "duration" : 23449
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5062e5f79527e8ae",
-  "name" : "homeWithLoginTest with data set #1",
-  "time" : {
-    "start" : 1550769747272,
-    "stop" : 1550769756913,
-    "duration" : 9641
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f29ad18fba7fece",
-  "name" : "homeTest with data set #2",
-  "time" : {
-    "start" : 1550765573565,
-    "stop" : 1550765577942,
-    "duration" : 4377
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3b4882ca2a4483f5",
-  "name" : "itemQuantityTest with data set #0",
-  "time" : {
-    "start" : 1550760082471,
-    "stop" : 1550760102105,
-    "duration" : 19634
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "33309580216407d4",
-  "name" : "homeWithLoginTest with data set #0",
-  "time" : {
-    "start" : 1550769735016,
-    "stop" : 1550769747272,
-    "duration" : 12256
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e4186fc4e050bc15",
-  "name" : "zeroItemQuantityTest with data set #0",
-  "time" : {
-    "start" : 1550760060828,
-    "stop" : 1550760082471,
-    "duration" : 21643
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1566d2a7df0881cc",
-  "name" : "homeWithLoginTest with data set #4",
-  "time" : {
-    "start" : 1550769774196,
-    "stop" : 1550769784858,
-    "duration" : 10662
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1a931ead39232b59",
-  "name" : "homeWithLoginTest with data set #13",
-  "time" : {
-    "start" : 1550765737949,
-    "stop" : 1550765763401,
-    "duration" : 25452
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "a1ef3f07ffcab2ae",
-  "name" : "invalidEmailTest",
-  "time" : {
-    "start" : 1550760676225,
-    "stop" : 1550760681900,
-    "duration" : 5675
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b0dc7dbaabf9ac9a",
-  "name" : "deleteTest with data set #0",
-  "time" : {
-    "start" : 1550760102106,
-    "stop" : 1550760130124,
-    "duration" : 28018
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "40573869ef958ff5",
-  "name" : "emptyPassConfirmTest",
-  "time" : {
-    "start" : 1550760664271,
-    "stop" : 1550760670290,
-    "duration" : 6019
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ea04ec06b88ce42c",
-  "name" : "orderTest2 with data set #0",
-  "time" : {
-    "start" : 1550760644694,
-    "stop" : 1550760646557,
-    "duration" : 1863
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "1857043c83fe6300",
-  "name" : "homeTest with data set #2",
-  "time" : {
-    "start" : 1550769696335,
-    "stop" : 1550769698980,
-    "duration" : 2645
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "572168d83c4649c2",
-  "name" : "compareWithLoginTest with data set #0",
-  "time" : {
-    "start" : 1550760195984,
-    "stop" : 1550760212401,
-    "duration" : 16417
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "9a7ea52cfa7688bb",
-  "name" : "emptymailTest",
-  "time" : {
-    "start" : 1550760577968,
-    "stop" : 1550760582876,
-    "duration" : 4908
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5c65988f69527730",
-  "name" : "homeWithLoginTest with data set #14",
-  "time" : {
-    "start" : 1550765763402,
-    "stop" : 1550765773704,
-    "duration" : 10302
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f7aa599d0858a931",
-  "name" : "homeTest with data set #4",
-  "time" : {
-    "start" : 1550769701775,
-    "stop" : 1550769704391,
-    "duration" : 2616
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "405b321581f6b28a",
-  "name" : "emptyNamesTest",
-  "time" : {
-    "start" : 1550760646567,
-    "stop" : 1550760652430,
-    "duration" : 5863
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "5165ff0e3c475de4",
-  "name" : "smallPassTest",
-  "time" : {
-    "start" : 1550760681901,
-    "stop" : 1550760687976,
-    "duration" : 6075
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "7f7eb1731d8375e9",
-  "name" : "homeTest",
-  "time" : {
-    "start" : 1550766393748,
-    "stop" : 1550766398123,
-    "duration" : 4375
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "3d23914ecbf5da2f",
-  "name" : "homeTest with data set #6",
-  "time" : {
-    "start" : 1550769707777,
-    "stop" : 1550769710415,
-    "duration" : 2638
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f37b9af252f99aaf",
-  "name" : "compareDeleteWithLoginTest with data set #0",
-  "time" : {
-    "start" : 1550760230522,
-    "stop" : 1550760250961,
-    "duration" : 20439
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "bd957ae1b225a95",
-  "name" : "headerLinks",
-  "time" : {
-    "start" : 1550760582931,
-    "stop" : 1550760606926,
-    "duration" : 23995
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "919bc58c26e32220",
-  "name" : "orderTest with data set #0",
-  "time" : {
-    "start" : 1550760642897,
-    "stop" : 1550760644692,
-    "duration" : 1795
-  },
-  "status" : "skipped",
-  "severity" : "normal"
-}, {
-  "uid" : "b7efa0166ea3896d",
-  "name" : "homeTest with data set #5",
-  "time" : {
-    "start" : 1550769704392,
-    "stop" : 1550769707776,
-    "duration" : 3384
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13956b3e061be2a8",
-  "name" : "homeTest with data set #10",
-  "time" : {
-    "start" : 1550769723204,
-    "stop" : 1550769729017,
-    "duration" : 5813
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "eaf002953d74a38b",
-  "name" : "trailingSpacesPassTest",
-  "time" : {
-    "start" : 1550760687976,
-    "stop" : 1550760694073,
-    "duration" : 6097
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2a5ac8844ca2f4cf",
-  "name" : "homeTest with data set #8",
-  "time" : {
-    "start" : 1550769713092,
-    "stop" : 1550769718838,
-    "duration" : 5746
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "db39059f2ab36930",
-  "name" : "sameUserTest",
-  "time" : {
-    "start" : 1550846016864,
-    "stop" : 1550846026638,
-    "duration" : 9774
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "206bbb48569e25",
-  "name" : "compareDeleteTest with data set #0",
-  "time" : {
-    "start" : 1550760180242,
-    "stop" : 1550760195983,
-    "duration" : 15741
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "cd605389f32c2f20",
-  "name" : "searchTest",
-  "time" : {
-    "start" : 1550760703187,
-    "stop" : 1550760720682,
-    "duration" : 17495
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2c4af7bb2bce5108",
-  "name" : "homeWithLoginTest with data set #2",
-  "time" : {
-    "start" : 1550769756914,
-    "stop" : 1550769765492,
-    "duration" : 8578
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "f67eef10ac64c00a",
-  "name" : "compareOnItemCardWithLoginTest with data set #0",
-  "time" : {
-    "start" : 1550760212403,
-    "stop" : 1550760230522,
-    "duration" : 18119
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "13aaf3a48f95b8ec",
-  "name" : "emptypassTest",
-  "time" : {
-    "start" : 1550760556325,
-    "stop" : 1550760570662,
-    "duration" : 14337
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "2f913ce5b575a60b",
-  "name" : "homeTest with data set #0",
-  "time" : {
-    "start" : 1550765548476,
-    "stop" : 1550765554198,
-    "duration" : 5722
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "b7858f88d6cf7427",
-  "name" : "deleteInSidebarTest with data set #0",
-  "time" : {
-    "start" : 1550760794562,
-    "stop" : 1550760825268,
-    "duration" : 30706
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "1ef000dc630e8ea3",
-  "name" : "emptyPassTest",
-  "time" : {
-    "start" : 1550760657825,
-    "stop" : 1550760664270,
-    "duration" : 6445
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d15c9c97886e3abe",
-  "name" : "deleteInWishlistTest with data set #0",
-  "time" : {
-    "start" : 1550760771645,
-    "stop" : 1550760794562,
-    "duration" : 22917
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "24feae98619e78d",
-  "name" : "addToCartOnItemCardWithOutLoginTest with data set #0",
-  "time" : {
-    "start" : 1550760144814,
-    "stop" : 1550760158919,
-    "duration" : 14105
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "77bd2d1e9cb09209",
-  "name" : "homeWithLoginTest with data set #12",
-  "time" : {
-    "start" : 1550769848347,
-    "stop" : 1550769858299,
-    "duration" : 9952
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "4ed106943034698c",
-  "name" : "addToCartOnItemCardTest with data set #0",
-  "time" : {
-    "start" : 1550760018016,
-    "stop" : 1550760038332,
-    "duration" : 20316
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "191c3aa0a497bf60",
-  "name" : "addToCartWithOutLoginTest with data set #0",
-  "time" : {
-    "start" : 1550760130127,
-    "stop" : 1550760144814,
-    "duration" : 14687
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a2bf36ec69683315",
-  "name" : "homeTest with data set #1",
-  "time" : {
-    "start" : 1550769693714,
-    "stop" : 1550769696334,
-    "duration" : 2620
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "d83ffe3fa1fc9d6a",
-  "name" : "homeWithLoginTest with data set #11",
-  "time" : {
-    "start" : 1550769838046,
-    "stop" : 1550769848347,
-    "duration" : 10301
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "c6e6e49c5376a4c5",
-  "name" : "homeWithLoginTest with data set #9",
-  "time" : {
-    "start" : 1550769820148,
-    "stop" : 1550769828852,
-    "duration" : 8704
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "33a8ae2af3f61d7a",
-  "name" : "homeWithLoginTest with data set #11",
+  "uid" : "7b1ae1da2891709e",
+  "name" : "deleteTest",
   "time" : {
-    "start" : 1550765701995,
-    "stop" : 1550765729143,
-    "duration" : 27148
+    "start" : 1563815204058,
+    "stop" : 1563815243664,
+    "duration" : 39606
   },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "7111b2ce89fb26ae",
-  "name" : "matchPassTest",
-  "time" : {
-    "start" : 1550760670291,
-    "stop" : 1550760676225,
-    "duration" : 5934
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "a782411072fe30f7",
-  "name" : "homeWithLoginTest with data set #3",
-  "time" : {
-    "start" : 1550769765493,
-    "stop" : 1550769774195,
-    "duration" : 8702
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "e781d186e897d31a",
-  "name" : "footerLinks",
-  "time" : {
-    "start" : 1550760606927,
-    "stop" : 1550760642893,
-    "duration" : 35966
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "94e0ff98633cda18",
-  "name" : "homeTest with data set #3",
-  "time" : {
-    "start" : 1550769698981,
-    "stop" : 1550769701774,
-    "duration" : 2793
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "aab235df130205c0",
-  "name" : "homeWithLoginTest with data set #7",
-  "time" : {
-    "start" : 1550769802373,
-    "stop" : 1550769811161,
-    "duration" : 8788
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "28d9b50afa02f14d",
-  "name" : "homeTest with data set #1",
-  "time" : {
-    "start" : 1550765554198,
-    "stop" : 1550765573564,
-    "duration" : 19366
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "d15363c527690003",
-  "name" : "homeTest with data set #3",
-  "time" : {
-    "start" : 1550765577943,
-    "stop" : 1550765596510,
-    "duration" : 18567
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "c560a2d497506d7d",
-  "name" : "homeTest with data set #12",
-  "time" : {
-    "start" : 1550769732394,
-    "stop" : 1550769735016,
-    "duration" : 2622
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3878c7e77b044d62",
-  "name" : "homeTest with data set #7",
-  "time" : {
-    "start" : 1550769710416,
-    "stop" : 1550769713092,
-    "duration" : 2676
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "21bda09fe0451170",
-  "name" : "Human-readable test class title",
-  "time" : {
-    "start" : 1550848587707,
-    "stop" : 1550848626041,
-    "duration" : 38334
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "aac4bcb9ded7c8c1",
-  "name" : "homeTest with data set #4",
-  "time" : {
-    "start" : 1550765596511,
-    "stop" : 1550765599001,
-    "duration" : 2490
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6b4f7616232a8c81",
-  "name" : "loginTest",
-  "time" : {
-    "start" : 1550760469662,
-    "stop" : 1550760556319,
-    "duration" : 86657
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "959a2c04d3daf0dc",
-  "name" : "homeTest with data set #11",
-  "time" : {
-    "start" : 1550769729018,
-    "stop" : 1550769732394,
-    "duration" : 3376
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "123e0c2e90be479a",
-  "name" : "addToWishlistTest with data set #0",
-  "time" : {
-    "start" : 1550760720686,
-    "stop" : 1550760744535,
-    "duration" : 23849
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "6d73eedf7f0147dd",
-  "name" : "emptyEmailTest",
-  "time" : {
-    "start" : 1550760652431,
-    "stop" : 1550760657824,
-    "duration" : 5393
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "3471c4af804cf2f7",
-  "name" : "homeWithLoginTest with data set #10",
-  "time" : {
-    "start" : 1550769828852,
-    "stop" : 1550769838045,
-    "duration" : 9193
-  },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "afe05acaa83f78d1",
-  "name" : "homeWithLoginTest with data set #6",
+  "uid" : "96c350955ffe319d",
+  "name" : "addToCartOnItemCard2Test",
   "time" : {
-    "start" : 1550769793536,
-    "stop" : 1550769802373,
-    "duration" : 8837
+    "start" : 1563815179265,
+    "stop" : 1563815204058,
+    "duration" : 24793
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "634bf9589a44b692",
-  "name" : "maxItemQuantityTest with data set #0",
+  "uid" : "b1c0fbf59a4fe519",
+  "name" : "addToCartTest",
   "time" : {
-    "start" : 1550760038333,
-    "stop" : 1550760060827,
-    "duration" : 22494
+    "start" : 1563815096011,
+    "stop" : 1563815125533,
+    "duration" : 29522
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4eed90e5ec9a8cf",
-  "name" : "compareOnItemCardTest with data set #0",
+  "uid" : "b1c4b625a0067e68",
+  "name" : "addToCartOnItemCardTest",
   "time" : {
-    "start" : 1550760168752,
-    "stop" : 1550760180241,
-    "duration" : 11489
+    "start" : 1563815151861,
+    "stop" : 1563815179265,
+    "duration" : 27404
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "23ffaeddc9cfcf94",
-  "name" : "homeTest with data set #9",
+  "uid" : "cef04a27e9a43def",
+  "name" : "addToCartTest",
   "time" : {
-    "start" : 1550769718839,
-    "stop" : 1550769723204,
-    "duration" : 4365
+    "start" : 1563885818198,
+    "stop" : 1563885839575,
+    "duration" : 21377
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "37a77a524907714d",
-  "name" : "homeTest with data set #14",
-  "time" : {
-    "start" : 1550766680888,
-    "stop" : 1550766699743,
-    "duration" : 18855
+  "uid" : "18d625c382470e59",
+  "name" : "deleteTest",
+  "time" : {
+    "start" : 1563885900687,
+    "stop" : 1563885934343,
+    "duration" : 33656
   },
   "status" : "broken",
   "severity" : "normal"
