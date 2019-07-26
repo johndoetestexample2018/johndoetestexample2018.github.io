@@ -4,22 +4,22 @@
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
-      "name" : "element click intercepted: Element <a href=\"#\" title=\"Удалить позицию\" class=\"action action-delete\" data-post=\"{&quot;action&quot;:&quot;https:\\/\\/www.nespresso.com\\/ru\\/ru\\/checkout\\/cart\\/delete\\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;631401&quot;}}\">...</a> is not clickable at point (1159, 299). Other element would receive the click: <div class=\"loader\">...</div>\n  (Session info: headless chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "name" : "element click intercepted: Element <button class=\"action apply btn--white update-cart\">...</button> is not clickable at point (1033, 298). Other element would receive the click: <div class=\"loader\">...</div>\n  (Session info: headless chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
       "children" : [ {
-        "name" : "deleteTest",
-        "uid" : "18d625c382470e59",
-        "parentUid" : "91b93f42716dcd53a199ff709e69480a",
+        "name" : "itemQuantityTest",
+        "uid" : "c9171b90ad1facb2",
+        "parentUid" : "dfe4c651d30984657f0835faba67b656",
         "status" : "broken",
         "time" : {
-          "start" : 1563885900687,
-          "stop" : 1563885934343,
-          "duration" : 33656
+          "start" : 1564163632215,
+          "stop" : 1564163657735,
+          "duration" : 25520
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "91b93f42716dcd53a199ff709e69480a"
+      "uid" : "dfe4c651d30984657f0835faba67b656"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]

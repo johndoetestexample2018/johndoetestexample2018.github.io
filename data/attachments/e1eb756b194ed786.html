@@ -1,0 +1,918 @@
+<html lang="ru"><head>
+        <script type="text/javascript" async="" src="https://www.gstatic.com/recaptcha/api2/v1562567553145/recaptcha__en.js"></script><script async="" src="https://www.google.com/recaptcha/api.js?onload=globalOnRecaptchaOnLoadCallback&amp;render=explicit"></script><script type="text/javascript" src="https://bam.nr-data.net/1/7982daa687?a=277974997&amp;v=1130.54e767a&amp;to=NgcEZRFSDxVXUhVeXw9NJ1IXWg4IGVIMRB8IDAJUGxwICFJUGQ%3D%3D&amp;rst=2563&amp;ref=https://www.nespresso.com/ru/ru/&amp;ap=672&amp;be=1078&amp;fe=2488&amp;dc=1387&amp;perf=%7B%22timing%22:%7B%22of%22:1564163440053,%22n%22:0,%22f%22:0,%22dn%22:6,%22dne%22:40,%22c%22:40,%22s%22:53,%22ce%22:84,%22rq%22:84,%22rp%22:1056,%22rpe%22:1058,%22dl%22:1059,%22di%22:1386,%22ds%22:1386,%22de%22:1386,%22dc%22:2488,%22l%22:2488,%22le%22:2493%7D,%22navigation%22:%7B%7D%7D&amp;fp=1379&amp;fcp=1494&amp;at=GkAHE1lIHBs%3D&amp;jsonp=NREUM.setToken"></script><script src="https://js-agent.newrelic.com/nr-1130.min.js"></script><script async="" src="https://www.contact.nespresso.com/apps.php?a=calleo-livechat"></script><script async="" src="https://www.contact.nespresso.com/apps.php?a=calleo-triggers"></script><script>
+    var BASE_URL = 'https://www.nespresso.com/ru/ru/';
+    var require = {
+        "baseUrl": "https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU"
+    };
+</script>
+        <meta charset="utf-8"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({1:[function(e,n,t){function r(){}function o(e,n,t){return function(){return i(e,[c.now()].concat(u(arguments)),n?null:this,t),n?void 0:this}}var i=e("handle"),a=e(3),u=e(4),f=e("ee").get("tracer"),c=e("loader"),s=NREUM;"undefined"==typeof window.newrelic&&(newrelic=s);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],d="api-",l=d+"ixn-";a(p,function(e,n){s[n]=o(d+n,!0,"api")}),s.addPageAction=o(d+"addPageAction",!0),s.setCurrentRouteName=o(d+"routeName",!0),n.exports=newrelic,s.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(e,n){var t={},r=this,o="function"==typeof n;return i(l+"tracer",[c.now(),e,t],r),function(){if(f.emit((o?"":"no-")+"fn-start",[c.now(),r,o],t),o)try{return n.apply(this,arguments)}catch(e){throw f.emit("fn-err",[arguments,this,e],t),e}finally{f.emit("fn-end",[c.now()],t)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(e,n){m[n]=o(l+n)}),newrelic.noticeError=function(e,n){"string"==typeof e&&(e=new Error(e)),i("err",[e,c.now(),!1,n])}},{}],2:[function(e,n,t){function r(e,n){if(!o)return!1;if(e!==o)return!1;if(!n)return!0;if(!i)return!1;for(var t=i.split("."),r=n.split("."),a=0;a<r.length;a++)if(r[a]!==t[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var u=navigator.userAgent,f=u.match(a);f&&u.indexOf("Chrome")===-1&&u.indexOf("Chromium")===-1&&(o="Safari",i=f[1])}n.exports={agent:o,version:i,match:r}},{}],3:[function(e,n,t){function r(e,n){var t=[],r="",i=0;for(r in e)o.call(e,r)&&(t[i]=n(r,e[r]),i+=1);return t}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],4:[function(e,n,t){function r(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(o<0?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=r},{}],5:[function(e,n,t){n.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(e,n,t){function r(){}function o(e){function n(e){return e&&e instanceof r?e:e?f(e,u,i):i()}function t(t,r,o,i){if(!d.aborted||i){e&&e(t,r,o);for(var a=n(o),u=v(t),f=u.length,c=0;c<f;c++)u[c].apply(a,r);var p=s[y[t]];return p&&p.push([b,t,r,a]),a}}function l(e,n){h[e]=v(e).concat(n)}function m(e,n){var t=h[e];if(t)for(var r=0;r<t.length;r++)t[r]===n&&t.splice(r,1)}function v(e){return h[e]||[]}function g(e){return p[e]=p[e]||o(t)}function w(e,n){c(e,function(e,t){n=n||"feature",y[t]=n,n in s||(s[n]=[])})}var h={},y={},b={on:l,addEventListener:l,removeEventListener:m,emit:t,get:g,listeners:v,context:n,buffer:w,abort:a,aborted:!1};return b}function i(){return new r}function a(){(s.api||s.feature)&&(d.aborted=!0,s=d.backlog={})}var u="nr@context",f=e("gos"),c=e(3),s={},p={},d=n.exports=o();d.backlog=s},{}],gos:[function(e,n,t){function r(e,n,t){if(o.call(e,n))return e[n];var r=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[n]=r,r}var o=Object.prototype.hasOwnProperty;n.exports=r},{}],handle:[function(e,n,t){function r(e,n,t,r){o.buffer([e],r),o.emit(e,n,t)}var o=e("ee").get("handle");n.exports=r,r.ee=o},{}],id:[function(e,n,t){function r(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");n.exports=r},{}],loader:[function(e,n,t){function r(){if(!E++){var e=x.info=NREUM.info,n=l.getElementsByTagName("script")[0];if(setTimeout(s.abort,3e4),!(e&&e.licenseKey&&e.applicationID&&n))return s.abort();c(y,function(n,t){e[n]||(e[n]=t)}),f("mark",["onload",a()+x.offset],null,"api");var t=l.createElement("script");t.src="https://"+e.agent,n.parentNode.insertBefore(t,n)}}function o(){"complete"===l.readyState&&i()}function i(){f("mark",["domContent",a()+x.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(u=Math.max((new Date).getTime(),u))-x.offset}var u=(new Date).getTime(),f=e("handle"),c=e(3),s=e("ee"),p=e(2),d=window,l=d.document,m="addEventListener",v="attachEvent",g=d.XMLHttpRequest,w=g&&g.prototype;NREUM.o={ST:setTimeout,SI:d.setImmediate,CT:clearTimeout,XHR:g,REQ:d.Request,EV:d.Event,PR:d.Promise,MO:d.MutationObserver};var h=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1130.min.js"},b=g&&w&&w[m]&&!/CriOS/.test(navigator.userAgent),x=n.exports={offset:u,now:a,origin:h,features:{},xhrWrappable:b,userAgent:p};e(1),l[m]?(l[m]("DOMContentLoaded",i,!1),d[m]("load",r,!1)):(l[v]("onreadystatechange",o),d[v]("onload",r)),f("mark",["firstbyte",u],null,"api");var E=0,O=e(5)},{}]},{},["loader"]);</script>
+<meta name="description" content="Официальный интернет-бутик Nespresso в России: кофе, кофемашины и сервис.">
+<meta name="keywords" content="nespresso россия официальный сайт неспрессо купить">
+<meta name="robots" content="INDEX,FOLLOW">
+<meta name="title" content="Nespresso: кофе-капсулы и кофемашины. Официальный сайт в России.">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<meta name="format-detection" content="telephone=no">
+<title>Nespresso: кофе-капсулы и кофемашины. Официальный сайт в России.</title>
+<link rel="stylesheet" type="text/css" media="all" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/main.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/homepage.min.css">
+<link rel="stylesheet" type="text/css" media="all" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/cms-pages.min.css">
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/requirejs/require.min.js"></script>
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/requirejs-min-resolver.min.js"></script>
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/requirejs/mixins.min.js"></script>
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/requirejs-config.min.js"></script>
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/polyfill.min.js"></script>
+<script type="text/javascript" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/js/vendor/picturefill.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.mobile.custom" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery.mobile.custom.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dataPost" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/dataPost.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/bootstrap" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate-inline" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/translate-inline.min.js"></script>
+<link rel="icon" type="image/x-icon" href="https://www.nespresso.com/ru/media/favicon/default/favicon.ico">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.nespresso.com/ru/media/favicon/default/favicon.ico">
+<link rel="manifest" href="/ru/manifest.json">
+<link rel="dns-prefetch" href="//www.contact.nespresso.com">
+<link rel="preload" href="https://www.contact.nespresso.com/apps.php?a=calleo-livechat.css" as="style">        <link rel="stylesheet" type="text/css" media="all" href="//maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css"><link rel="preload" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/main.min.css" as="style">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/woff" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/fonts/NespressoLucas-SemiBd.woff">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/woff" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/fonts/NespressoLucas-Regular.woff">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/woff" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/fonts/NespressoLucas-XtraBd.woff">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/woff" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/fonts/NespressoLucas-Bold.woff">
+<link rel="preload" as="font" crossorigin="anonymous" type="font/woff" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/fonts/NespressoLucas-Med.woff">
+<link rel="preload" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/homepage.min.css" as="style">
+<link rel="preload" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/css/cms-pages.min.css" as="style">
+    <iframe src="https://ea0vheu5ao.kameleoon.eu" id="kameleoonExternalIframe" style="float: left !important; opacity: 0 !important; width: 0px !important; height: 0px !important;"></iframe><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/responsive" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/responsive.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/theme" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/theme.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/translate" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/translate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="domReady" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/requirejs/domReady.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.cookie" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery.cookie.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/patches/jquery" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/patches/jquery.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Nespresso_Ui/js/form/element/input-ui" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_Ui/js/form/element/input-ui.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-migrate" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery-migrate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/common" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/common.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/template" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/template.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/confirm" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/modal/confirm.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/main" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/apply/main.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bootstrap" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/patches/jquery-ui" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/patches/jquery-ui.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/ui" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery-ui.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/tabs" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/tabs.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="matchMedia" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/matchMedia.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/smart-keyboard-handler" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/smart-keyboard-handler.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/mage" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/mage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/ie-class-fixer" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/ie-class-fixer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-storageapi" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery.storageapi.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="underscore" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/underscore.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/modal" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/modal/modal.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/apply/scripts" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/apply/scripts.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/knockoutjs/knockout.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-es5" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/knockoutjs/knockout-es5.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/engine" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/template/engine.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bootstrap" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/bootstrap.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/observable_array" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/extender/observable_array.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/extender/bound-nodes" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/extender/bound-nodes.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/collapsible" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/collapsible.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="text" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/requirejs/text.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/key-codes" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/key-codes.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/observable_source" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/template/observable_source.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/renderer" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/template/renderer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-logger" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/console-logger.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-repeat" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/knockoutjs/knockout-repeat.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="knockoutjs/knockout-fast-foreach" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/knockoutjs/knockout-fast-foreach.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/resizable" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/resizable.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/i18n" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/i18n.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/scope" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/scope.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/range" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/range.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/mage-init" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/mage-init.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/keyboard" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/keyboard.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/optgroup" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/optgroup.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/after-render" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/after-render.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/autoselect" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/autoselect.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/datepicker" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/datepicker.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/outer_click" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/outer_click.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/fadeVisible" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/fadeVisible.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/collapsible" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/collapsible.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/staticChecked" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/staticChecked.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/simple-checked" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/simple-checked.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/bind-html" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/bind-html.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/tooltip" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/tooltip.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/bindings/color-picker" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/bindings/color-picker.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/wrapper" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/wrapper.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/events" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/events.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="es6-collections" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/es6-collections.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/class" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/class.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/knockout/template/loader" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/knockout/template/loader.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/storage/local" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/storage/local.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/logger.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry-factory" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/entry-factory.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/console-output-handler" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/console-output-handler.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/formatter" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/formatter.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/message-pool" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/message-pool.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/levels-pool" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/levels-pool.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/logger-utils" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/logger-utils.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/async" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/view/utils/async.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/registry/registry" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/registry/registry.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/main" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/main.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/calendar" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/calendar.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="moment" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/moment.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="spectrum" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/spectrum/spectrum.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="tinycolor" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/spectrum/tinycolor.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/logger/entry" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/logger/entry.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/template" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/template.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/dom-observer" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/view/utils/dom-observer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/view/utils/bindings" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/view/utils/bindings.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/arrays" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/arrays.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/compare" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/compare.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/misc" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/misc.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/objects" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/objects.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/utils/strings" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/utils/strings.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery-ui-timepicker-addon" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery-ui-timepicker-addon.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MutationObserver" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/MutationObserver.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="FormData" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/FormData.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/loader" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/loader.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Cookie/js/require-cookie" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Cookie/js/require-cookie.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageCache/js/page-cache" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_PageCache/js/page-cache.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/sticky-message" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/sticky-message.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/account-dropdown-dialog" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/account-dropdown-dialog.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation/validation" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/validation/validation.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/trim-input" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/trim-input.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/app" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/core/app.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/cart/minicart-dropdown" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Checkout/js/cart/minicart-dropdown.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/main-menu" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/view/main-menu.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/catalog-menu" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/view/catalog-menu.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdowns" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/dropdowns.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Mirasvit_Feed/js/report" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Mirasvit_Feed/js/report.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Nespresso_Slider/js/slider" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_Slider/js/slider.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_PageBuilder/js/widget-initializer" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_PageBuilder/js/widget-initializer.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/cookies" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/cookies.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/block-loader" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/block-loader.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/section-config" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/section-config.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-processor" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/invalidation-processor.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Banner/js/model/banner" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Banner/js/model/banner.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/customer-data" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/customer-data.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Persistent/js/view/customer-data-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Persistent/js/view/customer-data-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/dropdown" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/dropdown.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/validation" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/validation.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_CustomerCustomAttributes/js/mage-validation-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_CustomerCustomAttributes/js/mage-validation-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/types" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/core/renderer/types.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/core/renderer/layout" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/core/renderer/layout.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/accordion" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/accordion.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Nespresso_Slider/js/vendor/owl.carousel.min" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_Slider/js/vendor/owl.carousel.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/element" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/element/element.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/storage" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/validate" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery.validate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/collection" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/collection.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Tax/js/view/checkout/minicart/subtotal/totals" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Tax/js/view/checkout/minicart/subtotal/totals.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Msrp/js/view/checkout/minicart/subtotal/totals" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Msrp/js/view/checkout/minicart/subtotal/totals.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/view/image" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/view/image.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/view/authentication-popup" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/view/authentication-popup.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/loginCaptcha" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Captcha/js/view/checkout/loginCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/reCaptcha" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/MSP_ReCaptcha/js/reCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Nespresso_DigitalDataManager/js/ddm-manager" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_DigitalDataManager/js/ddm-manager.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/storage-manager" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/storage-manager.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Checkout/js/view/minicart.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/view/minicart-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Checkout/js/view/minicart-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/view/messages" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/view/messages.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/ui-messages-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/MSP_ReCaptcha/js/ui-messages-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/view/messages.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Theme/js/view/messages-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Theme/js/view/messages-mixin.min.js"></script><link type="text/css" rel="stylesheet" href="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_Slider/css/vendor/owl.carousel.min.css"><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/core/element/links" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/core/element/links.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/url" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/url.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="jquery/jquery.metadata" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/jquery/jquery.metadata.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/form" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/form/form.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/action/login" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/action/login.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/model/authentication-popup" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/model/authentication-popup.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/modal/alert" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/modal/alert.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/view/checkout/defaultCaptcha" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Captcha/js/view/checkout/defaultCaptcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captchaList" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Captcha/js/model/captchaList.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="MSP_ReCaptcha/js/registry" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/MSP_ReCaptcha/js/registry.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Nespresso_DigitalDataManager/js/model/ddm-init-waiting-list" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Nespresso_DigitalDataManager/js/model/ddm-init-waiting-list.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/storage-service" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/product/storage/storage-service.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Checkout/js/sidebar.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Checkout/js/sidebar-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Checkout/js/sidebar-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messageList" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/model/messageList.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/lib/spinner" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/lib/spinner.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/requirejs/resolver" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/requirejs/resolver.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Customer/js/invalidation-rules/website-rule" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Customer/js/invalidation-rules/website-rule.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/model/captcha" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Captcha/js/model/captcha.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/form/adapter.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/product/storage/ids-storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/data-storage" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/product/storage/data-storage.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/storage/ids-storage-compare" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/product/storage/ids-storage-compare.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="mage/decorate" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/mage/decorate.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messages" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/model/messages.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/model/messages-mixin" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/model/messages-mixin.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Captcha/js/action/refresh" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Captcha/js/action/refresh.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Ui/js/form/adapter/buttons" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Ui/js/form/adapter/buttons.min.js"></script><script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="Magento_Catalog/js/product/query-builder" src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/Magento_Catalog/js/product/query-builder.min.js"></script></head>
+    <body data-container="body" class="cms-home cms-index-index page-layout-1column livechat-collapsed ajax-loading" aria-busy="true"><!---->
+        
+<script>
+    require.config({
+        map: {
+            '*': {
+                wysiwygAdapter: 'mage/adminhtml/wysiwyg/tiny_mce/tinymce4Adapter'
+            }
+        }
+    });
+</script>
+
+    <script>
+        require.config({
+            deps: [
+                'jquery',
+                'mage/translate',
+                'jquery/jquery-storageapi'
+            ],
+            callback: function ($) {
+                'use strict';
+
+                var dependencies = [],
+                    versionObj;
+
+                $.initNamespaceStorage('mage-translation-storage');
+                $.initNamespaceStorage('mage-translation-file-version');
+                versionObj = $.localStorage.get('mage-translation-file-version');
+
+                
+                if (versionObj.version !== 'adb8d7824244a95501093f6b1b4d984e1a52c153') {
+                    dependencies.push(
+                        'text!js-translation.json'
+                    );
+
+                }
+
+                require.config({
+                    deps: dependencies,
+                    callback: function (string) {
+                        if (typeof string === 'string') {
+                            $.mage.translate.add(JSON.parse(string));
+                            $.localStorage.set('mage-translation-storage', string);
+                            $.localStorage.set(
+                                'mage-translation-file-version',
+                                {
+                                    version: 'adb8d7824244a95501093f6b1b4d984e1a52c153'
+                                }
+                            );
+                        } else {
+                            $.mage.translate.add($.localStorage.get('mage-translation-storage'));
+                        }
+                    }
+                });
+            }
+        });
+    </script>
+
+
+    <noscript>
+        <div class="message global noscript">
+            <div class="content">
+                <p>
+                    <strong>Скорее всего в вашем браузере отключён JavaScript.</strong>
+                    <span>For the best experience on our site, be sure to turn on Javascript in your browser.</span>
+                </p>
+            </div>
+        </div>
+    </noscript>
+<script>
+    require.config({
+        paths: {
+            googleMaps: 'https\u003A\u002F\u002Fmaps.googleapis.com\u002Fmaps\u002Fapi\u002Fjs\u003Fv\u003D3\u0026key\u003D'
+        },
+        config: {
+            'Magento_PageBuilder/js/utils/map': {
+                style: ''
+            },
+            'Magento_PageBuilder/js/content-type/map/preview': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.nespresso.com\u002Fru\u002Fru\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+            'Magento_PageBuilder/js/form/element/map': {
+                apiKey: '',
+                apiKeyErrorMessage: 'You\u0020must\u0020provide\u0020a\u0020valid\u0020\u003Ca\u0020href\u003D\u0027https\u003A\u002F\u002Fwww.nespresso.com\u002Fru\u002Fru\u002Fadminhtml\u002Fsystem_config\u002Fedit\u002Fsection\u002Fcms\u002F\u0023cms_pagebuilder\u0027\u0020target\u003D\u0027_blank\u0027\u003EGoogle\u0020Maps\u0020API\u0020key\u003C\u002Fa\u003E\u0020to\u0020use\u0020a\u0020map.'
+            },
+        }
+    });
+</script>
+
+<script>
+    require.config({
+        shim: {
+            'Magento_PageBuilder/js/utils/map': {
+                deps: ['googleMaps']
+            }
+        }
+    });
+</script>
+<script>
+    var ddmDefault = {
+    "version": "1.1.3",
+    "page": {
+        "type": "home",
+        "category": "Home"
+    },
+    "website": {
+        "type": "responsive",
+        "country": "RU",
+        "currency": "RUB",
+        "environment": "production",
+        "language": "ru_RU"
+    },
+    "events": [],
+    "campaigns": [],
+    "changes": []
+};
+    window.digitalData = window.digitalData || ddmDefault;
+</script>
+<!-- Digital Data Timer -->
+<script type="text/javascript">
+(function () {
+    var sec = 0;
+    var ssTime = localStorage.getItem('ddm_atos');
+    var interval;
+
+    if (ssTime) {
+        if (ssTime >= 120) {
+            return;
+        }
+        sec = ssTime;
+    }
+    interval = setInterval(tick, 1000);
+
+    function tick() {
+        sec++;
+        checkTime(sec);
+    }
+
+    function checkTime(sec) {
+        localStorage.setItem('ddm_atos', sec);
+        if (sec === 30 || sec === 60 || sec === 90 || sec === 120) {
+            window.digitalData.events.push({
+                "category": "Behaviour",
+                "name": sec + "_activeTimeOnSite",
+                "nonInteraction": true
+            });
+            if (sec === 120) {
+                clearInterval(interval);
+            }
+        }
+    }
+})();
+</script>
+
+<!-- SegmentStream snippet -->
+<script>
+require(['jquery'], function($) {
+    $(document).on('ddm.digitalData.ready', function () {
+        (function(h,d){d=d||"cdn.segmentstream.com";var a=window.ddManager=window.ddManager||[];window.ddListener=window.ddListener||[];var b=window.digitalData=window.digitalData||{};b.events=b.events||[];b.changes=b.changes||[];if(!a.initialize)if(a.invoked)window.console&&console.error&&console.error("SegmentStream snippet included twice.");else{a.invoked=!0;a.methods="initialize addIntegration persist unpersist on once off setConsent".split(" ");a.factory=function(k){return function(){var c=Array.prototype.slice.call(arguments);
+        c.unshift(k);a.push(c);return a}};for(b=0;b<a.methods.length;b++){var f=a.methods[b];a[f]=a.factory(f)}a.load=function(a){var c=document.createElement("script");c.type="text/javascript";c.charset="utf-8";c.async=!0;c.src=a;a=document.getElementsByTagName("script")[0];a.parentNode.insertBefore(c,a)};a.loadProject=function(b){var c=window.location.search;if(0<=c.indexOf("ddm_test_mode=1"))try{var e=!0;window.localStorage.setItem("_ddm_test_mode","1")}catch(g){}else if(0<=c.indexOf("ddm_test_mode=0"))try{e=
+        !1,window.localStorage.removeItem("_ddm_test_mode")}catch(g){}else try{e="1"===window.localStorage.getItem("_ddm_test_mode")}catch(g){}e?a.load(window.DDMANAGER_TESTMODE_INIT_URL||"https://api.segmentstream.com/v1/ddm-initialization/"+b+".js"):a.load(window.DDMANAGER_INIT_URL||"https://"+d+"/project/"+b+".js")};a.CDN_DOMAIN=d;a.SNIPPET_VERSION="1.0.11";a.loadProject(h)}})("c9c01252-2e15-4442-b4cc-887384ab5ffb");
+    });
+});
+</script>
+<!-- //SegmentStream snippet -->
+<script type="text/javascript">
+    var kameleoonURL = "https://ea0vheu5ao.kameleoon.eu";
+    var kameleoonStartLoadTime = new Date().getTime();
+    var kameleoonLoadingTimeout = 1000;
+    var kameleoonProcessMessageEvent = function(event) {
+        if (kameleoonURL == event.origin) {
+            window.removeEventListener("message", kameleoonProcessMessageEvent);
+            window.kameleoonExternalIFrameLoaded = true;
+            eval(event.data);
+            Kameleoon.Analyst.load();
+        }
+    };
+    if (window.addEventListener) {
+        window.addEventListener("message", kameleoonProcessMessageEvent, false);
+    }
+
+    if (!document.getElementById("kameleoonLoadingStyleSheet") && !window.kameleoonDisplayPageTimeOut) {
+        var kameleoonS = document.getElementsByTagName("script")[0];
+        var kameleoonCc = "*{visibility: hidden!important;background-image: none!important;}";
+        var kameleoonStn = document.createElement("style");
+        kameleoonStn.type = "text/css";
+        kameleoonStn.id = "kameleoonLoadingStyleSheet";
+        if (kameleoonStn.styleSheet) {
+            kameleoonStn.styleSheet.cssText = kameleoonCc;
+        } else {
+            kameleoonStn.appendChild(document.createTextNode(kameleoonCc));
+        }
+        kameleoonS.parentNode.insertBefore(kameleoonStn, kameleoonS);
+        window.kameleoonDisplayPage = function(fromEngine) {
+            if (!fromEngine) {
+                window.kameleoonTimeout = true;
+            }
+            if (kameleoonStn.parentNode) {
+                kameleoonStn.parentNode.removeChild(kameleoonStn);
+            }
+        };
+        window.setTimeout(function() {}, 25);
+        window.kameleoonDisplayPageTimeOut = window.setTimeout(window.kameleoonDisplayPage, kameleoonLoadingTimeout);
+    }
+
+    var iframeNode = document.createElement("iframe");
+    iframeNode.src = kameleoonURL;
+    iframeNode.id = "kameleoonExternalIframe";
+    iframeNode.style = "float: left !important; opacity: 0.0 !important; width: 0px !important; height: 0px !important;";
+    document.head.appendChild(iframeNode);
+</script>
+<div class="page-wrapper"><div class="sticky-message-container">
+<!--	<div class="technical-message" style="display: none">--><!--<a href="tel:88002000004">8-800-200-0004</a><span class="close" title="--><!--">+</span></div>-->
+	<div class="wrong-browser-message" style="display: none">Для корректного отображения содержимого, мы рекомендуем воспользоваться другим &nbsp;<a href="https://www.nespresso.com/ru/ru/browser">браузером</a>.</div>
+</div>
+<header class="page-header"><div class="header content"><div class="header-fixed-wrapper" style="margin-top: 0px;"><div class="header-container-items"><div class="nav-toggle-wrapper">
+  <div data-action="toggle-nav" class="action nav-toggle"></div>
+</div>
+    <div class="logo-wrapper"><strong class="logo">
+        <img src="https://www.nespresso.com/ru/static/version1564149121/frontend/Mygento/nespresso/ru_RU/images/nespresso.svg" title="Nespresso RU" alt="Nespresso RU" width="136" height="24">
+  </strong></div>
+<div class="header-container-customer"><div class="header-welcome-wrapper">
+  <div class="header-welcome">
+    <div class="welcome welcome-icon"></div>
+    <div class="welcome welcome-ppl">
+          Личный кабинет        </div>
+  </div>
+</div>
+
+<script>
+require(['jquery', 'domReady!'], function ($) {
+  //jquery dialog stop repeating event
+  $( ".header-welcome" ).click(function() {
+    $( ".mage-dropdown-dialog" ).stop(true, true );
+  });
+});
+</script>
+</div><div data-block="minicart" class="minicart-wrapper">
+    <a class="action showcart" href="https://www.nespresso.com/ru/ru/checkout/" data-bind="scope: 'minicart_content'">
+        <span class="counter qty empty" data-bind="css: { empty: !!getCartParam('summary_count') == false }, blockLoader: isLoading">
+            <!-- ko if: getCartParam('summary_count') > 0 --><!-- /ko -->
+        </span>
+        <span class="text">Моя Корзина</span>
+    </a>
+    <div class="block-button-close header-button-close">
+      <button type="button" class="action close">
+          <span class="btn-minicart-close-icon"></span>
+      </button>
+    </div>
+            
+        <script>
+        window.checkout = {"shoppingCartUrl":"https:\/\/www.nespresso.com\/ru\/ru\/checkout\/","checkoutUrl":"https:\/\/www.nespresso.com\/ru\/ru\/checkout\/","updateItemQtyUrl":"https:\/\/www.nespresso.com\/ru\/ru\/checkout\/sidebar\/updateItemQty\/","removeItemUrl":"https:\/\/www.nespresso.com\/ru\/ru\/checkout\/sidebar\/removeItem\/","imageTemplate":"Magento_Catalog\/product\/image_with_borders","baseUrl":"https:\/\/www.nespresso.com\/ru\/ru\/","minicartMaxItemsVisible":500,"websiteId":"1","maxItemsToDisplay":10,"storeId":"1","customerLoginUrl":"https:\/\/www.nespresso.com\/ru\/ru\/customer\/account\/login\/referer\/aHR0cHM6Ly93d3cubmVzcHJlc3NvLmNvbS9ydS9ydS8%2C\/","isRedirectRequired":false,"autocomplete":"off","captcha":{"user_login":{"isCaseSensitive":false,"imageHeight":50,"imageSrc":"","refreshUrl":"https:\/\/www.nespresso.com\/ru\/ru\/captcha\/refresh\/","isRequired":false,"timestamp":1564157329}}};
+    </script>
+    
+    <script>
+    require(['jquery', 'domReady!'], function ($) {
+      $( '.block-minicart' ).on( "swiperight", function(event) {
+        $('#btn-minicart-close').click();
+      });
+    });
+    </script>
+<div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front minicart-dropdown-dialog mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-2" style="display: none;"><div class="block block-minicart ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-2">
+            <div id="minicart-content-wrapper" data-bind="scope: 'minicart_content'" class="minicart-content-wrapper">
+              <div class="" data-bind="css: {'no-display': isLoading}">
+                <div class="block-minicart-header">
+                  <div class="block-title">
+                      <span class="text" data-bind="i18n: 'Cart'">Корзина</span>
+                  </div>
+                  <div class="block-button-close">
+                    <button type="button" id="btn-minicart-close" class="action close" data-action="close" data-bind="attr: { title: $t('Close') }" title="Закрыть">
+                        <span class="btn-minicart-close-icon"></span>
+                    </button>
+                  </div>
+                </div>
+                              </div>
+                <!-- ko template: getTemplate() --><!-- /ko -->
+            </div>
+
+        </div></div></div>
+
+<script>
+    window.reorderAction = null;
+</script>
+</div></div>    <div class="mobile-categories-wrapper" style="margin-top: 56px;">
+                                <div class="mobile-category-item">
+                <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original">Кофе-капсулы</a>
+            </div>
+                                <div class="mobile-category-item">
+                <a href="https://www.nespresso.com/ru/ru/coffee-machines/original">Кофемашины</a>
+            </div>
+                                <div class="mobile-category-item">
+                <a href="https://www.nespresso.com/ru/ru/accessories">Аксессуары</a>
+            </div>
+            </div>
+</div><div class="main-menu" style="margin-top: 0px;">
+    <div class="wrapper">
+        <!-- Меню каталога -->
+        <div class="main-menu-catalog">
+                <ul class="first-level">
+                                <li class="first-level-item capsule parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>Кофе-капсулы</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <ul>
+<li class="second-level-item">
+    <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original" class="main-section">
+        <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/capsules/capsules-plp.png" alt=""></div>
+        <div class="section-title">Все кофе-капсулы</div>
+    </a>
+</li>
+<li class="second-level-item">
+    <ul class="simple-section">
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/coffee-capsules/vertuo" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/capsules/vertuo-system.png" alt=""></div>
+                <div class="section-title">СИСТЕМА<br>VERTUO</div>
+            </a>
+        </li>
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/capsules/original-system.png" alt=""></div>
+                <div class="section-title">СИСТЕМА<br>ORIGINAL</div>
+            </a>
+        </li>
+<!--         <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original?capsule_product_cupsizes=31" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Coffee/lungo.png" alt="" /></div>
+                <div class="section-title">Лунго</div>
+            </a>
+        </li> -->
+    </ul>
+</li>
+<li class="second-level-item">
+    <ul class="simple-section">
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/coffee-selector" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/capsules/coffee-choose.png" alt=""></div>
+                <div class="section-title">Какой кофе выбрать?</div>
+            </a>
+        </li>
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/coffee-expertise" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/capsules/coffee-world.png" alt=""></div>
+                <div class="section-title">Откройте мир кофе Nespresso</div>
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="second-level-item">
+    <a href="https://www.nespresso.com/ru/ru/coffee-capsules/original?capsule_product_range=323" class="banner-section"><img src="https://www.nespresso.com/ru/media/wysiwyg/banners/iced-2019/248x260_1.jpg" alt=""></a>
+</li>
+</ul>                    </div>
+                            </li>
+                                <li class="first-level-item machine parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/ru/ru/coffee-machines/original" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>Кофемашины</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <style>
+    .section-title_vertuo {
+        font-size: 20px !important;
+        font-weight: normal !important;
+        text-transform: none !important;
+    }
+
+    @media screen and (max-width: 1200px) {
+         .section-title_vertuo {
+            font-weight: bold !important;
+            text-transform: uppercase !important;
+            font-size: inherit !important;
+         }
+    }
+</style>
+<ul>
+  <li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/coffee-machines/vertuo" class="main-section lol">
+          <div class="section-title">СИСТЕМА VERTUO</div>
+          <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/machines-vertuo.png" alt=""></div>
+      </a>
+  </li>
+  <li class="second-level-item">
+     <a href="https://www.nespresso.com/ru/ru/coffee-machines/original" class="main-section">
+                  <div class="section-title">СИСТЕМА ORIGINAL</div>
+                  <div class="section-image" style="width: 100%;"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/machines-original.png" alt=""></div>
+              </a>
+<!--       <ul class="simple-section">
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/coffee-machines/original?nsp_coffee_machine_coffee_type=166" class="third-level-section">
+                  <div class="section-title">СИСТЕМА ORIGINAL</div>
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/machines-original.png" alt="" /></div>
+              </a>
+          </li>
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/coffee-machines/original?nsp_coffee_machine_coffee_type=167" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Machines/latte.svg" alt="" /></div>
+                  <div class="section-title">Приготовление капучино/латте</div>
+              </a>
+          </li>
+      </ul> -->
+  </li>
+  <li class="second-level-item">
+                  <a href="https://www.nespresso.com/ru/ru/choose-your-system" class="main-section">
+                  <div class="section-image" style="width: 100%;"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/choose-system.png" alt=""></div>
+                  <div class="section-title section-title_vertuo">Какую систему выбрать?</div>
+              </a>
+<!--       <ul class="simple-section">
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/member-get-member?ref=mega-menu-machines-mgm-link-ru" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Machines/club.svg" alt="" /></div>
+                  <div class="section-title">Пригласите друга в клуб Nespresso</div>
+              </a>
+          </li>
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/machine-assistance" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Machines/video.svg" alt="" /></div>
+                  <div class="section-title">Видеоинструкции по эксплуатации</div>
+              </a>
+          </li>
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/accessories/descaling-kit" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/choose-system.png" alt="" /></div>
+                  <div class="section-title">Какую систему выбрать?</div>
+              </a>
+          </li>
+      </ul> -->
+  </li>
+  <li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/coffee-machines/vertuo" class="banner-section"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/machines/machines-banner2.jpg" alt=""></a>
+  </li>
+  </ul>                    </div>
+                            </li>
+                                <li class="first-level-item accessory parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/ru/ru/accessories" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>Аксессуары</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <ul>
+<li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/accessories" class="main-section">
+          <div class="section-title">ВСЕ АКСЕССУАРЫ</div>
+          <div class="section-image"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/accesories/access_plp.png" alt=""></div>
+      </a>
+  </li>
+  <li class="second-level-item">
+      <ul class="simple-section">
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/accessories/cups" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Accessories/cups.png" alt=""></div>
+                  <div class="section-title">Дизайнерская посуда</div>
+              </a>
+          </li>
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/accessories/aeroccino" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Accessories/cappucinator.png" alt=""></div>
+                  <div class="section-title">Капучинаторы aeroccino</div>
+              </a>
+          </li>
+      </ul>
+  </li>
+  <li class="second-level-item">
+      <ul class="simple-section">
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/accessories/capsule" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Accessories/dispenser.png" alt=""></div>
+                  <div class="section-title">Хранение капсул</div>
+              </a>
+          </li>
+          <li class="third-level-item">
+              <a href="https://www.nespresso.com/ru/ru/accessories/food" class="third-level-section">
+                  <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Accessories/deserts.png" alt=""></div>
+                  <div class="section-title">Фирменные десерты</div>
+              </a>
+          </li>
+      </ul>
+  </li>
+ <li class="second-level-item">
+    <a href="https://www.nespresso.com/ru/ru/accessories" class="banner-section"><img src="https://www.nespresso.com/ru/club/images/b2c/Vertuo/megamenu/accesories/banner_access.png" alt=""></a>
+  </li>
+  </ul>                    </div>
+                            </li>
+                                <li class="first-level-item order parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/ru/ru/our-choices" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>О выборе Nespresso</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <ul>
+  <li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/our-choices/sustainable-coffee-quality" class="description-section">
+          <div class="section-title">Постоянство качества</div>
+          <div class=""><img src="//www.nespresso.com/ru/club/images/b2c/megamenu/our-choice-icon-1.jpg" alt=""></div>
+          <!-- <div class="section-description">Чашка Nespresso не просто дарит исключительный опыт дегустации, но и вносит значительный вклад в благополучие общества… </div> -->
+      </a>
+  </li>
+  <li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/our-choices/coffee-origins-and-blends" class="description-section">
+          <div class="section-title">Места происхождения кофе</div>
+          <div class=""><img src="//www.nespresso.com/ru/club/images/b2c/megamenu/our-choice-icon-2.jpg" alt=""></div>
+          <!-- <div class="section-description">От кофейной ягоды до чашки — на каждом этапе, мы применяем все свои знания, опыт, умение и энтузиазм.</div> -->
+      </a>
+  </li>
+  <li class="second-level-item">
+      <a href="https://www.nespresso.com/ru/ru/our-choices/the-coffee-experience" class="description-section">
+        <div class="section-title">Дегустация кофе</div>
+        <div class=""><img src="//www.nespresso.com/ru/club/images/b2c/megamenu/our-choice-icon-3.jpg" alt=""></div>
+        <!-- <div class="section-description">Дегустируйте бескомпромисно качественный кофе</div> -->
+      </a>
+  </li>
+  <li class="second-level-item">
+     <!--  <a href="https://www.nespresso.com/ru/ru/_zzz_/" class="banner-section"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/banner.png" alt="" /></a>  -->
+  </li>
+  </ul>                    </div>
+                            </li>
+                                <li class="first-level-item services parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/ru/ru/services" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>Сервисы</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <ul>
+<li class="second-level-item">
+    <a href="https://www.nespresso.com/ru/ru/services?ref=mega-menu-services-ru" class="main-section">
+        <div class="section-title">Преимущества Nespresso</div>
+        <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Services/advantages.png" alt=""></div>
+    </a>
+</li>
+<li class="second-level-item">
+    <ul class="simple-section">
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/services/order/by-internet" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Services/methods.svg" alt=""></div>
+                <div class="section-title">Способы размещения заказа</div>
+            </a>
+        </li>
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/services/customer-care/machine-assistance" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Services/service.svg" alt=""></div>
+                <div class="section-title">Консьерж-сервис</div>
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="second-level-item">
+    <ul class="simple-section">
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/services/delivery/next-day-delivery" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Services/delivery.svg" alt=""></div>
+                <div class="section-title">Условия доставки</div>
+            </a>
+        </li>
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/ru/ru/services/recycling/capsules-recycling" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Services/recycle.svg" alt=""></div>
+                <div class="section-title">Переработка капсул</div>
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="second-level-item">
+    <a href="//app.appsflyer.com/id1438842833?pid=site_mega_menu_services&amp;c=App_introducing&amp;is_retargeting=true" class="banner-section"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/service-4.jpg" alt=""></a>
+</li>
+</ul>                    </div>
+                            </li>
+                                <li class="first-level-item store-locator">
+                <a href="https://www.nespresso.com/ru/ru/store-locator" class="first-level-link">
+                    <span class="first-level-title"><i class="icon"></i>Где купить?</span>
+                </a>
+                            </li>
+                                <li class="first-level-item business parent" data-role="collapsible">
+                <a href="https://www.nespresso.com/pro/ru/ru/home" class="first-level-link" data-role="trigger">
+                    <span class="first-level-title"><i class="icon"></i>Для бизнеса</span>
+                </a>
+                                    <div class="second-level" data-role="content" style="">
+                        <ul>
+<li class="second-level-item">
+    <a href="https://www.nespresso.com/pro/ru/ru/pages/commercial-coffee-capsule-range" class="main-section">
+        <div class="section-title">Кофе-капсулы</div>
+        <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Business/capsules.png" alt=""></div>
+    </a>
+</li>
+<li class="second-level-item">
+    <a href="https://www.nespresso.com/pro/ru/ru/pages/machine-landing-page" class="main-section">
+        <div class="section-title">Профессиональные кофемашины</div>
+        <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Business/machines2.png" alt=""></div>
+    </a>
+</li>
+<li class="second-level-item">
+    <ul class="simple-section">
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/pro/ru/ru/pages/theclub-landing-page" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Business/accessories.svg" alt=""></div>
+                <div class="section-title">Аксессуары и десерты</div>
+            </a>
+        </li>
+        <li class="third-level-item">
+            <a href="https://www.nespresso.com/pro/ru/ru/pages/professional-contact-us" class="third-level-section">
+                <div class="section-image"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/Business/phone.svg" alt=""></div>
+                <div class="section-title">Связаться с нами</div>
+            </a>
+        </li>
+    </ul>
+</li>
+<li class="second-level-item">
+    <a href="/pro/ru/ru/pages/all-inclusive-new-offer?ref=b2c-megamenu" class="banner-section">
+        <picture>
+            <source media="(max-width: 767px)" srcset="/ru/club/pro/2019/06-all-inclusive/1/313x239.jpg">
+            <img src="/ru/club/pro/2019/06-all-inclusive/1/248x260_2.jpg" alt="Кофейный All-inclusive. Платите только за кофе.">
+        </picture>
+    </a>
+    <!-- <a href="https://www.nespresso.com/pro/ru/ru/pages/all-inclusive-2019-special-offer" class="banner-section"><img src="https://www.nespresso.com/ru/media/wysiwyg/menuimages/banner.png" alt="" /></a> -->
+</li>
+</ul>                    </div>
+                            </li>
+            </ul>
+        </div>
+
+        <!-- Выбор языка -->
+        <div class="main-menu-language">
+            <div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
+    <strong class="label switcher-label"><span>Язык</span></strong>
+    <div class="actions dropdown options switcher-options">
+        <div class="action toggle switcher-trigger" id="switcher-language-trigger" data-toggle="dropdown" data-trigger-keypress-button="true" data-code="ru" aria-haspopup="true" aria-expanded="false" role="button" tabindex="0">
+            <strong class="view-ru">
+                <span>Русский</span>
+            </strong>
+        </div>
+        <ul class="dropdown switcher-dropdown" data-target="dropdown" aria-hidden="true">
+                                                                            <li class="view-en switcher-option">
+                        <a href="#" data-post="{&quot;action&quot;:&quot;https:\/\/www.nespresso.com\/ru\/ru\/stores\/store\/redirect\/&quot;,&quot;data&quot;:{&quot;___store&quot;:&quot;en&quot;,&quot;___from_store&quot;:&quot;ru&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cubmVzcHJlc3NvLmNvbS9ydS9lbi8,&quot;}}" data-code="en">
+                            English                        </a>
+                    </li>
+                                    </ul>
+    </div>
+</div>
+        </div>
+    </div>
+</div>
+</header><main id="maincontent" class="page-main"><a id="contentarea" tabindex="-1"></a>
+<div class="page messages"><div data-placeholder="messages"></div>
+<div data-bind="scope: 'messages'">
+    <!-- ko if: cookieMessages && cookieMessages.length > 0 --><!-- /ko -->
+    <!-- ko if: messages().messages && messages().messages.length > 0 --><!-- /ko -->
+</div>
+
+</div><div class="columns"><div class="column main"><input name="form_key" type="hidden" value="vVP3km1WFgu7WglS"><div id="authenticationPopup" data-bind="scope:'authenticationPopup'" style="display: none;">
+    <script>
+        window.authenticationPopup = {"autocomplete":"off","customerRegisterUrl":"https:\/\/www.nespresso.com\/ru\/ru\/customer\/account\/create\/","customerForgotPasswordUrl":"https:\/\/www.nespresso.com\/ru\/ru\/customer\/account\/forgotpassword\/","baseUrl":"https:\/\/www.nespresso.com\/ru\/ru\/"};
+    </script>
+    <!-- ko template: getTemplate() --><!-- /ko -->
+    
+</div>
+
+
+
+
+
+<div></div><div class="offer-slider">
+    
+
+    <div class="slider-album owl-carousel owl-theme owl-loaded owl-drag" style="display: block;">
+                                
+                                
+                                
+                                
+            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-4000px, 0px, 0px); transition: all 0s ease 0s; width: 16000px;"><div class="owl-item cloned" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/vertuo-coffee-redefined" target="_self">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_1_2560x476.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/mp_1_768x476.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/mp_1_375x480.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_1_2560x476.jpg" alt="Vertuo capsules 1">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item cloned" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/choose-your-system" target="_self">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_2_2560x476.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/mp_2_768x476.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/mp_2_375x480.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_2_2560x476.jpg" alt="Vertuo machines 1">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item active" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="/ru/ru/coffee-capsules/original/nabor-dlja-letnih-koktejlej-s-kapuchinatorom-za-1r-2?ref=homepage" target="_blank">
+                                    <picture>
+                        <source media="(min-width: 1024px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/aero-1rub__mp-2560x476__3.jpg">
+                        <source media="(min-width: 768px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/aero-1rub__mp-768x476__2.jpg">
+                        <source media="(max-width: 767px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/aero-1rub__mp-375x480__2.jpg">
+                        <img src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/aero-1rub__mp-2560x476__3.jpg" alt="Капучинатор за 1 рубль">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/coffee-machines/original" target="_blank">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/2560x476_1.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/768x476_2.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/375x480_2_1.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/2560x476_1.jpg" alt="Выгода 5000 рублей на кофемашины">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/vertuo-coffee-redefined" target="_self">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_1_2560x476.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/mp_1_768x476.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/mp_1_375x480.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_1_2560x476.jpg" alt="Vertuo capsules 1">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/choose-your-system" target="_self">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_2_2560x476.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/mp_2_768x476.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/mp_2_375x480.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/mp_2_2560x476.jpg" alt="Vertuo machines 1">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item cloned" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="/ru/ru/coffee-capsules/original/nabor-dlja-letnih-koktejlej-s-kapuchinatorom-za-1r-2?ref=homepage" target="_blank">
+                                    <picture>
+                        <source media="(min-width: 1024px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/aero-1rub__mp-2560x476__3.jpg">
+                        <source media="(min-width: 768px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/aero-1rub__mp-768x476__2.jpg">
+                        <source media="(max-width: 767px)" srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/aero-1rub__mp-375x480__2.jpg">
+                        <img src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/aero-1rub__mp-2560x476__3.jpg" alt="Капучинатор за 1 рубль">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div><div class="owl-item cloned" style="width: 2000px;"><div class="slider-item">
+                                    <a class="slider-image" href="https://www.nespresso.com/ru/ru/coffee-machines/original" target="_blank">
+                                    <picture>
+                        <source class="owl-lazy" media="(min-width: 1024px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/2560x476_1.jpg">
+                        <source class="owl-lazy" media="(min-width: 768px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/1200x476/768x476_2.jpg">
+                        <source class="owl-lazy" media="(max-width: 767px)" data-srcset="https://www.nespresso.com/ru/media/nespresso/slider/image/768x480/375x480_2_1.jpg">
+                        <img class="owl-lazy" data-src="https://www.nespresso.com/ru/media/nespresso/slider/image/2560x476/2560x476_1.jpg" alt="Выгода 5000 рублей на кофемашины">
+                    </picture>
+                                    </a>
+                                <div class="slider-content">
+                                    </div>
+            </div></div></div></div><div class="owl-nav arrows"><div class="owl-prev arrow left"></div><div class="owl-next arrow right"></div></div><div class="owl-dots"><button role="button" class="owl-dot active"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button><button role="button" class="owl-dot"><span></span></button></div></div>
+</div>
+<div class="page-widget"><div class="widget block block-static-block">
+    <a href="https://www.nespresso.com/ru/ru/iced-coffee-2019"> <picture> <source media="(min-width: 768px)" srcset="/ru/club/images/b2c/promos/2019/iced-coffee/490x406.jpg"> <img src="/ru/club/images/b2c/promos/2019/iced-coffee/414x406.jpg?v2"> </picture> </a> </div>
+<div class="widget block block-static-block">
+    <a href="/ru/ru/delivery-payment">
+  <picture>
+    <source media="(min-width: 768px)" srcset="/ru/club/images/b2c/promos/2019/iced-coffee/kaz_bel_490x406-2.jpg">
+    <img src="/ru/club/images/b2c/promos/2019/iced-coffee/kaz_bel_351x406-2.jpg">
+  </picture>
+</a>
+</div>
+<div class="grey-promo-block left">
+<a href="https://www.nespresso.com/ru/ru/summer-promo-2019">
+  <picture>
+    <source media="(min-width: 768px)" srcset="https://www.nespresso.com/ru/media/wysiwyg/banners/vertuo_90_90/VL_490x120.jpg">
+    <img src="https://www.nespresso.com/ru/media/wysiwyg/banners/vertuo_90_90/VL_351x120.jpg" alt="Акция 90 + 90">
+  </picture>
+</a>
+</div><div class="grey-promo-block right">
+<a href="https://www.nespresso.com/ru/ru/summer-promo-2019?utm_source=trade&amp;utm_medium=offline&amp;utm_campaign=OSUM_2019">
+  <picture>
+    <source media="(min-width: 768px)" srcset="/ru/club/images/b2c/promos/2019/summer-promo/OL_490x120.jpg">
+    <img src="/ru/club/images/b2c/promos/2019/summer-promo/OL_351x120.jpg" alt="100+100">
+  </picture>
+</a>
+</div></div><div data-retailrocket-markup-block="5c54334e97a525139c5cca51"></div><div class="triform-promo-block">
+  <div class="item one">
+    <div class="delivery-img"></div>
+    <p>Бесплатная доставка</p>
+    <a href="/ru/ru/delivery-payment" class="link-arrow">Все о доставке</a>
+  </div>
+  <div class="item two">
+    <div class="pickup-img"></div>
+    <p>Бутики Nespresso рядом с Вами</p>
+    <a href="/ru/ru/store-locator" class="link-arrow">Карта</a>
+  </div>
+  <div class="item three">
+    <div class="assistance-img"></div>
+    <p>Персонализированные предложения</p>
+    <a href="/ru/ru/promo-terms-and-conditions" class="link-arrow">Подробнее</a>
+  </div>
+</div>&nbsp;</div></div></main><footer class="page-footer"><div class="footer content"><div class="field-recaptcha" id="msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container" data-bind="scope:'msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef'">
+    <!-- ko template: getTemplate() --><!-- /ko -->
+</div>
+
+<script type="text/javascript">
+    require(['jquery', 'domReady!'], function ($) {
+        $('#msp-recaptcha-58312e2256fb5bcda606e9b5046e00ef-container')
+            .appendTo('#newsletter-validate-detail');
+    });
+</script>
+
+
+</div><div class="footer-content"><ul class="footer_links">
+<li><a href="https://www.nespresso.com/ru/ru/store-locator/">Где купить?</a></li>
+<li><a href="https://www.nespresso.com/ru/ru/contactus/">Контакты</a></li>
+<li><a href="https://www.nespresso.com/ru/ru/delivery-payment/">Доставка и оплата</a></li>
+<li><a href="https://www.nespresso.com/ru/ru/terms-conditions/">Условия использования</a></li>
+<li><a href="https://www.nespresso.com/careers/?m=RU&amp;l=RU#">Карьера</a></li>
+<li><a href="https://www.nespresso.com/ru/ru/promo-terms-and-conditions/">Условия и правила акций</a></li>
+</ul>
+<div class="switcher language switcher-language" data-ui-id="language-switcher" id="switcher-language">
+    <div class="actions options switcher-options">
+        <ul class="switcher-option-list">
+                                                                <li class="view-ru switcher-option active">
+                        <span>
+                            Русский                        </span>
+                    </li>
+                                                                                <li class="view-en switcher-option">
+                        <a href="https://www.nespresso.com/ru/en/?___from_store=ru" data-post="{&quot;action&quot;:&quot;https:\/\/www.nespresso.com\/ru\/ru\/stores\/store\/redirect\/&quot;,&quot;data&quot;:{&quot;___store&quot;:&quot;en&quot;,&quot;___from_store&quot;:&quot;ru&quot;,&quot;uenc&quot;:&quot;aHR0cHM6Ly93d3cubmVzcHJlc3NvLmNvbS9ydS9lbi8,&quot;}}">
+                            English                        </a>
+                    </li>
+                                    </ul>
+    </div>
+</div>
+<small class="copyright">
+    <span></span>
+</small>
+</div></footer>
+<script>!function(a,b,c,d,e,f,g){var h,i,j,k;a.calleoTrigger||(k=a.calleoTrigger=function(){k.callMethod?k.callMethod.apply(k,arguments):k.queue.push(arguments)},a._calleoTrigger||(a._calleoTrigger=k),k.push=k,k.loaded=!0,k.version="1.0",k.queue=[],k.market=e,k.language=f,k.channel=g,i=b.createElement(c),i.async=!0,i.src=d+"apps.php?a=calleo-triggers"+(navigator.userAgent.match(/(msie[1-9]|Trident\/7\.0)/i)?"&v=ie":""),j=b.getElementsByTagName(c)[0],j.parentNode.insertBefore(i,j),a.calleoChat||(h=a.calleoChat=function(){h.callMethod?h.callMethod.apply(h,arguments):h.queue.push(arguments)},a._calleoChat||(a._calleoChat=h),h.push=h,h.loaded=!0,h.version="1.0",h.queue=[],h.market=e,h.language=f,h.channel=g,i=b.createElement(c),i.async=!0,i.src=d+"apps.php?a=calleo-livechat"+(navigator.userAgent.match(/(msie[1-9]|Trident\/7\.0)/i)?"&v=ie":""),j=b.getElementsByTagName(c)[0],j.parentNode.insertBefore(i,j)))}(window, document, "script", "https://www.contact.nespresso.com/","ru", "ru", "b2c");</script><script>require(['Nespresso_Ui/js/form/element/input-ui'])</script><div class="ui-dialog ui-widget ui-widget-content ui-corner-all ui-front mage-dropdown-dialog" tabindex="-1" role="dialog" aria-describedby="ui-id-1" style="display: none;"><div class="block block-header-container-customer ui-dialog-content ui-widget-content" data-role="dropdownDialog" id="ui-id-1" style="margin-top: 0px; display: block; left: 1086px;">
+    <div id="header-container-customer-wrapper" class="header-container-customer-wrapper">
+              <div class="header-customer-logout"><div class="customer-logout-form"><div class="block block-customer-login-header">
+    <div class="block-content" aria-labelledby="block-customer-login-heading">
+        <div class="block-content-meta">Если у вас уже есть аккаунт, пожалуйста, войдите.</div>
+        <form class="form form-login" action="https://www.nespresso.com/ru/ru/customer/account/loginPost/" method="post" id="login-form" novalidate="novalidate">
+            <input name="form_key" type="hidden" value="vVP3km1WFgu7WglS">            <fieldset class="fieldset login" data-hasrequired="* Обязательные поля">
+                <div class="field email required">
+                    <label class="label" for="email"><span>Email  *</span></label>
+                    <div class="control">
+                        <input name="login[username]" value="" autocomplete="off" id="email" type="email" class="input-text" title="Email" data-validate="{required:true, 'validate-email':true}" aria-required="true">
+                    </div>
+                </div>
+                <div class="field password required">
+                    <label for="pass" class="label"><span>Пароль  *</span></label>
+                    <div class="control">
+                        <input name="login[password]" type="password" autocomplete="off" class="input-text" id="pass" title="Пароль" data-validate="{required:true}" aria-required="true">
+                    </div>
+                </div>
+                                <div class="actions-toolbar">
+                    <div class="secondary"><a class="action remind" href="https://www.nespresso.com/ru/ru/customer/account/forgotpassword/"><span>Забыли пароль?</span></a></div>
+                    <div class="remember-me">
+                        <label for="remember-me" class="input-checkbox">
+                            <input id="remember-me" type="checkbox" name="login[remember]" title="Запомнить меня">
+                            <i></i>
+                            <div class="required">Запомнить меня</div>
+                        </label>
+                    </div>
+                    <div class="primary"><button type="submit" class="action login primary" name="send" id="send2"><span>Войти</span></button></div>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div class="block header-block-new-customer">
+    <div class="block-content" aria-labelledby="block-new-customer-heading">
+        <div class="block-content-meta">Я не зарегистрирован на сайте</div>
+        <div class="actions-toolbar">
+            <div class="primary">
+                <a href="https://www.nespresso.com/ru/ru/customer/account/create/" class="action create primary"><span>Зарегистрироваться</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>          </div>
+</div></div></div>    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"7982daa687","applicationID":"277974997","transactionName":"NgcEZRFSDxVXUhVeXw9NJ1IXWg4IGVIMRB8IDAJUGxwICFJUGQ==","queueTime":0,"applicationTime":672,"atts":"GkAHE1lIHBs=","errorBeacon":"bam.nr-data.net","agent":""}</script>
+
+<link rel="stylesheet" type="text/css" href="https://www.contact.nespresso.com/apps.php?a=calleo-triggers.css"><link rel="stylesheet" type="text/css" href="https://www.contact.nespresso.com/apps.php?a=calleo-livechat.css"></body></html>

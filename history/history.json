@@ -1,23 +1,4 @@
 {
-  "5465b8e0c4dddbc971c8c8ce728fce26" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b9a0b71abe45a091",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563877560691,
-        "stop" : 1563877572700,
-        "duration" : 12009
-      }
-    } ]
-  },
   "9f54fd1cfc5eee648ba6377e4086526" : {
     "statistic" : {
       "failed" : 0,
@@ -28,16 +9,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cd529f64fbe223f7",
+      "uid" : "4ac439a052b51cf6",
       "status" : "passed",
       "time" : {
-        "start" : 1563885839575,
-        "stop" : 1563885859227,
-        "duration" : 19652
+        "start" : 1564163508106,
+        "stop" : 1564163534187,
+        "duration" : 26081
       }
     } ]
   },
-  "ef869eb690003a5d13ff459fb2ab9ea" : {
+  "ed4b9b577ba7e8bf3d362ffc0c05f023" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -47,16 +28,16 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "7b1ae1da2891709e",
+      "uid" : "8f21c4e323706e1d",
       "status" : "passed",
       "time" : {
-        "start" : 1563815204058,
-        "stop" : 1563815243664,
-        "duration" : 39606
+        "start" : 1564163400196,
+        "stop" : 1564163416848,
+        "duration" : 16652
       }
     } ]
   },
-  "55efe994f3d6009b3251b7790d3d6292" : {
+  "3dca42dae19d3a12b50a03b7492aeedf" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -66,32 +47,31 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "4e6795c4dea9082a",
+      "uid" : "46047b3f664dcdae",
       "status" : "passed",
       "time" : {
-        "start" : 1563815125533,
-        "stop" : 1563815151861,
-        "duration" : 26328
+        "start" : 1563961793333,
+        "stop" : 1563961839429,
+        "duration" : 46096
       }
     } ]
   },
   "b8bfe85bf6ae2e8d559da6ca6d4cc6cb" : {
     "statistic" : {
       "failed" : 0,
-      "broken" : 1,
+      "broken" : 0,
       "skipped" : 0,
-      "passed" : 0,
+      "passed" : 1,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "18d625c382470e59",
-      "status" : "broken",
-      "statusDetails" : "element click intercepted: Element <a href=\"#\" title=\"Удалить позицию\" class=\"action action-delete\" data-post=\"{&quot;action&quot;:&quot;https:\\/\\/www.nespresso.com\\/ru\\/ru\\/checkout\\/cart\\/delete\\/&quot;,&quot;data&quot;:{&quot;id&quot;:&quot;631401&quot;}}\">...</a> is not clickable at point (1159, 299). Other element would receive the click: <div class=\"loader\">...</div>\n  (Session info: headless chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "uid" : "2d2f45be2c62fc28",
+      "status" : "passed",
       "time" : {
-        "start" : 1563885900687,
-        "stop" : 1563885934343,
-        "duration" : 33656
+        "start" : 1564163583726,
+        "stop" : 1564163632214,
+        "duration" : 48488
       }
     } ]
   },
@@ -105,69 +85,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "cef04a27e9a43def",
+      "uid" : "31c0fad8b57e395b",
       "status" : "passed",
       "time" : {
-        "start" : 1563885818198,
-        "stop" : 1563885839575,
-        "duration" : 21377
-      }
-    } ]
-  },
-  "c2e69cfed70ce16e768a6046e3052e13" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "96c350955ffe319d",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815179265,
-        "stop" : 1563815204058,
-        "duration" : 24793
-      }
-    } ]
-  },
-  "59e5705b7379390bc32a2deed20a8453" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b1c4b625a0067e68",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815151861,
-        "stop" : 1563815179265,
-        "duration" : 27404
-      }
-    } ]
-  },
-  "85346a7dc6495a2e803c6316e2eceabc" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "b1c0fbf59a4fe519",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815096011,
-        "stop" : 1563815125533,
-        "duration" : 29522
+        "start" : 1564163485167,
+        "stop" : 1564163508106,
+        "duration" : 22939
       }
     } ]
   },
@@ -181,12 +104,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "1672e088a1ad4876",
+      "uid" : "82624cc72478049f",
       "status" : "passed",
       "time" : {
-        "start" : 1563885859227,
-        "stop" : 1563885879516,
-        "duration" : 20289
+        "start" : 1564163534187,
+        "stop" : 1564163560060,
+        "duration" : 25873
       }
     } ]
   },
@@ -200,12 +123,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "a7f9b1ea420d1bc5",
+      "uid" : "faa6f3ee3b9a9bbd",
       "status" : "passed",
       "time" : {
-        "start" : 1563885879517,
-        "stop" : 1563885900686,
-        "duration" : 21169
+        "start" : 1564163560060,
+        "stop" : 1564163583726,
+        "duration" : 23666
+      }
+    } ]
+  },
+  "365aee64af87bec8e8277c94b1f98053" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9171b90ad1facb2",
+      "status" : "broken",
+      "statusDetails" : "element click intercepted: Element <button class=\"action apply btn--white update-cart\">...</button> is not clickable at point (1033, 298). Other element would receive the click: <div class=\"loader\">...</div>\n  (Session info: headless chrome=75.0.3770.142)\n  (Driver info: chromedriver=75.0.3770.90 (a6dcaf7e3ec6f70a194cc25e8149475c6590e025-refs/branch-heads/3770@{#1003}),platform=Mac OS X 10.13.3 x86_64)",
+      "time" : {
+        "start" : 1564163632215,
+        "stop" : 1564163657735,
+        "duration" : 25520
       }
     } ]
   }

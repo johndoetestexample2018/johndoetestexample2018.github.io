@@ -4,79 +4,14 @@
   "children" : [ {
     "name" : "nn (chrome)",
     "children" : [ {
-      "name" : "addToCartTest",
-      "uid" : "b1c0fbf59a4fe519",
+      "name" : "itemQuantityTest",
+      "uid" : "46047b3f664dcdae",
       "parentUid" : "b2d1459627132c7f7be843e571a5857b",
       "status" : "passed",
       "time" : {
-        "start" : 1563815096011,
-        "stop" : 1563815125533,
-        "duration" : 29522
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "addToCart2Test",
-      "uid" : "4e6795c4dea9082a",
-      "parentUid" : "b2d1459627132c7f7be843e571a5857b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815125533,
-        "stop" : 1563815151861,
-        "duration" : 26328
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "addToCartOnItemCardTest",
-      "uid" : "b1c4b625a0067e68",
-      "parentUid" : "b2d1459627132c7f7be843e571a5857b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815151861,
-        "stop" : 1563815179265,
-        "duration" : 27404
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "addToCartOnItemCard2Test",
-      "uid" : "96c350955ffe319d",
-      "parentUid" : "b2d1459627132c7f7be843e571a5857b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815179265,
-        "stop" : 1563815204058,
-        "duration" : 24793
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "deleteTest",
-      "uid" : "7b1ae1da2891709e",
-      "parentUid" : "b2d1459627132c7f7be843e571a5857b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563815204058,
-        "stop" : 1563815243664,
-        "duration" : 39606
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ ]
-    }, {
-      "name" : "testtest",
-      "uid" : "b9a0b71abe45a091",
-      "parentUid" : "b2d1459627132c7f7be843e571a5857b",
-      "status" : "passed",
-      "time" : {
-        "start" : 1563877560691,
-        "stop" : 1563877572700,
-        "duration" : 12009
+        "start" : 1563961793333,
+        "stop" : 1563961839429,
+        "duration" : 46096
       },
       "flaky" : false,
       "newFailed" : false,
@@ -86,66 +21,92 @@
   }, {
     "name" : "nn (chromehdls)",
     "children" : [ {
-      "name" : "addToCartTest",
-      "uid" : "cef04a27e9a43def",
+      "name" : "loginTest",
+      "uid" : "8f21c4e323706e1d",
       "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
       "status" : "passed",
       "time" : {
-        "start" : 1563885818198,
-        "stop" : 1563885839575,
-        "duration" : 21377
+        "start" : 1564163400196,
+        "stop" : 1564163416848,
+        "duration" : 16652
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "addToCartTest",
+      "uid" : "31c0fad8b57e395b",
+      "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564163485167,
+        "stop" : 1564163508106,
+        "duration" : 22939
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "addToCart2Test",
-      "uid" : "cd529f64fbe223f7",
+      "uid" : "4ac439a052b51cf6",
       "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
       "status" : "passed",
       "time" : {
-        "start" : 1563885839575,
-        "stop" : 1563885859227,
-        "duration" : 19652
+        "start" : 1564163508106,
+        "stop" : 1564163534187,
+        "duration" : 26081
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "addToCartOnItemCardTest",
-      "uid" : "1672e088a1ad4876",
+      "uid" : "82624cc72478049f",
       "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
       "status" : "passed",
       "time" : {
-        "start" : 1563885859227,
-        "stop" : 1563885879516,
-        "duration" : 20289
+        "start" : 1564163534187,
+        "stop" : 1564163560060,
+        "duration" : 25873
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "addToCartOnItemCard2Test",
-      "uid" : "a7f9b1ea420d1bc5",
+      "uid" : "faa6f3ee3b9a9bbd",
       "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
       "status" : "passed",
       "time" : {
-        "start" : 1563885879517,
-        "stop" : 1563885900686,
-        "duration" : 21169
+        "start" : 1564163560060,
+        "stop" : 1564163583726,
+        "duration" : 23666
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ ]
     }, {
       "name" : "deleteTest",
-      "uid" : "18d625c382470e59",
+      "uid" : "2d2f45be2c62fc28",
+      "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1564163583726,
+        "stop" : 1564163632214,
+        "duration" : 48488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "itemQuantityTest",
+      "uid" : "c9171b90ad1facb2",
       "parentUid" : "2f442f05b1b506cdd06584f3a049e92e",
       "status" : "broken",
       "time" : {
-        "start" : 1563885900687,
-        "stop" : 1563885934343,
-        "duration" : 33656
+        "start" : 1564163632215,
+        "stop" : 1564163657735,
+        "duration" : 25520
       },
       "flaky" : false,
       "newFailed" : false,
